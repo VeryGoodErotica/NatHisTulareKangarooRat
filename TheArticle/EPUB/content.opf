@@ -25,6 +25,7 @@
     <item href="burrow.xhtml" id="burrow" media-type="application/xhtml+xml"/>
   <!-- appendix content -->
     <item href="litcited.xhtml" id="litcited" media-type="application/xhtml+xml"/>
+    <item href="epubnotes.xhtml" id="epubnotes" media-type="application/xhtml+xml"/>
   <!-- Photographic plates -->
     <item href="plates/plate1a.jpg" id="plate1a" media-type="image/jpeg"/>
     <item href="plates/plate1b.jpg" id="plate1b" media-type="image/jpeg"/>
@@ -42,5 +43,6 @@
     <itemref idref="burrow"/>
 
     <itemref idref="litcited"/>
+    <itemref idref="epubnotes"/>
   </spine>
 </package>

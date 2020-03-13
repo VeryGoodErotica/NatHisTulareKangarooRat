@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+  xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+  <meta charset="utf-8"/>
+  <title>ePub Notes</title>
+  <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="css/common.css"/>
+</head>
+<body>
+<section epub:type="appendix" role="doc-appendix" aria-labelledby="epubnotesh1">
+  <h1 id="litcitedh1">ePub Notes/h1>
+  <div role="navigation" aria-labelledby="navh2">
+    <h2 id="navh2">Contents:</h2>
+    <ol>
+      <li><a href="#original">Original Article</a></li>
+      <li><a href="#alterations">Alterations</a></li>
+      <li><a href="#motivation">Motivation</a></li>
+      <li><a href="#todo">To Do List</a></li>
+      <li><a href="#copyright">Copyright Status</a></li>
+      <li><a href="#donations">Donations</a></li>
+    </ol>
+  </div>
+  <section id="original" aria-labelledby="originalh2">
+    <h2 id="originalh2">Original Article</h2>
+    <p>The article was originally published in <span class="jtitle">Journal of Mammalogy</span>, Volume 22, Issue 2, <time datetime="1941-05-14">14 May 1941</time>, Pages 117&#8211;148, <a href="https://doi.org/10.2307/1374908" title="Internet Link">https://doi.org/10.2307/1374908</a>.</p>
+  </section>
+  <section id="alterations" aria-labelledby="alterationsh2">
+    <h2 id="alterationsh2">Alterations</h2>
+    <p>In porting this article to ePub, I tried as much as possible to do so with accuracy. There are some noticeable changes, explained below.</p>
+    <dl>
+      <dt>Page Numbering</dt>
+        <dd>For best <a href="https://www.w3.org/standards/webdesign/accessibility" title="Internet Link">accessibility</a>, ePub content needs to be flowable. The concept of page numbers does not exist, that depends upon the font size in combination with the screen size and orientation of the user. However, citations of journal articles often refer to a page number. Wherever a new page starts in the original journal article, I inserted a <span id="pageNNN">Page NNN</span> so that users can be aware what corresponding journal page the content being read appears on. I also added a journal page number Table of Contents to aid a user in finding content referenced elsewhere.</dd>
+      <dt>No Small-Caps</dt>
+        <dd>In ePub, small-cap variant of fonts are usually only available if a font that contains them is embedded within the ePub itself. I have not embedded any such fonts, so where the original article uses a small-cap variant, this ePub does not.</dd>
+      <dt>Title and Introduction</dt>
+        <dd>The original article starts with the title and then jumps straight to the introduction, but does not label it as such. This ePub does not contain the entire journal issue, only the specific article of interest. I am using a title page for the article title and then added the heading &#8220;Introduction&#8221; before the introductory content. That heading is not in the original article.</dd>
+      <dt>Table of Contents</dt>
+        <dd>The original article does not have its own Table of Contents. Adding one really is a necessity for the ePub format.</dd>
+      <dt>Figures</dt>
+        <dd>All figures were painstakingly recreated in <abbr>SVG</abbr>. This was necessary for the highest quality rendering of the figure regardless of screen resolution or size. This was a lot of work, I hope someone other than me benefits.</dd>
+      <dt>Plates</dt>
+        <dd>The original article has two image plates, with each image plate containing 8 images with all captions together underneath the set two by four grid for the plates. The original format was necessary for printed journal publication but is horrible for reflowable content. I broke each plate up into individual images, and placed them within the ePub with the corresponding caption for each image directly below the image. I also adjusted the contrast on the images hoping to improve their utility.</dd>
+      <dt>Literature Cited</dt>
+        <dd>This is where I made the most significant changes. The original uses a lot of abbreviations for journal publication names that do not work very well with screen readers used by the visually impaired and also are confusing to people who are not familiar with them. I expanded those to the publication names without the abbreviations. I also changed the format to use an <abbr>HTML</abbr> list using the aurthor’s name and year of publication as the definition term, and the title and publication as the definition. Where the original author cited more than piece of literature by the same author, the original author used a long line for the author name to indicate it was the same as the entry above. I put the author name in, it works better that way with a hyperlinked document.</dd>
+      <dt>Hyperlinks</dt>
+        <dd>The original article does not contain hyperlinks within the document. Hyperlinks are meaningless in a printed journal. Within an digital document however they make a lot of sense. Wherever the original author referenced a figure, plate, table, or cited another work; I added the appropriate hyperlinks so that the reader could jump to that part of the document.</dd>
+    </dl>
+    <p>None of those changes should have a negative impact on the understanding of the article or the intent of the original author. ePub is a different publishing medium than a printed journal, they were necessary for a quality port of the original article to the ePub publishing format, and I hope high quality ePub is what Pipfrosch Press will become known for.</p>
+  </section>
+  <section id="motivation" aria-labelledby="motivationh2">
+    <h2 id="motivationh2">Motivation</h2>
+    <p>The Berkeley Kangaroo Rat (<span class="taxon">Dipodomys heermanni berkeleyensis</span>) is presumed extinct, the last specimen was collected in <time>1940</time>. I believe I saw one in the <time>1980</time>s in Briones Regional Park while camping there with the Boy Scouts. At the time I did not understand the significance. From my Mammal field guide to Bay Area Mammals, I identified it as a Heermann’s Kangaroo Rat. I had no clue the local subspecies was scientifically missing in action or I would have reported it.</p>
+    <p>While working on the Contra Costa County ePub field guide, what I hope will be the flagship publication of Pipfrosch Press, I wanted to include as much information on that scientifically <abbr>MIA</abbr> species as I could in hopes that someone finds and reports a remnant population.</p>
+    <p>There is not much natural history about that species that has been published, so to adequately describe it within the field guide, I needed to look up what was published about its closest relative&#8212;the Tulare Kangaroo Rat.</p>
+    <p>Getting access to this paper was difficult. I am financially poor, the <abbr>USD</abbr> $35.00 that Oxford Academic wanted was really out of my range, especially when I have been buying bird and plant and other field guides. Getting to libraries is difficult, I am not allowed to drive for medical reasons and spending hours on public transportation to get to one is a risk I can not take when I can not afford the medical bill that catching the Corona Virus would potentially cost to treat.</p>
+    <p>When I finally did get access to the paper, the detail the author put into the paper really blew me away. I learned a lot, and I believe after reading it that I have a better chance of potentially recognizing a Berkeley Kangaroo Rat burrow system should I stumble upon in the Mount Diablo Foothills, giving me the possibility of staking the location out to visually confirm their presence at night and potentially report it to the appropriate wildlife authorities.</p>
+    <p>A goal of Pipfrosch Press has always been to publish ePub versions of Public Domain natural history accounts. I was planning to start with Baird &amp; Girard species descriptions from the 19th century which are without a doubt part of the Public Domain. However when I read this article, if this article be made accessible to naturalists in the Bay Area in a digital format that is easy to read on devices like smart phones where <abbr>PDF</abbr> has serious usability issues, <em>maybe</em> it will aid in the discovery of a remnant population that can be preserved.</p>
+    <p>Extinction is forever, if a remnant population does exist, wildlife management has to know about it before they can protect it.</p>
+  </section>
+  <section id="todo" aria-labelledby="todoh2">
+    <h2 id="todoh2">To Do List</h2>
+    <ol>
+      <li>Determine the copyright status of the original paper.</li>
+      <li>If still under copyright, attempt to get proper permission to publish.</li>
+      <li>Add Internet hyperlinks to as many of the Literature Cited references as possible.</li>
+      <li>Try to find an original print version of the journal issue so that high quality photographs of the plates can be taken.</li>
+      <li>Attempt to find biographical information on the author</li>
+    </ol>
+  </section>
+  <section id="copyright" aria-labelledby="copyrighth2">
+    <h2 id="copyrighth2">Copyright Status</h2>
+    <p>The ePub version of this journal article was hand-coded by Michael A. Peters for Pipfrosch Press.</p>
+    <p>This journal article was published <time datetime="1941-05-14">14 May 1941</time> which makes the article <em>almost</em> 79 years old at the time of the creation of the ePub. It is my (possibly incorrect) understanding that works published prior to <time>1964</time> are in the public domain <em>unless</em> the copyright was renewed. I do not know if that is the case with this publication but I am trying to find out.</p>
+    <p>Assuming this journal article is in the public domain, the photographic plates may not be. The act of scanning of the plates to create the <abbr>PDF</abbr> I extracted the plate images from may itself be subject to copyright.</p>
+    <p>The quality of the scan is not very good, I hope I can find an original copy of the journal magazine itself in good condition so that I can take high quality photographic images of the plates to use.</p>
+    <p>The text context was manually entered into the <code>vim</code> text editor and the figures were manually re-created in <abbr>SVG</abbr> using a text editor. Assuming the original article is in the public domain, they would not be subject to any copyright that results from digital scanning of the original article.</p>
+   <p>All of <em>my</em> work related to porting this journal article to ePub is &#169;2020 Michael A. Peters. I hereby release it under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/" title="Internet Link"><abbr>CC0</abbr> &#8220;No Rights Reserved&#8221;</a>. However be aware that the copyright on the original journal article may have been renewed and there <em>may</em> be applicable copyright on the scanned photographic plates.</p>
+  </section>
+  <section id="donations" aria-labelledby="donationsh2">
+    <h2 id="donationsh2">Donations</h2>
+    <p>A lot of work went into the creation of this ePub. I do not and never will use automated processes to generate an ePub from a source published in another format, they work for some people but do not have the same quality as a manual conversion.</p>
+    <p>If you enjoyed this production, would like to see more historic natural history papers made available in ePub, and are financially able to do so&#8212;please consider a thank you contribution.</p>
+    <p>You can thank me via PayPal sent to pipfroschpress@gmail.com or with the CashApp tag $AliceWonderMisc. Thank you.</p>
+  </section>
+</section>
+</body>
+</html>
