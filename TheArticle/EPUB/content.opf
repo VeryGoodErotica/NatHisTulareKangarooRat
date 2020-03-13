@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package unique-identifier="prng-uuid" version="3.0" xml:lang="en-US" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Natural History of the Tulare Kangaroo Rat</dc:title>
+    <dc:description>Journal of Mammalogy, Vol. 22, No. 2</dc:description>
+    <dc:type>Natural History</dc:type>
+    <dc:language>en-US</dc:language>
+    <dc:publisher>Pipfrosch Press</dc:publisher>
+    <dc:date>2020-03-31</dc:date>
+    <dc:creator id="author0">Donald T. Tappe</dc:creator>
+    <meta property="role" refines="#author0" scheme="marc:relators">aut</meta>
+    <dc:identifier id="prng-uuid">9ffee631-54e2-4a7b-b24e-af1a8d18ac20</dc:identifier>
+    <meta property="marc:scheme" refines="#prng-uuid">uuid</meta>
+    <meta property="dcterms:modified">2020-03-13T02:36:30Z</meta>
+  </metadata>
+  <manifest>
+  </manifest>
+  <spine>
+  </spine>
+</package>
