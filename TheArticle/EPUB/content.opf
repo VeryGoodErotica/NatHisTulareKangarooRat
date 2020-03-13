@@ -33,8 +33,8 @@
     <item href="plates/plate1h.jpg" id="plate1h" media-type="image/jpeg"/>
   </manifest>
   <spine>
-    <item idref="introduction"/>
-    <item idref="methods"/>
-    <item idref="burrow"/>
+    <itemref idref="introduction"/>
+    <itemref idref="methods"/>
+    <itemref idref="burrow"/>
   </spine>
 </package>

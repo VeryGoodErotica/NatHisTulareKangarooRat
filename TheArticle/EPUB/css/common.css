@@ -11,11 +11,11 @@ h1 {
   text-align: center;
 }
 
-span.[id="page*"]::before {
+span[id="page*"]::before {
   content: "[[[";
 }
 
-span.[id="page*"]::after {
+span[id="page*"]::after {
   content: "]]]";
 }
 
