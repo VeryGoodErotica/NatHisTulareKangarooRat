@@ -13,7 +13,7 @@ python3 ../../tools/updateTimestamp.py content.opf
 #cd fonts
 #rm -f .gitignore
 #cp -p /usr/local/ePubFonts/*.ttf .
-#cd ../..
+cd ../
 
 echo -n application/epub+zip >mimetype
 
