@@ -11,12 +11,21 @@ h1 {
   text-align: center;
 }
 
-span[id="page*"]::before {
+span[id^="page"] {
+  text-decoration: underline;
+}
+
+span[id^="page"]::before {
   content: "[[[";
 }
 
-span[id="page*"]::after {
+span[id^="page"]::after {
   content: "]]]";
+}
+
+span.captitle {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .taxon {
