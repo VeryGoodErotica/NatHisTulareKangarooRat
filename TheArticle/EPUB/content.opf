@@ -19,6 +19,7 @@
     <item href="css/fonts.css" id="css__fonts" media-type="text/css"/>
     <item href="css/common.css" id="css__common" media-type="text/css"/>
   <!-- The article content -->
+    <item href="ToC4spine.xhtml" id="toc4spine" media-type="application/xhtml+xml"/>
     <item href="introduction.xhtml" id="introduction" media-type="application/xhtml+xml"/>
     <item href="methods.xhtml" id="methods" media-type="application/xhtml+xml"/>
     <item href="burrow.xhtml" id="burrow" media-type="application/xhtml+xml"/>
@@ -33,6 +34,7 @@
     <item href="plates/plate1h.jpg" id="plate1h" media-type="image/jpeg"/>
   </manifest>
   <spine>
+    <itemref idref="toc4spine"/>
     <itemref idref="introduction"/>
     <itemref idref="methods"/>
     <itemref idref="burrow"/>
