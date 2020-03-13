@@ -32,3 +32,7 @@ span.captitle {
 .taxon {
   font-style: italic;
 }
+
+abbr.italic {
+  font-style: italic;
+}
