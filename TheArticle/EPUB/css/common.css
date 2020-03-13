@@ -11,6 +11,14 @@ h1 {
   text-align: center;
 }
 
+.taxon {
+  font-style: italic;
+}
+
+abbr.italic {
+  font-style: italic;
+}
+
 span[id^="page"] {
   text-decoration: underline;
   font-style: italic;
@@ -24,15 +32,22 @@ span[id^="page"]::after {
   content: "]]]";
 }
 
+caption {
+  font-style: italic;
+}
+
+caption span.taxon {
+  text-decoration: underline;
+}
+
+th {
+  font-size: smaller;
+  font-weight: bold;
+}
+
 span.captitle {
+  font-style: normal;
   font-weight: bold;
   text-decoration: underline;
 }
 
-.taxon {
-  font-style: italic;
-}
-
-abbr.italic {
-  font-style: italic;
-}
