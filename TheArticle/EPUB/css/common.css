@@ -1,0 +1,24 @@
+p {
+  widows: 1;
+  orphans: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+span.[id="page*"]::before {
+  content: "[[[";
+}
+
+span.[id="page*"]::after {
+  content: "]]]";
+}
+
+.taxon {
+  font-style: italic;
+}

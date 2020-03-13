@@ -14,7 +14,27 @@
     <meta property="dcterms:modified">2020-03-13T02:36:30Z</meta>
   </metadata>
   <manifest>
+    <item href="ToC.xhtml" id="ToC" media-type="application/xhtml+xml" properties="nav"/>
+  <!-- CSS -->
+    <item href="css/fonts.css" id="css__fonts" media-type="text/css"/>
+    <item href="css/common.css" id="css__common" media-type="text/css"/>
+  <!-- The article content -->
+    <item href="introduction.xhtml" id="introduction" media-type="application/xhtml+xml"/>
+    <item href="methods.xhtml" id="methods" media-type="application/xhtml+xml"/>
+    <item href="burrow.xhtml" id="burrow" media-type="application/xhtml+xml"/>
+  <!-- Photographic plates -->
+    <item href="plate1a.jpg" id="plate1a" media-type="image/jpeg"/>
+    <item href="plate1b.jpg" id="plate1b" media-type="image/jpeg"/>
+    <item href="plate1c.jpg" id="plate1c" media-type="image/jpeg"/>
+    <item href="plate1d.jpg" id="plate1d" media-type="image/jpeg"/>
+    <item href="plate1e.jpg" id="plate1e" media-type="image/jpeg"/>
+    <item href="plate1f.jpg" id="plate1f" media-type="image/jpeg"/>
+    <item href="plate1g.jpg" id="plate1g" media-type="image/jpeg"/>
+    <item href="plate1h.jpg" id="plate1h" media-type="image/jpeg"/>
   </manifest>
   <spine>
+    <item idref="introduction"/>
+    <item idref="methods"/>
+    <item idref="burrow"/>
   </spine>
 </package>
