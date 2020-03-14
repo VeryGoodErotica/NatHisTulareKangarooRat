@@ -69,9 +69,7 @@ table#table2 tr td:nth-child(2) {
   padding-right: 0.5em;
 }
 
-/* special */
-tr.units td {
-  text-align: center;
-  font-weight: bold;
-  font-style: italic;
+/* table 3 specific */
+table#table3 tr td:first-child {
+  border-right: 2px solid;
 }
