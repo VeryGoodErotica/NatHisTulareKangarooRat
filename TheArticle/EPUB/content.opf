@@ -27,6 +27,7 @@
     <item href="food.xhtml" id="food" media-type="application/xhtml+xml"/>
     <item href="economic.xhtml" id="economic" media-type="application/xhtml+xml"/>
     <item href="water.xhtml" id="water" media-type="application/xhtml+xml"/>
+    <item href="activities.xhtml" id="activities" media-type="application/xhtml+xml"/>
   <!-- appendix content -->
     <item href="litcited.xhtml" id="litcited" media-type="application/xhtml+xml"/>
     <item href="epubnotes.xhtml" id="epubnotes" media-type="application/xhtml+xml"/>
@@ -48,6 +49,7 @@
     <itemref idref="food"/>
     <itemref idref="economic"/>
     <itemref idref="water"/>
+    <itemref idref="activities"/>
 
     <itemref idref="litcited"/>
     <itemref idref="epubnotes"/>
