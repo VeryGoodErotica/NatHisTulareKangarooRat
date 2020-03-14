@@ -74,6 +74,14 @@ table#table3 tr td:first-child {
   border-right: 2px solid;
 }
 
+table#table3 tr.lastdata td {
+  border-bottom: 2px solid;
+}
+
+table#table3 tr.results td {
+  border-right: none;
+}
+
 span.dogalarm {
   text-align: right;
 }
