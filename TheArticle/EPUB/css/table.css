@@ -68,3 +68,10 @@ table#table2 tr td:nth-child(2) {
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
+
+/* special */
+tr.units td {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
