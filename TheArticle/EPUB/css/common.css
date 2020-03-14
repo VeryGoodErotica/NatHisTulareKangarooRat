@@ -22,6 +22,7 @@ abbr.italic {
 span[id^="page"] {
   text-decoration: underline;
   font-style: italic;
+  font-size: small;
 }
 
 span[id^="page"]::before {
@@ -33,6 +34,10 @@ span[id^="page"]::after {
 }
 
 figure {
+  page-break-before: always;
+}
+
+.pbb {
   page-break-before: always;
 }
 
