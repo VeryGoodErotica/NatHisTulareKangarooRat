@@ -25,39 +25,39 @@ th[scope="row"] {
   text-align: left;
 }
 
-/* table 1 specific css */
-table#table1 tr td {
+/* table 1,2 specific css */
+table.style1 tr td {
   text-align: center;
 }
 
-table#table1 tr:nth-child(1) th {
+table.style1 tr:nth-child(1) th {
   border-top: 2px solid;
 }
 
-table#table1 tr:nth-child(2) th {
+table.style1 tr:nth-child(2) th {
   border-top: 2px solid;
 }
 
-table#table1 tr:nth-child(2) td {
+table.style1 tr:nth-child(2) td {
   border-top: 2px solid;
 }
 
-table#table1 tr:last-child th {
+table.style1 tr:last-child th {
   border-bottom: 2px solid;
 }
 
-table#table1 tr:last-child td {
+table.style1 tr:last-child td {
   border-bottom: 2px solid;
 }
 
-table#table1 tr th:first-child {
+table.style1 tr th:first-child {
   border-right: 2px solid;
 }
 
-table#table1 tr th:nth-child(2) {
+table.style1 tr th:nth-child(2) {
   border-right: 2px solid;
 }
 
-table#table1 tr td:nth-child(2) {
+table.style1 tr td:nth-child(2) {
   border-right: 2px solid;
 }
