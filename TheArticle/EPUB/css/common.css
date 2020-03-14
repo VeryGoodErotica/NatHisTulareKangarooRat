@@ -55,3 +55,7 @@ span.captitle {
   text-decoration: underline;
 }
 
+/* table 1 specific css */
+table#table1 tr td {
+  text-align: center;
+}
