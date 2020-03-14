@@ -59,3 +59,7 @@ span.captitle {
 table#table1 tr td {
   text-align: center;
 }
+
+table#table1 tr:nth-child(1) {
+  border-top: 2px solid;
+}
