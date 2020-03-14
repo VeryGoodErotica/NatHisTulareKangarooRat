@@ -26,6 +26,7 @@
     <item href="burrow.xhtml" id="burrow" media-type="application/xhtml+xml"/>
     <item href="food.xhtml" id="food" media-type="application/xhtml+xml"/>
     <item href="economic.xhtml" id="economic" media-type="application/xhtml+xml"/>
+    <item href="water.xhtml" id="water" media-type="application/xhtml+xml"/>
   <!-- appendix content -->
     <item href="litcited.xhtml" id="litcited" media-type="application/xhtml+xml"/>
     <item href="epubnotes.xhtml" id="epubnotes" media-type="application/xhtml+xml"/>
@@ -46,6 +47,7 @@
     <itemref idref="burrow"/>
     <itemref idref="food"/>
     <itemref idref="economic"/>
+    <itemref idref="water"/>
 
     <itemref idref="litcited"/>
     <itemref idref="epubnotes"/>
