@@ -32,54 +32,9 @@ span[id^="page"]::after {
   content: "]]]";
 }
 
-table {
-  page-break-before: always;
-}
-
-caption {
-  font-style: italic;
-}
-
-caption span.taxon {
-  text-decoration: underline;
-}
-
-th {
-  font-size: smaller;
-  font-weight: bold;
-}
-
-th[scope="row"] {
-  text-align: left;
-}
-
 span.captitle {
   font-style: normal;
   font-weight: bold;
   text-decoration: underline;
 }
 
-/* table 1 specific css */
-table#table1 tr td {
-  text-align: center;
-}
-
-table#table1 tr:nth-child(1) th {
-  border-top: 2px solid;
-}
-
-table#table1 tr:nth-child(2) th {
-  border-top: 2px solid;
-}
-
-table#table1 tr:nth-child(2) td {
-  border-top: 2px solid;
-}
-
-table#table1 tr:last-child th {
-  border-bottom: 2px solid;
-}
-
-table#table1 tr:last-child th {
-  border-bottom: 2px solid;
-}
