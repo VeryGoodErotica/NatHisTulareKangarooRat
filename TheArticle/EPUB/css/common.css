@@ -60,6 +60,6 @@ table#table1 tr td {
   text-align: center;
 }
 
-table#table1 tr:nth-child(1) {
+table#table1 tr:nth-child(1) td {
   border-top: 2px solid;
 }
