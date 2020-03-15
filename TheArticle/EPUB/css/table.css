@@ -141,6 +141,26 @@ table#table3 tfoot th {
   text-align: right;
 }
 
+table#table3 tbody tr:last-child td {
+  border-bottom: none;
+}
+
+table#table3 tbody tr:last-child td:nth-child(3) {
+  border-bottom: 2px dashed;
+}
+
+table#table3 tbody tr:last-child td:nth-child(4) {
+  border-bottom: 2px dashed;
+}
+
+table#table3 tfoot tr td {
+  border-bottom: 2px solid;
+}
+
+table#table3 tfoot tr th {
+  border-bottom: 2px solid;
+}
+
 /* table 4 specific */
 
 table#table4 td {
