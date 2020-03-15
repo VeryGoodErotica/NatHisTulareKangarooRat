@@ -50,42 +50,7 @@ tbody tr.header th {
   border-bottom: 2px solid;
 }
 
-/* table 1,2 specific css */
-table.style1 tr td {
-  text-align: center;
-}
-
-table.style1 tr:nth-child(1) th {
-  border-top: 2px solid;
-}
-
-table.style1 tr:nth-child(2) th {
-  border-top: 2px solid;
-}
-
-table.style1 tr:nth-child(2) td {
-  border-top: 2px solid;
-}
-
-table.style1 tr:last-child th {
-  border-bottom: 2px solid;
-}
-
-table.style1 tr:last-child td {
-  border-bottom: 2px solid;
-}
-
-table.style1 tr th:first-child {
-  border-right: 2px solid;
-}
-
-table.style1 tr th:nth-child(2) {
-  border-right: 2px solid;
-}
-
-table.style1 tr td:nth-child(2) {
-  border-right: 2px solid;
-}
+/* table 1 specific */
 
 /* table 3 specific */
 table#table3 tr td:first-child {
@@ -138,7 +103,7 @@ table#table2 tbody tr:not(:last-child) td {
 }
 
 /* table 4 specific */
-table#table44 tr td {
+table#table4 tr td {
   text-align: center;
 }
 
