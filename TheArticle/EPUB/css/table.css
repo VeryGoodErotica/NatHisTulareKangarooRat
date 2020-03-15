@@ -131,8 +131,19 @@ table#table2 tbody tr:not(:last-child) td {
   border-bottom: 1px dashed gray;
 }
 
+/* Table 3 specific */
+
+table#table3 td {
+  text-align: center;
+}
+
+table#table3 tfoot th {
+  text-align: right;
+}
+
 /* table 4 specific */
-table#table4 tr td {
+
+table#table4 td {
   text-align: center;
 }
 
