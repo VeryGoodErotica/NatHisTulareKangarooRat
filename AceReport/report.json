@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/15/2020, 12:37:56 AM",
+  "dct:date": "3/15/2020, 2:01:09 AM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -16,8 +16,8 @@
   },
   "outlines": {
     "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n  <li>Article Table of Contents</li>\n  <li>Introduction</li>\n  <li>Methods and Acknowledgements</li>\n  <li>Burrow Systems</li>\n  <li>Food and Storage</li>\n  <li>Economic Importance</li>\n  <li>Water Requirements</li>\n  <li>Activities</li>\n\n  <li>Literature Cited</li>\n  <li>ePub Notes</li>\n</ol>",
-    "headings": "<ul><li><span class=\"toc-h1\">Contents</span><ul><li><span class=\"toc-h2\">Table of Contents</span><li><span class=\"toc-h2\">List of Figures and Plates</span><li><span class=\"toc-h2\">List of Tables</span><li><span class=\"toc-h2\">Journal Issue Page Number References</span></li></ul></li><li><span class=\"toc-h1\">Introduction</span><li><span class=\"toc-h1\">Methods and Acknowledgements</span><li><span class=\"toc-h1\">Burrow Systems</span><ul><li><span class=\"toc-h2\">Plate 1 Images</span></li></ul></li><li><span class=\"toc-h1\">Food and Storage</span><li><span class=\"toc-h1\">Economic Importance</span><li><span class=\"toc-h1\">Water Requirements</span><li><span class=\"toc-h1\">Activities</span><li><span class=\"toc-h1\">Literature Cited</span><li><span class=\"toc-h1\">ePub Notes</span><ul><li><span class=\"toc-h2\">Contents:</span><li><span class=\"toc-h2\">Original Article</span><li><span class=\"toc-h2\">Alterations</span><li><span class=\"toc-h2\">Motivation</span><li><span class=\"toc-h2\">To Do List</span><li><span class=\"toc-h2\">Copyright Status</span><li><span class=\"toc-h2\">Donations</span></li></ul></li></ul>",
-    "html": "<ol><li><ol><li>Contents<ol><li>Table of Contents</li><li>List of Figures and Plates</li><li>List of Tables</li><li>Journal Issue Page Number References</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Introduction</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods and Acknowledgements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Burrow Systems<ol><li>Plate 1 Images</li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Food and Storage</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Economic Importance</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Water Requirements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Activities<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Literature Cited</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>ePub Notes<ol><li>Contents:</li><li>Original Article</li><li>Alterations</li><li>Motivation</li><li>To Do List</li><li>Copyright Status</li><li>Donations</li></ol></li></ol></li></ol></li></ol>"
+    "headings": "<ul><li><span class=\"toc-h1\">Contents</span><ul><li><span class=\"toc-h2\">Table of Contents</span><li><span class=\"toc-h2\">List of Figures and Plates</span><li><span class=\"toc-h2\">List of Tables</span><li><span class=\"toc-h2\">Journal Issue Page Number References</span></li></ul></li><li><span class=\"toc-h1\">Introduction</span><li><span class=\"toc-h1\">Methods and Acknowledgements</span><li><span class=\"toc-h1\">Burrow Systems</span><li><span class=\"toc-h1\">Food and Storage</span><li><span class=\"toc-h1\">Economic Importance</span><li><span class=\"toc-h1\">Water Requirements</span><li><span class=\"toc-h1\">Activities</span><li><span class=\"toc-h1\">Plate 1 Photographic Images</span><li><span class=\"toc-h1\">Literature Cited</span><li><span class=\"toc-h1\">ePub Notes</span><ul><li><span class=\"toc-h2\">Contents:</span><li><span class=\"toc-h2\">Original Article</span><li><span class=\"toc-h2\">Alterations</span><li><span class=\"toc-h2\">Motivation</span><li><span class=\"toc-h2\">To Do List</span><li><span class=\"toc-h2\">Copyright Status</span><li><span class=\"toc-h2\">Donations</span></li></ul></li></ul>",
+    "html": "<ol><li><ol><li>Contents<ol><li>Table of Contents</li><li>List of Figures and Plates</li><li>List of Tables</li><li>Journal Issue Page Number References</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Introduction</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods and Acknowledgements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Burrow Systems<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Food and Storage</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Economic Importance</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Water Requirements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Activities<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 1 Photographic Images</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Literature Cited</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>ePub Notes<ol><li>Contents:</li><li>Original Article</li><li>Alterations</li><li>Motivation</li><li>To Do List</li><li>Copyright Status</li><li>Donations</li></ol></li></ol></li></ol></li></ol>"
   },
   "data": {
     "images": [
@@ -27,7 +27,7 @@
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate1a.jpg\" aria-labelledby=\"plate1afigcap\" />",
         "figcaption": "Plate 1a. Burrow of tularensis; Note that there is no large mound of earth.",
-        "location": "burrow.xhtml#epubcfi(/4/2/6[structure]/12[plate1]/6[plate1a]/2)"
+        "location": "plate1.xhtml#epubcfi(/4/2[plate1]/6[a]/2)"
       },
       {
         "src": "EPUB/plates/plate1b.jpg",
@@ -35,7 +35,7 @@
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate1b.jpg\" aria-labelledby=\"plate1bfigcap\" />",
         "figcaption": "Plate 1b. Mound of earth, larger than average, thrown from a main entrance to a burrow. Note the rodent’s tracks in the loose earth. (Ruler shown is one foot long.)",
-        "location": "burrow.xhtml#epubcfi(/4/2/6[structure]/12[plate1]/8[plate1b]/2)"
+        "location": "plate1.xhtml#epubcfi(/4/2[plate1]/8[b]/2)"
       },
       {
         "src": "EPUB/plates/plate1c.jpg",
@@ -43,7 +43,7 @@
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate1c.jpg\" aria-labelledby=\"plate1cfigcap\" />",
         "figcaption": "Plate 1c. Mound of earth at entrance to a burrow of tularensis beside a rock.",
-        "location": "burrow.xhtml#epubcfi(/4/2/6[structure]/12[plate1]/10[plate1c]/2)"
+        "location": "plate1.xhtml#epubcfi(/4/2[plate1]/10[c]/2)"
       },
       {
         "src": "EPUB/plates/plate1d.jpg",
@@ -51,7 +51,7 @@
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate1d.jpg\" aria-labelledby=\"plate1dfigcap\" />",
         "figcaption": "Plate 1d. Surface runways radiating from a subsidiary burrow of tularensis.",
-        "location": "burrow.xhtml#epubcfi(/4/2/6[structure]/12[plate1]/12[plate1d]/2)"
+        "location": "plate1.xhtml#epubcfi(/4/2[plate1]/12[d]/2)"
       },
       {
         "src": "EPUB/plates/plate1e.jpg",
@@ -59,7 +59,7 @@
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate1e.jpg\" aria-labelledby=\"plate1efigcap\" />",
         "figcaption": "Plate 1e. Habitat of Dipodomys ingens and Dipodomys heermanni tularensis. Dipodomys ingens occupies the level area in the foreground and tularensis the hillsides in the background, the line of demarcation between the habitats of the two species being just below the rocky area near the base of the hills.",
-        "location": "burrow.xhtml#epubcfi(/4/2/6[structure]/12[plate1]/14[plate1e]/2)"
+        "location": "plate1.xhtml#epubcfi(/4/2[plate1]/14[e]/2)"
       },
       {
         "src": "EPUB/plates/plate1f.jpg",
@@ -67,7 +67,7 @@
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate1f.jpg\" aria-labelledby=\"plate1ffigcap\" />",
         "figcaption": "Plate 1f. A store of seed of Bromus rubens in the blind end of a branch of a main tunnel.",
-        "location": "burrow.xhtml#epubcfi(/4/2/6[structure]/12[plate1]/16[plate1f]/2)"
+        "location": "plate1.xhtml#epubcfi(/4/2[plate1]/16[f]/2)"
       },
       {
         "src": "EPUB/plates/plate1g.jpg",
@@ -75,7 +75,7 @@
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate1g.jpg\" aria-labelledby=\"plate1gfigcap\" />",
         "figcaption": "Plate 1g. Heads of wheat cut by tularensis. Note that a head in the lower center has been thrashed. Photograph by Joseph S. Dixon.",
-        "location": "burrow.xhtml#epubcfi(/4/2/6[structure]/12[plate1]/18[plate1g]/2)"
+        "location": "plate1.xhtml#epubcfi(/4/2[plate1]/18[g]/2)"
       },
       {
         "src": "EPUB/plates/plate1h.jpg",
@@ -83,7 +83,7 @@
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate1h.jpg\" aria-labelledby=\"plate1hfigcap\" />",
         "figcaption": "Plate 1h. A much used dust bowl. Note the tail mark in the loose earth. (Ruler shown is six inches long.)",
-        "location": "burrow.xhtml#epubcfi(/4/2/6[structure]/12[plate1]/20[plate1h]/2)"
+        "location": "plate1.xhtml#epubcfi(/4/2[plate1]/20[h]/2)"
       }
     ]
   },
@@ -121,7 +121,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-15T07:37:52Z"
+      "dcterms:modified": "2020-03-15T09:01:05Z"
     },
     "links": {}
   },
@@ -239,6 +239,17 @@
       "earl:testSubject": {
         "url": "activities.xhtml",
         "dct:title": "Activities"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "plate1.xhtml",
+        "dct:title": "Plate 1"
       }
     },
     {
