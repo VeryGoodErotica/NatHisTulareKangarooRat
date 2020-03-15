@@ -12,8 +12,11 @@ span.captitle {
   text-decoration: underline;
 }
 
-thead {
+thead tr:first-child th {
   border-top: 2px solid;
+}
+
+thead tr:last-child th {
   border-bottom: 2px solid;
 }
 
@@ -30,7 +33,7 @@ th[scope="row"] {
   text-align: left;
 }
 
-tbody {
+tbody tr:last-child td {
   border-bottom: 2px solid;
 }
 
