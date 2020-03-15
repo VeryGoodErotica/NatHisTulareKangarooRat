@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/14/2020, 5:15:28 AM",
+  "dct:date": "3/15/2020, 12:37:56 AM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -17,7 +17,7 @@
   "outlines": {
     "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n  <li>Article Table of Contents</li>\n  <li>Introduction</li>\n  <li>Methods and Acknowledgements</li>\n  <li>Burrow Systems</li>\n  <li>Food and Storage</li>\n  <li>Economic Importance</li>\n  <li>Water Requirements</li>\n  <li>Activities</li>\n\n  <li>Literature Cited</li>\n  <li>ePub Notes</li>\n</ol>",
     "headings": "<ul><li><span class=\"toc-h1\">Contents</span><ul><li><span class=\"toc-h2\">Table of Contents</span><li><span class=\"toc-h2\">List of Figures and Plates</span><li><span class=\"toc-h2\">List of Tables</span><li><span class=\"toc-h2\">Journal Issue Page Number References</span></li></ul></li><li><span class=\"toc-h1\">Introduction</span><li><span class=\"toc-h1\">Methods and Acknowledgements</span><li><span class=\"toc-h1\">Burrow Systems</span><ul><li><span class=\"toc-h2\">Plate 1 Images</span></li></ul></li><li><span class=\"toc-h1\">Food and Storage</span><li><span class=\"toc-h1\">Economic Importance</span><li><span class=\"toc-h1\">Water Requirements</span><li><span class=\"toc-h1\">Activities</span><li><span class=\"toc-h1\">Literature Cited</span><li><span class=\"toc-h1\">ePub Notes</span><ul><li><span class=\"toc-h2\">Contents:</span><li><span class=\"toc-h2\">Original Article</span><li><span class=\"toc-h2\">Alterations</span><li><span class=\"toc-h2\">Motivation</span><li><span class=\"toc-h2\">To Do List</span><li><span class=\"toc-h2\">Copyright Status</span><li><span class=\"toc-h2\">Donations</span></li></ul></li></ul>",
-    "html": "<ol><li><ol><li>Contents<ol><li>Table of Contents</li><li>List of Figures and Plates</li><li>List of Tables</li><li>Journal Issue Page Number References</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Introduction</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods and Acknowledgements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Burrow Systems<ol><li>Plate 1 Images</li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Food and Storage</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Economic Importance</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Water Requirements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Activities<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Literature Cited</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>ePub Notes<ol><li>Contents:</li><li>Original Article</li><li>Alterations</li><li>Motivation</li><li>To Do List</li><li>Copyright Status</li><li>Donations</li></ol></li></ol></li></ol></li></ol>"
+    "html": "<ol><li><ol><li>Contents<ol><li>Table of Contents</li><li>List of Figures and Plates</li><li>List of Tables</li><li>Journal Issue Page Number References</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Introduction</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods and Acknowledgements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Burrow Systems<ol><li>Plate 1 Images</li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Food and Storage</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Economic Importance</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Water Requirements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Activities<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Literature Cited</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>ePub Notes<ol><li>Contents:</li><li>Original Article</li><li>Alterations</li><li>Motivation</li><li>To Do List</li><li>Copyright Status</li><li>Donations</li></ol></li></ol></li></ol></li></ol>"
   },
   "data": {
     "images": [
@@ -121,7 +121,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-14T12:15:23Z"
+      "dcterms:modified": "2020-03-15T07:37:52Z"
     },
     "links": {}
   },
@@ -239,6 +239,17 @@
       "earl:testSubject": {
         "url": "activities.xhtml",
         "dct:title": "Activities"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "figure4.xhtml",
+        "dct:title": "Figure 4"
       }
     },
     {
