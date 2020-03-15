@@ -33,10 +33,6 @@ span[id^="page"]::after {
   content: "]]]";
 }
 
-figure {
-  page-break-before: always;
-}
-
 .pbb {
   page-break-before: always;
 }
