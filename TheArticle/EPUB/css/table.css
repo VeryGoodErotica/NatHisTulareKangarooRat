@@ -81,9 +81,14 @@ table#table1 tbody tr td {
   text-align: center;
 }
 
+table#table1 tbody tr th {
+  border-right: 2px solid;
+  padding-left: 0.3em;
+}
 
-
-
+table#table1 tr td:last-child {
+  border-left: 2px solid;
+}
 
 table#table1 tbody tr:not(:last-child) th {
   border-bottom: 1px dashed gray;
