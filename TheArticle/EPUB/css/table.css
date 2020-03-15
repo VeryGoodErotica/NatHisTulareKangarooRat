@@ -12,13 +12,31 @@ span.captitle {
   text-decoration: underline;
 }
 
+thead {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
 th {
   font-size: smaller;
   font-weight: bold;
 }
 
+tr.units th {
+  font-style: italic;
+}
+
 th[scope="row"] {
   text-align: left;
+}
+
+tbody {
+  border-bottom: 2px solid;
+}
+
+tbody tr.header th {
+  font-size: larger;
+  border-bottom: 2px solid;
 }
 
 /* table 1,2 specific css */
@@ -80,4 +98,9 @@ table#table3 tr.results td {
 
 span.dogalarm {
   text-align: right;
+}
+
+/* table 4 specific */
+table.style4 tr td {
+  text-align: center;
 }
