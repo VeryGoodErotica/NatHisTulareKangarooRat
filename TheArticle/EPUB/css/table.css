@@ -116,6 +116,12 @@ table#table2 thead tr th:last-child {
 
 table#table2 tbody tr th {
   border-right: 2px solid;
+  padding-left: 0.3em;
+}
+
+table#table2 tbody tr td:nth-child(2) {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
 }
 
 table#table2 tr td:last-child {
