@@ -49,6 +49,7 @@
     <item href="plate1.xhtml" id="pl1" media-type="application/xhtml+xml"/>
     <item href="table1.xhtml" id="tbl1" media-type="application/xhtml+xml"/>
     <item href="table2.xhtml" id="tbl2" media-type="application/xhtml+xml"/>
+    <item href="table3.xhtml" id="tbl3" media-type="application/xhtml+xml"/>
     <item href="figure4.xhtml" id="fig4" media-type="application/xhtml+xml" properties="svg"/>
   <!-- appendix content -->
     <item href="litcited.xhtml" id="litcited" media-type="application/xhtml+xml"/>
@@ -76,6 +77,7 @@
     <itemref idref="pl1"/>
     <itemref idref="tbl1"/>
     <itemref idref="tbl2"/>
+    <itemref idref="tbl3"/>
     <itemref idref="fig4"/>
     <itemref idref="litcited"/>
     <itemref idref="epubnotes"/>
