@@ -29,6 +29,11 @@ th {
   font-weight: bold;
 }
 
+thead th {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
 tr.units th {
   font-style: italic;
 }
