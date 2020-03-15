@@ -104,6 +104,19 @@ span.dogalarm {
   text-align: right;
 }
 
+/* table 2 specific */
+table#table2 tr td:last-child {
+  text-align: center;
+}
+
+table#table2 tbody tr:not(:last-child) th {
+  border-bottom: 1px dashed gray;
+}
+
+table#table2 tbody tr:not(:last-child) td {
+  border-bottom: 1px dashed gray;
+}
+
 /* table 4 specific */
 table.style4 tr td {
   text-align: center;
