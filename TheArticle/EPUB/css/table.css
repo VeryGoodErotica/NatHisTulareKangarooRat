@@ -51,6 +51,23 @@ tbody tr.header th {
 }
 
 /* table 1 specific */
+table#table1 thead tr:last-child td {
+  border-bottom: 2px solid;
+}
+
+table#table1 tbody tr td {
+  text-align: center;
+}
+
+
+
+table#table1 tbody tr:not(:last-child) th {
+  border-bottom: 1px dashed gray;
+}
+
+table#table1 tbody tr:not(:last-child) td {
+  border-bottom: 1px dashed gray;
+}
 
 /* table 3 specific */
 table#table3 tr td:first-child {
