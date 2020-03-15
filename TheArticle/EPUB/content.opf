@@ -31,6 +31,11 @@
     <item href="css/common.css" id="css__common" media-type="text/css"/>
     <item href="css/table.css" id="css_table" media-type="text/css"/>
     <item href="css/svg.css" id="css_svg" media-type="text/css"/>
+  <!-- fonts -->
+    <item href="fonts/ClearSans-Regular-wlatin.ttf" id="font.ClearSans.Regular" media-type="font/otf"/>
+    <item href="fonts/ClearSans-Bold-wlatin.ttf" id="font.ClearSans.Bold" media-type="font/otf"/>
+    <item href="fonts/ClearSans-Italic-wlatin.ttf" id="font.ClearSans.Italic" media-type="font/otf"/>
+    <item href="fonts/ClearSans-BoldItalic-wlatin.ttf" id="font.ClearSans.BoldItalic" media-type="font/otf"/>
   <!-- The article content -->
     <item href="ToC4spine.xhtml" id="toc4spine" media-type="application/xhtml+xml"/>
     <item href="introduction.xhtml" id="introduction" media-type="application/xhtml+xml"/>

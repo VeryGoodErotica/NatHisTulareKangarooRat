@@ -1,3 +1,7 @@
+body {
+  font-family: 'Clear Sans', sans-serif;
+}
+
 p {
   widows: 1;
   orphans: 1;

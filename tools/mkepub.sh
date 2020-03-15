@@ -10,10 +10,13 @@ git clone https://github.com/VeryGoodErotica/NatHisTulareKangarooRat.git
 
 cd NatHisTulareKangarooRat/TheArticle/EPUB
 python3 ../../tools/updateTimestamp.py content.opf
-#cd fonts
-#rm -f .gitignore
-#cp -p /usr/local/ePubFonts/*.ttf .
-cd ../
+cd fonts
+rm -f .gitignore
+cp -p /usr/local/ePubFonts/ClearSans-BoldItalic-wlatin.ttf .
+cp -p /usr/local/ePubFonts/ClearSans-Bold-wlatin.ttf .
+cp -p /usr/local/ePubFonts/ClearSans-Italic-wlatin.ttf .
+cp -p /usr/local/ePubFonts/ClearSans-Regular-wlatin.ttf .
+cd ../..
 
 echo -n application/epub+zip >mimetype
 
