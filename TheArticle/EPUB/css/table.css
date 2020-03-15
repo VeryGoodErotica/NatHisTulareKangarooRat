@@ -38,7 +38,11 @@ th[scope="row"] {
 }
 
 tbody tr:last-child td {
-  border-bottom: 2px dashed;
+  border-bottom: 2px solid;
+}
+
+tbody tr:last-child th {
+  border-bottom: 2px solid;
 }
 
 tbody tr.header th {
