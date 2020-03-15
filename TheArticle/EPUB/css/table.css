@@ -1,3 +1,7 @@
+table {
+  border-collapse: collapse;
+}
+
 caption {
   font-style: italic;
 }
@@ -106,4 +110,20 @@ span.dogalarm {
 /* table 4 specific */
 table.style4 tr td {
   text-align: center;
+}
+
+table.style4 thead tr th:first-child {
+  border-right: 2px solid;
+}
+
+table.style4 thead tr th:last-child {
+  border-left: 2px solid;
+}
+
+table.style4 tbody tr td:first-child {
+  border-right: 2px solid;
+}
+
+table.style4 tbody tr td:last-child {
+  border-left: 2px solid;
 }
