@@ -86,7 +86,7 @@ tbody tr.header th {
   padding-left: 0.3em;
 }
 
-#table1 tr td:last-child {
+#table1 tbody tr td:last-child {
   border-left: 2px solid;
 }
 
@@ -96,6 +96,10 @@ tbody tr.header th {
 
 #table1 tbody tr:not(:last-child) td {
   border-bottom: 1px dashed gray;
+}
+
+#table1 tbody tr:nth-child(odd) {
+  background: #ddd;
 }
 
 /* table 2 specific */
