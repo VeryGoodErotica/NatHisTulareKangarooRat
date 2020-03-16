@@ -145,6 +145,14 @@ tbody tr.header th {
   border-right: 2px solid;
 }
 
+#table3 thead tr:first-child td {
+  border-bottom: 2px solid;
+}
+
+#table3 thead tr.units td {
+  border-bottom: none;
+}
+
 #table3 tbody tr:last-child td {
   border-bottom: none;
 }
