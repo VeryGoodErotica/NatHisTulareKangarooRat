@@ -181,11 +181,10 @@ tbody tr.header th {
   background: #ddd;
 }
 
-#table3 td#dogalarm {
+aside#dogalarm {
   text-align: left;
   font-style: italic;
   font-size: smaller;
-  border-bottom: none;
 }
 
 /* table 4 specific */
