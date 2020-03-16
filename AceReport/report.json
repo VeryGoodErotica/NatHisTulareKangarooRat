@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/16/2020, 11:58:11 AM",
+  "dct:date": "3/16/2020, 3:05:36 PM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -16,8 +16,8 @@
   },
   "outlines": {
     "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n  <li>Article Table of Contents</li>\n  <li>Introduction</li>\n  <li>Methods and Acknowledgements</li>\n  <li>Burrow Systems</li>\n  <li>Food and Storage</li>\n  <li>Economic Importance</li>\n  <li>Water Requirements</li>\n  <li>Activities</li>\n\n  <li>Literature Cited</li>\n  <li>ePub Notes</li>\n</ol>",
-    "headings": "<ul><li><span class=\"toc-h1\">Contents</span><ul><li><span class=\"toc-h2\">Table of Contents</span><li><span class=\"toc-h2\">List of Figures and Plates</span><li><span class=\"toc-h2\">List of Tables</span><li><span class=\"toc-h2\">Journal Issue Page Number References</span></li></ul></li><li><span class=\"toc-h1\">Introduction</span><li><span class=\"toc-h1\">Methods and Acknowledgements</span><li><span class=\"toc-h1\">Burrow Systems</span><li><span class=\"toc-h1\">Food and Storage</span><li><span class=\"toc-h1\">Economic Importance</span><li><span class=\"toc-h1\">Water Requirements</span><li><span class=\"toc-h1\">Activities</span><li><span class=\"toc-h1\">Plate 1 Photographic Images</span><li><span class=\"toc-h1\">Table 1</span><li><span class=\"toc-h1\">Table 2</span><li><span class=\"toc-h1\">Table 3</span><ul><li><span class=\"toc-h2\">Table 3 Description</span></li></ul></li><li><span class=\"toc-h1\">Table 4</span><li><span class=\"toc-h1\">Table 5</span><ul><li><span class=\"toc-h2\">Table 5 Description</span></li></ul></li><li><span class=\"toc-h1\">Literature Cited</span><li><span class=\"toc-h1\">ePub Notes</span><ul><li><span class=\"toc-h2\">Contents:</span><li><span class=\"toc-h2\">Original Article</span><li><span class=\"toc-h2\">Alterations</span><li><span class=\"toc-h2\">Motivation</span><li><span class=\"toc-h2\">To Do List</span><li><span class=\"toc-h2\">Copyright Status</span><li><span class=\"toc-h2\">Donations</span></li></ul></li></ul>",
-    "html": "<ol><li><ol><li>Contents<ol><li>Table of Contents</li><li>List of Figures and Plates</li><li>List of Tables</li><li>Journal Issue Page Number References</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Introduction</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods and Acknowledgements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Burrow Systems<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Food and Storage</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Economic Importance</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Water Requirements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Activities<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 1 Photographic Images</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table 1</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table 2</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table 3<ol><li>Table 3 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table 4</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table 5<ol><li>Table 5 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Literature Cited</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>ePub Notes<ol><li>Contents:</li><li>Original Article</li><li>Alterations</li><li>Motivation</li><li>To Do List</li><li>Copyright Status</li><li>Donations</li></ol></li></ol></li></ol></li></ol>"
+    "headings": "<ul><li><span class=\"toc-h1\">Contents</span><ul><li><span class=\"toc-h2\">Table of Contents</span><li><span class=\"toc-h2\">List of Figures and Plates</span><li><span class=\"toc-h2\">List of Tables</span><li><span class=\"toc-h2\">Journal Issue Page Number References</span></li></ul></li><li><span class=\"toc-h1\">Introduction</span><li><span class=\"toc-h1\">Methods and Acknowledgements</span><li><span class=\"toc-h1\">Burrow Systems</span><li><span class=\"toc-h1\">Food and Storage</span><li><span class=\"toc-h1\">Economic Importance</span><li><span class=\"toc-h1\">Water Requirements</span><li><span class=\"toc-h1\">Activities</span><li><span class=\"toc-h1\">Plate 1</span><li><span class=\"toc-h1\">Table 1</span><li><span class=\"toc-h1\">Table 2</span><li><span class=\"toc-h1\">Table 3</span><ul><li><span class=\"toc-h2\">Table 3 Description</span></li></ul></li><li><span class=\"toc-h1\">Table 4</span><li><span class=\"toc-h1\">Table 5</span><ul><li><span class=\"toc-h2\">Table 5 Description</span></li></ul></li><li><span class=\"toc-h1\">Plate 2</span><li><span class=\"toc-h1\">Figure 4</span><li><span class=\"toc-h1\">Literature Cited</span><li><span class=\"toc-h1\">ePub Notes</span><ul><li><span class=\"toc-h2\">Contents:</span><li><span class=\"toc-h2\">Original Article</span><li><span class=\"toc-h2\">Alterations</span><li><span class=\"toc-h2\">Motivation</span><li><span class=\"toc-h2\">To Do List</span><li><span class=\"toc-h2\">Copyright Status</span><li><span class=\"toc-h2\">Donations</span></li></ul></li></ul>",
+    "html": "<ol><li><ol><li>Contents<ol><li>Table of Contents</li><li>List of Figures and Plates</li><li>List of Tables</li><li>Journal Issue Page Number References</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Introduction</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods and Acknowledgements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Burrow Systems<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Food and Storage</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Economic Importance</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Water Requirements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Activities<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 1</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table 1</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table 2</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table 3<ol><li>Table 3 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table 4</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table 5<ol><li>Table 5 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 2</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Figure 4</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Literature Cited</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>ePub Notes<ol><li>Contents:</li><li>Original Article</li><li>Alterations</li><li>Motivation</li><li>To Do List</li><li>Copyright Status</li><li>Donations</li></ol></li></ol></li></ol></li></ol>"
   },
   "data": {
     "images": [
@@ -84,6 +84,86 @@
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate1h.jpg\" aria-labelledby=\"plate1hfigcap\" />",
         "figcaption": "Plate 1h. A much used dust bowl. Note the tail mark in the loose earth. (Ruler shown is six inches long.)",
         "location": "plate1.xhtml#epubcfi(/4/2[plate1]/20[h]/2)"
+      },
+      {
+        "src": "EPUB/plates/plate2a.jpg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2a.jpg\" aria-label=\"Four newborn Tulare Kangaroo Rat pups. The eyes are closed, the ears are just bumps, the tail is about a third the length of the body.\" />",
+        "figcaption": "Plate 2a. A liter of tularensis one hour after birth; × ½.",
+        "location": "plate2.xhtml#epubcfi(/4/2[plate2]/6[a]/2)"
+      },
+      {
+        "src": "EPUB/plates/plate2b.jpg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2b.jpg\" aria-label=\"A four day old Tulare Kangaroo Rat pup resting on its stomach. The front paws are stretched to in front of the nose, the ears are developing, and the large rear feet are noticeable. The tail is tucked under the body.\" />",
+        "figcaption": "Plate 2b. Age four days; × 1.",
+        "location": "plate2.xhtml#epubcfi(/4/2[plate2]/8[b]/2)"
+      },
+      {
+        "src": "EPUB/plates/plate2c.jpg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2c.jpg\" aria-label=\"An eight day old Tulare Kangaroo Rat pup resting on its stomach. The dark fur is short but very noticeable. The ears are developing but still appear proportionally small relative to adults. The tail still appears short for the species, but the hind foot shown is very large, almost reaching to the elbow of the front arm.\" />",
+        "figcaption": "Plate 2c. Age eight days; × 1.",
+        "location": "plate2.xhtml#epubcfi(/4/2[plate2]/10[c]/2)"
+      },
+      {
+        "src": "EPUB/plates/plate2d.jpg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2d.jpg\" aria-label=\"A twelve day old Tulare Kangaroo Rat pup resting on its stomach. The ears still do not appear fully developed. The tail is stretched behind the rat out of the picture frame. Distinct toes on the wide rear foot are very visible.\" />",
+        "figcaption": "Plate 2d. Age 12 days; × ¾.",
+        "location": "plate2.xhtml#epubcfi(/4/2[plate2]/12[d]/2)"
+      },
+      {
+        "src": "EPUB/plates/plate2e.jpg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2e.jpg\" aria-label=\"A 16 day old Tulare Kangaroo Rat pup crouched on all fours. The long hind leg and large foot are very apparent, the ears look like they have properly developed, the tail is longer than the length of the body, the wiskers are very visible.\" />",
+        "figcaption": "Plate 2e. Age 16 days; × ½.",
+        "location": "plate2.xhtml#epubcfi(/4/2[plate2]/14[e]/2)"
+      },
+      {
+        "src": "EPUB/plates/plate2f.jpg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2f.jpg\" aria-label=\"A 20 day old Tulare Kangaroo Rat pup standing on its hind legs but leaning forward. The shortness of the front arms relative to the rear legs is quite apparent. The tail is stretched behind the rat extends beyond the image frame.\" />",
+        "figcaption": "Plate 2f. Age 20 days; × ½.",
+        "location": "plate2.xhtml#epubcfi(/4/2[plate2]/16[f]/2)"
+      },
+      {
+        "src": "EPUB/plates/plate2g.jpg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2g.jpg\" aria-label=\"A 56 day old juvenile Kangaroo Rat pup. The quality of the image is poor but it appears it is standing on all fours rather than just the hind feet. The tail is behind the rat and in the full image frame, it is quite long, appearing to be just over twice the body length. There is an obvious fray of fur at the end of the tail.\" />",
+        "figcaption": "Plate 2g. Age 56 days; × ¼.",
+        "location": "plate2.xhtml#epubcfi(/4/2[plate2]/18[g]/2)"
+      },
+      {
+        "src": "EPUB/plates/plate2h.jpg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2h.jpg\" aria-label=\"A mother Tulare Kangaroo Rat carrying one pup with a second pup in front of her. She is standing on her hind legs with the pup in her mouth, it appears she is using one of her front paws to help support the pup.\" />",
+        "figcaption": "Plate 2h. Mother kangaroo rat carrying her young",
+        "location": "plate2.xhtml#epubcfi(/4/2[plate2]/20[h]/2)"
+      },
+      {
+        "src": "EPUB/plates/plate2i.jpg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2i.jpg\" aria-label=\"Close-up of the mother with a pup in her mouth. One of the pup’s front paws is on the ground.\" />",
+        "figcaption": "Plate 2i. Mother kangaroo rat carrying her young",
+        "location": "plate2.xhtml#epubcfi(/4/2[plate2]/22[i]/2)"
+      },
+      {
+        "src": "EPUB/plates/plate2j.jpg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2j.jpg\" aria-labelledby=\"plate2jfigcap\" />",
+        "figcaption": "Plate 2j. Kangaroo rat suckling her eleven-day old young; note that the young are lying on their backs. Photographed from below through a glass plate.",
+        "location": "plate2.xhtml#epubcfi(/4/2[plate2]/24[j]/2)"
       }
     ]
   },
@@ -121,7 +201,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-16T18:58:06Z"
+      "dcterms:modified": "2020-03-16T22:05:31Z"
     },
     "links": {}
   },
@@ -368,6 +448,17 @@
       "earl:testSubject": {
         "url": "table5.xhtml",
         "dct:title": "Table 5"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "plate2.xhtml",
+        "dct:title": "Plate 2"
       }
     },
     {
