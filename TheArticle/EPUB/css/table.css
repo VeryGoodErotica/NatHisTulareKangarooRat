@@ -215,6 +215,10 @@ tbody tr.header th {
   border-left: 2px solid;
 }
 
+#table4 tbody tr:nth-child(odd) {
+  background: #ddd;
+}
+
 /* table 5 specific */
 
 #table5 td {
