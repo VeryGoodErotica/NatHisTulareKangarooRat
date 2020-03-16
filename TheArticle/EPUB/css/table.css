@@ -207,7 +207,7 @@ tbody tr.header th {
   border-left: 2px solid;
 }
 
-#table4 thead td[rowspan="2"] {
+#table4 thead th[rowspan="2"] {
   border-bottom: 2px solid;
 }
 
