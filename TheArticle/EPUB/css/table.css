@@ -57,77 +57,77 @@ tbody tr.header th {
 
 /* table 1 specific */
 
-table#table1 thead tr th:first-child {
+#table1 thead tr th:first-child {
   border-right: 2px solid;
 }
 
-table#table1 thead tr th:last-child {
+#table1 thead tr th:last-child {
   border-left: 2px solid;
 }
 
-table#table1 thead tr td:first-child {
+#table1 thead tr td:first-child {
   border-right: 2px solid;
 }
 
-table#table1 thead tr td:last-child {
+#table1 thead tr td:last-child {
   border-left: 2px solid;
 }
 
-table#table1 thead tr:last-child td {
+#table1 thead tr:last-child td {
   border-bottom: 2px solid;
 }
 
-table#table1 tbody tr td {
+#table1 tbody tr td {
   text-align: center;
 }
 
-table#table1 tbody tr th {
+#table1 tbody tr th {
   border-right: 2px solid;
   padding-left: 0.3em;
 }
 
-table#table1 tr td:last-child {
+#table1 tr td:last-child {
   border-left: 2px solid;
 }
 
-table#table1 tbody tr:not(:last-child) th {
+#table1 tbody tr:not(:last-child) th {
   border-bottom: 1px dashed gray;
 }
 
-table#table1 tbody tr:not(:last-child) td {
+#table1 tbody tr:not(:last-child) td {
   border-bottom: 1px dashed gray;
 }
 
 /* table 2 specific */
 
-table#table2 thead tr th:first-child {
+#table2 thead tr th:first-child {
   border-right: 2px solid;
 }
 
-table#table2 thead tr th:last-child {
+#table2 thead tr th:last-child {
   border-left: 2px solid;
 }
 
-table#table2 tbody tr th {
+#table2 tbody tr th {
   border-right: 2px solid;
   padding-left: 0.3em;
 }
 
-table#table2 tbody tr td:nth-child(2) {
+#table2 tbody tr td:nth-child(2) {
   padding-left: 0.3em;
   padding-right: 0.3em;
 }
 
-table#table2 tr td:last-child {
+#table2 tr td:last-child {
   text-align: center;
   border-left: 2px solid;
 }
 
-table#table2 tbody tr:not(:last-child) th {
+#table2 tbody tr:not(:last-child) th {
   border-bottom: 1px dashed gray;
 }
 
-table#table2 tbody tr:not(:last-child) td {
+#table2 tbody tr:not(:last-child) td {
   border-bottom: 1px dashed gray;
 }
 
@@ -190,23 +190,23 @@ table#table2 tbody tr:not(:last-child) td {
 
 /* table 4 specific */
 
-table#table4 td {
+#table4 td {
   text-align: center;
 }
 
-table#table4 thead tr th:first-child {
+#table4 thead tr th:first-child {
   border-right: 2px solid;
 }
 
-table#table4 thead tr th:last-child {
+#table4 thead tr th:last-child {
   border-left: 2px solid;
 }
 
-table#table4 tbody tr td:first-child {
+#table4 tbody tr td:first-child {
   border-right: 2px solid;
 }
 
-table#table4 tbody tr td:last-child {
+#table4 tbody tr td:last-child {
   border-left: 2px solid;
 }
 
