@@ -22,13 +22,13 @@
       <tr>
         <th scope="col">TIME OF EMERGENCE<br/>FROM BURROW</th>
         <th scope="col">TIME OF ENTERING<br/>BURROW</th>
-        <th scope="col" colspan="2">TIME SPENT ON SURFACE</th>
+        <th scope="col" colspan="2" id="delta">TIME SPENT ON SURFACE</th>
       </tr>
       <tr class="units">
         <th scope="col"><abbr>p.m.</abbr></th>
         <th scope="col"><abbr>p.m.</abbr></th>
-        <th scope="col"><abbr>min.</abbr></th>
-        <th scope="col"><abbr>sec.</abbr></th>
+        <th scope="col" id="min" headers="delta"><abbr>min.</abbr></th>
+        <th scope="col" id="sec" headers="delta"><abbr>sec.</abbr></th>
       </tr>
     </thead>
     <tbody>
@@ -36,78 +36,78 @@
         <td><time datetime="18:12:35">6:12:35</time></td>
         <td><time datetime="18:12:50">&#8199;6:12:50</time><span class="hidden">*</span></td>
         <td>&#8199;&#8199;</td>
-        <td>&#8199;15</td>
+        <td headers="delta sec">&#8199;15</td>
       </tr>
       <tr>
         <td><time datetime="18:13:30">6:13:30</time></td>
         <td><time datetime="18:13:35">&#8199;6:13:35</time><span class="hidden">*</span></td>
         <td>&#8199;&#8199;</td>
-        <td>&#8199;05</td>
+        <td headers="delta sec">&#8199;05</td>
       </tr>
       <tr>
         <td><time datetime="18:14:20">6:14:20</time></td>
         <td><time datetime="18:19:00">&#8199;6:19<span class="hidden">:00</span></time><span class="hidden">*</span></td>
-        <td>&#8199;4</td>
-        <td>&#8199;40</td>
+        <td headers="delta min">&#8199;4</td>
+        <td headers="delta sec">&#8199;40</td>
       </tr>
       <tr>
         <td><time datetime="18:20:30">6:20:30</time></td>
         <td><time datetime="18:24:00">&#8199;6:24<span class="hidden">:00</span></time><span class="hidden">*</span></td>
-        <td>&#8199;3</td>
-        <td>&#8199;30</td>
+        <td headers="delta min">&#8199;3</td>
+        <td headers="delta sec">&#8199;30</td>
       </tr>
       <tr>
         <td><time datetime="18:25:30">6:25:30</time></td>
         <td><time datetime="18:35:00">&#8199;6:35<span class="hidden">:00</span></time><span class="hidden">*</span></td>
-        <td>&#8199;9</td>
-        <td>&#8199;30</td>
+        <td headers="delta min">&#8199;9</td>
+        <td headers="delta sec">&#8199;30</td>
       </tr>
       <tr>
         <td><time datetime="18:35:50">6:35:50</time></td>
         <td><time datetime="18:38:00">&#8199;6:38<span class="hidden">:00</span></time><a epub:type="noteref" href="#dogalarm">*</a></td>
-        <td>&#8199;2</td>
-        <td>&#8199;10</td>
+        <td headers="delta min">&#8199;2</td>
+        <td headers="delta sec">&#8199;10</td>
       </tr>
       <tr>
         <td><time datetime="18:50:00">6:50<span class="hidden">:00</span></time></td>
         <td><time datetime="18:53:00">&#8199;6:53<span class="hidden">:00</span></time><span class="hidden">*</span></td>
-        <td>&#8199;3</td>
-        <td>&#8199;00</td>
+        <td headers="delta min">&#8199;3</td>
+        <td headers="delta sec">&#8199;00</td>
       </tr>
       <tr>
         <td><time datetime="18:54:30">6:54:30</time></td>
         <td><time datetime="19:01:30">&#8199;7:01:30</time><span class="hidden">*</span></td>
-        <td>&#8199;7</td>
-        <td>&#8199;00</td>
+        <td headers="delta min">&#8199;7</td>
+        <td headers="delta sec">&#8199;00</td>
       </tr>
       <tr>
         <td><time datetime="21:20:30">9:20:30</time></td>
         <td><time datetime="21:23:00">&#8199;9:23<span class="hidden">:00</span></time><span class="hidden">*</span></td>
-        <td>&#8199;2</td>
-        <td>&#8199;30</td>
+        <td headers="delta min">&#8199;2</td>
+        <td headers="delta sec">&#8199;30</td>
       </tr>
       <tr>
         <td><time datetime="21:29:00">9:29<span class="hidden">:00</span></time></td>
         <td><time datetime="21:30:00">&#8199;9:30<span class="hidden">:00</span></time><span class="hidden">*</span></td>
-        <td>&#8199;1</td>
-        <td>&#8199;00</td>
+        <td headers="delta min">&#8199;1</td>
+        <td headers="delta sec">&#8199;00</td>
       </tr>
       <tr>
         <td><time datetime="21:57:00">9:57<span class="hidden">:00</span></time></td>
         <td><time datetime="22:01:00">10:01<span class="hidden">:00</span></time><span class="hidden">*</span></td>
-        <td>&#8199;4</td>
-        <td>&#8199;00</td>
+        <td headers="delta min">&#8199;4</td>
+        <td headers="delta sec">&#8199;00</td>
       </tr>
     </tbody>
     <tfoot>
       <tr>
         <td>&#160;</td><td>&#160;</td>
-        <td>35</td><td>160</td>
+        <td headers="delta min">35</td><td headers="delta sec">160</td>
       </tr>
       <tr class="results">
         <th scope="row" colspan="2">Surface Total:</th>
-        <td>37</td>
-        <td>&#8199;40</td>
+        <td headers="delta min">37</td>
+        <td headers="delta sec">&#8199;40</td>
       </tr>
     </tfoot>
   </table>
