@@ -65,6 +65,16 @@
     <item href="plates/plate1f.jpg" id="plate1f" media-type="image/jpeg"/>
     <item href="plates/plate1g.jpg" id="plate1g" media-type="image/jpeg"/>
     <item href="plates/plate1h.jpg" id="plate1h" media-type="image/jpeg"/>
+    <item href="plates/plate2a.jpg" id="plate2a" media-type="image/jpeg"/>
+    <item href="plates/plate2b.jpg" id="plate2b" media-type="image/jpeg"/>
+    <item href="plates/plate2c.jpg" id="plate2c" media-type="image/jpeg"/>
+    <item href="plates/plate2d.jpg" id="plate2d" media-type="image/jpeg"/>
+    <item href="plates/plate2e.jpg" id="plate2e" media-type="image/jpeg"/>
+    <item href="plates/plate2f.jpg" id="plate2f" media-type="image/jpeg"/>
+    <item href="plates/plate2g.jpg" id="plate2g" media-type="image/jpeg"/>
+    <item href="plates/plate2h.jpg" id="plate2h" media-type="image/jpeg"/>
+    <item href="plates/plate2i.jpg" id="plate2i" media-type="image/jpeg"/>
+    <item href="plates/plate2j.jpg" id="plate2j" media-type="image/jpeg"/>
   </manifest>
   <spine>
     <itemref idref="toc4spine"/>
