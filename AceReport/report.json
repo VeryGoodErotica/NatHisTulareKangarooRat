@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/16/2020, 3:05:36 PM",
+  "dct:date": "3/16/2020, 3:09:00 PM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -87,73 +87,73 @@
       },
       {
         "src": "EPUB/plates/plate2a.jpg",
-        "alt": null,
+        "alt": "Four newborn Tulare Kangaroo Rat pups. The eyes are closed, the ears are just bumps, the tail is about a third the length of the body.",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2a.jpg\" aria-label=\"Four newborn Tulare Kangaroo Rat pups. The eyes are closed, the ears are just bumps, the tail is about a third the length of the body.\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2a.jpg\" alt=\"Four newborn Tulare Kangaroo Rat pups. The eyes are closed, the ears are just bumps, the tail is about a third the length of the body.\" />",
         "figcaption": "Plate 2a. A liter of tularensis one hour after birth; × ½.",
         "location": "plate2.xhtml#epubcfi(/4/2[plate2]/6[a]/2)"
       },
       {
         "src": "EPUB/plates/plate2b.jpg",
-        "alt": null,
+        "alt": "A four day old Tulare Kangaroo Rat pup resting on its stomach. The front paws are stretched to in front of the nose, the ears are developing, and the large rear feet are noticeable. The tail is tucked under the body.",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2b.jpg\" aria-label=\"A four day old Tulare Kangaroo Rat pup resting on its stomach. The front paws are stretched to in front of the nose, the ears are developing, and the large rear feet are noticeable. The tail is tucked under the body.\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2b.jpg\" alt=\"A four day old Tulare Kangaroo Rat pup resting on its stomach. The front paws are stretched to in front of the nose, the ears are developing, and the large rear feet are noticeable. The tail is tucked under the body.\" />",
         "figcaption": "Plate 2b. Age four days; × 1.",
         "location": "plate2.xhtml#epubcfi(/4/2[plate2]/8[b]/2)"
       },
       {
         "src": "EPUB/plates/plate2c.jpg",
-        "alt": null,
+        "alt": "An eight day old Tulare Kangaroo Rat pup resting on its stomach. The dark fur is short but very noticeable. The ears are developing but still appear proportionally small relative to adults. The tail still appears short for the species, but the hind foot shown is very large, almost reaching to the elbow of the front arm.",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2c.jpg\" aria-label=\"An eight day old Tulare Kangaroo Rat pup resting on its stomach. The dark fur is short but very noticeable. The ears are developing but still appear proportionally small relative to adults. The tail still appears short for the species, but the hind foot shown is very large, almost reaching to the elbow of the front arm.\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2c.jpg\" alt=\"An eight day old Tulare Kangaroo Rat pup resting on its stomach. The dark fur is short but very noticeable. The ears are developing but still appear proportionally small relative to adults. The tail still appears short for the species, but the hind foot shown is very large, almost reaching to the elbow of the front arm.\" />",
         "figcaption": "Plate 2c. Age eight days; × 1.",
         "location": "plate2.xhtml#epubcfi(/4/2[plate2]/10[c]/2)"
       },
       {
         "src": "EPUB/plates/plate2d.jpg",
-        "alt": null,
+        "alt": "A twelve day old Tulare Kangaroo Rat pup resting on its stomach. The ears still do not appear fully developed. The tail is stretched behind the rat out of the picture frame. Distinct toes on the wide rear foot are very visible.",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2d.jpg\" aria-label=\"A twelve day old Tulare Kangaroo Rat pup resting on its stomach. The ears still do not appear fully developed. The tail is stretched behind the rat out of the picture frame. Distinct toes on the wide rear foot are very visible.\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2d.jpg\" alt=\"A twelve day old Tulare Kangaroo Rat pup resting on its stomach. The ears still do not appear fully developed. The tail is stretched behind the rat out of the picture frame. Distinct toes on the wide rear foot are very visible.\" />",
         "figcaption": "Plate 2d. Age 12 days; × ¾.",
         "location": "plate2.xhtml#epubcfi(/4/2[plate2]/12[d]/2)"
       },
       {
         "src": "EPUB/plates/plate2e.jpg",
-        "alt": null,
+        "alt": "A 16 day old Tulare Kangaroo Rat pup crouched on all fours. The long hind leg and large foot are very apparent, the ears look like they have properly developed, the tail is longer than the length of the body, the wiskers are very visible.",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2e.jpg\" aria-label=\"A 16 day old Tulare Kangaroo Rat pup crouched on all fours. The long hind leg and large foot are very apparent, the ears look like they have properly developed, the tail is longer than the length of the body, the wiskers are very visible.\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2e.jpg\" alt=\"A 16 day old Tulare Kangaroo Rat pup crouched on all fours. The long hind leg and large foot are very apparent, the ears look like they have properly developed, the tail is longer than the length of the body, the wiskers are very visible.\" />",
         "figcaption": "Plate 2e. Age 16 days; × ½.",
         "location": "plate2.xhtml#epubcfi(/4/2[plate2]/14[e]/2)"
       },
       {
         "src": "EPUB/plates/plate2f.jpg",
-        "alt": null,
+        "alt": "A 20 day old Tulare Kangaroo Rat pup standing on its hind legs but leaning forward. The shortness of the front arms relative to the rear legs is quite apparent. The tail is stretched behind the rat extends beyond the image frame.",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2f.jpg\" aria-label=\"A 20 day old Tulare Kangaroo Rat pup standing on its hind legs but leaning forward. The shortness of the front arms relative to the rear legs is quite apparent. The tail is stretched behind the rat extends beyond the image frame.\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2f.jpg\" alt=\"A 20 day old Tulare Kangaroo Rat pup standing on its hind legs but leaning forward. The shortness of the front arms relative to the rear legs is quite apparent. The tail is stretched behind the rat extends beyond the image frame.\" />",
         "figcaption": "Plate 2f. Age 20 days; × ½.",
         "location": "plate2.xhtml#epubcfi(/4/2[plate2]/16[f]/2)"
       },
       {
         "src": "EPUB/plates/plate2g.jpg",
-        "alt": null,
+        "alt": "A 56 day old juvenile Kangaroo Rat pup. The quality of the image is poor but it appears it is standing on all fours rather than just the hind feet. The tail is behind the rat and in the full image frame, it is quite long, appearing to be just over twice the body length. There is an obvious fray of fur at the end of the tail.",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2g.jpg\" aria-label=\"A 56 day old juvenile Kangaroo Rat pup. The quality of the image is poor but it appears it is standing on all fours rather than just the hind feet. The tail is behind the rat and in the full image frame, it is quite long, appearing to be just over twice the body length. There is an obvious fray of fur at the end of the tail.\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2g.jpg\" alt=\"A 56 day old juvenile Kangaroo Rat pup. The quality of the image is poor but it appears it is standing on all fours rather than just the hind feet. The tail is behind the rat and in the full image frame, it is quite long, appearing to be just over twice the body length. There is an obvious fray of fur at the end of the tail.\" />",
         "figcaption": "Plate 2g. Age 56 days; × ¼.",
         "location": "plate2.xhtml#epubcfi(/4/2[plate2]/18[g]/2)"
       },
       {
         "src": "EPUB/plates/plate2h.jpg",
-        "alt": null,
+        "alt": "A mother Tulare Kangaroo Rat carrying one pup with a second pup in front of her. She is standing on her hind legs with the pup in her mouth, it appears she is using one of her front paws to help support the pup.",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2h.jpg\" aria-label=\"A mother Tulare Kangaroo Rat carrying one pup with a second pup in front of her. She is standing on her hind legs with the pup in her mouth, it appears she is using one of her front paws to help support the pup.\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2h.jpg\" alt=\"A mother Tulare Kangaroo Rat carrying one pup with a second pup in front of her. She is standing on her hind legs with the pup in her mouth, it appears she is using one of her front paws to help support the pup.\" />",
         "figcaption": "Plate 2h. Mother kangaroo rat carrying her young",
         "location": "plate2.xhtml#epubcfi(/4/2[plate2]/20[h]/2)"
       },
       {
         "src": "EPUB/plates/plate2i.jpg",
-        "alt": null,
+        "alt": "Close-up of the mother with a pup in her mouth. One of the pup’s front paws is on the ground.",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2i.jpg\" aria-label=\"Close-up of the mother with a pup in her mouth. One of the pup’s front paws is on the ground.\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"plates/plate2i.jpg\" alt=\"Close-up of the mother with a pup in her mouth. One of the pup’s front paws is on the ground.\" />",
         "figcaption": "Plate 2i. Mother kangaroo rat carrying her young",
         "location": "plate2.xhtml#epubcfi(/4/2[plate2]/22[i]/2)"
       },
@@ -201,7 +201,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-16T22:05:31Z"
+      "dcterms:modified": "2020-03-16T22:08:56Z"
     },
     "links": {}
   },
