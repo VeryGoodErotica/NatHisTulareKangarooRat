@@ -139,6 +139,7 @@ tbody tr.header th {
 
 #table3 tfoot th {
   text-align: right;
+  border-bottom: 2px solid;
 }
 
 #table3 tbody tr:last-child td {
@@ -154,10 +155,6 @@ tbody tr.header th {
 }
 
 #table3 tfoot tr td {
-  border-bottom: 2px solid;
-}
-
-#table3 tfoot tr th {
   border-bottom: 2px solid;
 }
 
