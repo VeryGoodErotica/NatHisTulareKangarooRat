@@ -181,6 +181,12 @@ table#table2 tbody tr:not(:last-child) td {
   background: #ddd;
 }
 
+#table3 td.dogalarm {
+  text-align: left;
+  font-style: italic;
+  font-size: smaller;
+}
+
 /* table 4 specific */
 
 table#table4 td {
