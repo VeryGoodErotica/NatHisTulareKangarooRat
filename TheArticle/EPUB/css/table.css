@@ -229,3 +229,7 @@ table#table4 tbody tr td:last-child {
 #table5 tr.units th {
   border-bottom: none;
 }
+
+#table5 tbody tr:nth-child(odd) {
+  background: #f0f8ff;
+}
