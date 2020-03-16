@@ -231,5 +231,5 @@ table#table4 tbody tr td:last-child {
 }
 
 #table5 tbody tr:nth-child(odd) {
-  background: #f0f8ff;
+  background: #ddd;
 }
