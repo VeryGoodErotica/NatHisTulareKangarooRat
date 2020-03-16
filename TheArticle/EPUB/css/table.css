@@ -181,10 +181,11 @@ table#table2 tbody tr:not(:last-child) td {
   background: #ddd;
 }
 
-#table3 td.dogalarm {
+#table3 td#dogalarm {
   text-align: left;
   font-style: italic;
   font-size: smaller;
+  border-bottom: none;
 }
 
 /* table 4 specific */
