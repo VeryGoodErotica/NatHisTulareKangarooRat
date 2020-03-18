@@ -1,0 +1,16 @@
+p[epub:type="biblioentry"] {
+  padding-left: 1.5em;
+  text-indent:-1.5em;
+}
+
+p[epub:type="biblioentry"] span.author {
+  font-weight: bold;
+}
+
+p[epub:type="biblioentry"] span.title {
+  text-decoration: underline;
+}
+
+p[epub:type="biblioentry"] span.journal {
+  font-style: italic;
+}
