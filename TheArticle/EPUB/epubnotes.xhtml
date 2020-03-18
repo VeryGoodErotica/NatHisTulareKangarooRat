@@ -22,31 +22,103 @@
     </ol>
   </div>
   <section id="original" aria-labelledby="originalh2">
-    <h2 id="originalh2">Original Article</h2>
-    <p>The article was originally published in <span class="jtitle">Journal of Mammalogy</span>, Volume 22, Issue 2, <time datetime="1941-05-14">14 May 1941</time>, Pages 117&#8211;148, <a href="https://doi.org/10.2307/1374908" title="Internet Link">https://doi.org/10.2307/1374908</a>.</p>
+    <h2 id="originalh2">Canonical Jornal Article</h2>
+    <p>The article was originally published in <span class="jtitle">Journal of Mammalogy</span>, Volume 22, Issue 2, <time datetime="1941-05-14">14 May 1941</time>, Pages 117&#8211;148, <a href="https://doi.org/10.2307/1374908" title="Internet Link">https://doi.org/10.2307/1374908</a>. I refer to this as the <dfn>canonical journal article</dfn> in the rest of this appendix chapter.</p>
+    <p>If you are citing the work of Donald T. Tappe in this article, please cite the canonical journal article rather than this ePub. You should of course also verify the information in the canonical journal article as well before citing it.</p>
   </section>
   <section id="alterations" aria-labelledby="alterationsh2">
     <h2 id="alterationsh2">Alterations</h2>
-    <p>In porting this article to ePub, I tried as much as possible to do so with accuracy. There are some noticeable changes, explained below.</p>
-    <dl>
-      <dt>Page Numbering</dt>
-        <dd>For best <a href="https://www.w3.org/standards/webdesign/accessibility" title="Internet Link">accessibility</a>, ePub content needs to be flowable. The concept of page numbers does not exist, that depends upon the font size in combination with the screen size and orientation of the user. However, citations of journal articles often refer to a page number. Wherever a new page starts in the original journal article, I inserted a <span id="pageNNN">Page NNN</span> so that users can be aware what corresponding journal page the content being read appears on. I also added a journal page number Table of Contents to aid a user in finding content referenced elsewhere.</dd>
-      <dt>No Small-Caps</dt>
-        <dd>In ePub, small-cap variant of fonts are usually only available if a font that contains them is embedded within the ePub itself. I have not embedded any such fonts, so where the original article uses a small-cap variant, this ePub does not.</dd>
-      <dt>Title and Introduction</dt>
-        <dd>The original article starts with the title and then jumps straight to the introduction, but does not label it as such. This ePub does not contain the entire journal issue, only the specific article of interest. I am using a title page for the article title and then added the heading &#8220;Introduction&#8221; before the introductory content. That heading is not in the original article.</dd>
-      <dt>Table of Contents</dt>
-        <dd>The original article does not have its own Table of Contents. Adding one really is a necessity for the ePub format.</dd>
-      <dt>Figures</dt>
-        <dd>All figures were painstakingly recreated in <abbr>SVG</abbr>. This was necessary for the highest quality rendering of the figure regardless of screen resolution or size. This was a lot of work, I hope someone other than me benefits.</dd>
-      <dt>Plates</dt>
-        <dd>The original article has two image plates, with each image plate containing 8 images with all captions together underneath the set two by four grid for the plates. The original format was necessary for printed journal publication but is horrible for reflowable content. I broke each plate up into individual images, and placed them within the ePub with the corresponding caption for each image directly below the image. I also adjusted the contrast on the images hoping to improve their utility.</dd>
-      <dt>Literature Cited</dt>
-        <dd>This is where I made the most significant changes. The original uses a lot of abbreviations for journal publication names that do not work very well with screen readers used by the visually impaired and also are confusing to people who are not familiar with them. I expanded those to the publication names without the abbreviations. I also changed the format to use an <abbr>HTML</abbr> list using the aurthor’s name and year of publication as the definition term, and the title and publication as the definition. Where the original author cited more than piece of literature by the same author, the original author used a long line for the author name to indicate it was the same as the entry above. I put the author name in, it works better that way with a hyperlinked document.</dd>
-      <dt>Hyperlinks</dt>
-        <dd>The original article does not contain hyperlinks within the document. Hyperlinks are meaningless in a printed journal. Within an digital document however they make a lot of sense. Wherever the original author referenced a figure, plate, table, or cited another work; I added the appropriate hyperlinks so that the reader could jump to that part of the document.</dd>
-    </dl>
-    <p>None of those changes should have a negative impact on the understanding of the article or the intent of the original author. ePub is a different publishing medium than a printed journal, they were necessary for a quality port of the original article to the ePub publishing format, and I hope high quality ePub is what Pipfrosch Press will become known for.</p>
+    <p>In porting the canonical journal article to a flowable content ePub, I tried as much as possible to do so with accuracy. There are some noticeable changes, I explain them below along with my justifications.</p>
+    <p>If you would rather not read my justification ramblings, feel free to <a href="#motivation">skip to Motivation</a>.</p>
+    <p>None of these changes should have a negative impact on the understanding of the article or the intent of the original author.</p>
+    <section id="structual" aria-labelledby="structuralh3">
+      <h3 id="structuralh3">Title Page, Abstract, and Table of Contents</h3>
+      <p>The JSTOR <abbr>PDF</abbr> lacked a title page. There probably is one for the journal issue itself, but articles within a journal understandably do not have one of their own. I chose to add one.</p>
+      <p>As is common with journal articles, the article jumps straight into the abstract without a heading. Headings to a logical section are important for accessibility, so I added the heading ‘Abstract’ just before the abstract.</p>
+      <p>The JSTOR <abbr>PDF</abbr> had a digital Table of Contents, a golden opportunity for them to at least somewhat improve the accessibility of the <abbr>PDF</abbr> and make navigation of the <abbr>PDF</abbr> file easier, but the JSTOR <abbr>PDF</abbr> Table of Contents was for the journal issue itself. Every link in it pointed to a JSTOR <abbr>URI</abbr> for accessing the various articles. That is a very serious accessibility issue, JSTOR must be called upon to provide an <em>actual</em> Table of Contents, especially with the very high <em>per article</em> prices they charge for those of us without an academic library login.</p>
+      <p>I have provided an actual Table of Contents specific to the logical sections of this article.</p>
+    </section>
+    <section id="fonts" aria-labelledby="fontsh3">
+      <h3 id="fontsh3">Font Changes</h3>
+      <p>The canonical journal article appears to use the Times font, inclusing use of the small-caps variant.</p>
+      <p>The Times font was designed for very high resolution printing presses. It does not work as well on screen displays, and serif fonts also are more likely to trigger neurological disabilities such as dyslexia than sans-serif fonts.</p>
+      <p>I chose to use <a href="https://01.org/clear-sans" title="Internet Resource">Intel Clear Sans</a> because it is a sans-serif font that is designed specifically to work well with on-screen legibility as well as with print. It also has a redistribution-friendly license.</p>
+      <p>The font does lack a small-caps variant, so text in the canonical journal article that usd small-caps are not represented with small-caps in this ePub. Small-caps can be emulated, but the result of emulating small-caps leads to eye and brain fatigue for many users, small-caps should only be used when the <em>genuine font variant</em> exists.</p>
+      <p>With my own personal eye fatigue reading issues, I have found that Intel Clear Sans is easier on my eyes even than Helvetica.</p>
+      <p>It should of course be noted that with ePub, the viewer software sometimes will use its own font, and the user may also specify their preferred font. This unpredictability of the actual font used to display an ePub, by the way, is another reason why small-caps <em>generally</em> should be avoided in ePub even when a font bundled within the ePub does have the variant.</p>
+    </section>
+    <section id="pagenumbers" aria-labelledby="pagenumberingh3">
+      <h3 id="pagenumbersh3">Page Numbering</h3>
+      <p>For best <a href="https://www.w3.org/standards/webdesign/accessibility" title="Internet Link">accessibility</a>, ePub content needs to be flowable. The concept of page numbers does not exist, the pagination depends upon the font size in combination with the screen size and orientation of the reading device. Using flowable content fixes many accessibility but creates another, citations of journal articles in other academic works often refer to a page number.</p>
+      <p>To help solve this issue, I insert a <span id="pageNNN">Page NNN</span> marker to indicate the equivalent page change in the canonical journal article that corresponds with the current location within the ePub document.</p>
+      <p>When the canonical journal article splits a paragraph between two pages, I can not place the marker mid-paragraph as that results in serious readability issues, so I place the marker either before or after the paragraph that wraps the page break, depending upon where the bulk of the paragraph content lies.</p>
+      <p>In some cases, two logical sections within the ePub have content on the same page in the canonical journal article. In those cases, I will use <span id="pageNNNb">Page NNNb</span> and in one case <span id="pageNNNc">Page NNNc</span> to indicate those logical sections start on that page of the canonical journal article but that there is other content on the same page that comes before that logical section begins.</p>
+      <p><strong>Float Notes:</strong> With typography for fixed-page size print, floating content (Tables, Figures, and Plates) are often placed <em>near</em> the written content that refers to them but not even necessarily in the same logical section. They are placed where it is aesthetically pleasing to the eye.</p>
+      <p>For example, in the Canonical article, Table 1 and 2 are referenced in the logical section for Tulare Kangaroo Rat Food and Storage but the floats for both those tables actually were typeset within the logical section for Economic Importance, with both floats splitting a paragraph within the logical section for Economic Importance.</p>
+      <p>With fixed layout print typography, that was actually the correct placement decision to make for both aesthetics and the reduction of physical pages needed.</p>
+      <p>With digital flowable content, in many cases (and all cases within this article) it is better to place the float at the end of the article, using hyperlinks within the article to allow the user to easily access the float content. That is what I have chosen to do, but the result is the page number references within the ePub are not in the same order as the pages in the canonical journal article.</p>
+    </section>
+    <section id="tables" aria-labelledby="tablesh3">
+      <h3 id="tablesh3">Table Modifications</h3>
+      <p>When porting the tabular data present in the canonical journal article to ePub, I paid very close attention to both accessibility needs and to how well the tables displayed on a small-screen display. The small-screen display I tested with is my Pixel 3XL using the <a href="https://play.google.com/store/apps/details?id=com.faultexception.reader" title="Internet Resource">Lithium: EPUB Reader</a>. Unfortunately I do not have the ability to test the tabular data in a screen reader, but I did pay very close attention to the accessibility publications, including those provided by The <abbr>DAISY</abbr> Consortium in the <a href="http://kb.daisy.org/publishing/docs/" title="Internet Resource">Accessible Publishing Knowledge Base</a>.</p>
+      <p>There are two issues with tabular data that plague small-screen devices. The first is horizontal width, and the second is the number of table rows causing the table to be split across more than one page.</p>
+      <p>The table width issue was only a small-screen width issue for me with Table 5, which has seven columns.</p>
+      <p>To help solve the issue, I altered the cell content of the table header including the use of two abbreviation within the table column headers that are not used in the canonical journal article. This <em>mostly</em> solved the problem.</p>
+      <figure id="tbl5" aria-labelledby="tbl5figcap">
+        <img src="auximg/ExTable5.png"/ alt="The column headers and first three rows of data from Table 5 as shown on a small-screen display. In the first column, the words ‘AGE’, ‘days’, and ‘birth’ are broken over multiple lines. In the second column, the word ‘grams’ is broken up over multiple lines, and the numeric data points are broken up at the decimal point over multiple lines">
+        <figcaption>Screenshot of Table 5 on a small-screen device</figcaption>
+      </figure>
+      <p>I did not like altering the content of the table header in the canonical journal article but it was absolutely necessary.</p>
+      <p>The issue of too many data rows for display on a single page still exists. In cases where the table header in the canonical journal article used more than three lines when displayed on my small-screen device, I moved the table caption contents outside of the table and placed it in a table description section <em>directly</em> following the table, with a summarized table caption used in the table itself.</p>
+      <section id="tablejs" aria-labelledby="tablejsh4">
+        <h4 id="tablejsh4">JavaScript Solution</h4>
+        <p>This is not implemented.</p>
+        <p>Some (but not all) ePub viewer software supports the use of JavaScript.</p>
+        <p>With the use of JavaScript, it is possible to make the contents of the <code>tbody</code> (table body) vertically scrollable within the table itself so that the <code>thead</code> (table header) and <code>tfoot</code> (table footer, if present) are always shown on the same page, with the <code>tbody</code> content scrollable between them.</p>
+        <p>I have not attempted to implement this solution yet because many ePub viewers do not support JavaScript and I would prefer a solution that is part of the ePub standard itself. If such a solution is developed, it <em>may</em> not require any <abbr>HTML</abbr> changes at all, but use of a JavaScript solution could interfere with a standardized solution working and also could <em>presently</em> interfere with normal touchscreen user interface operations such as turning the page. I have seen JavaScript solutions cause such issues before and I see no reason why a solution I developed might not also.</p>
+      </section>
+    </section>
+    <section id="figures" aria-labelledby="figuresh3">
+      <h3 id="figuresh3">Figure Modifications</h3>
+      <p>All of the figures were redrawn in <abbr>SVG</abbr>, coded by hand.</p>
+      <p>Color was added but not in a way that loses meaning when viewed with a grayscale ePub viewer.</p>
+      <p>Some other very minor alterations were made. For example, in Figure 4, I had to increase the size of the dots used for the sample points in order to allow them to be visible on a phone-sized screen.</p>
+      <section id="figureOne" aria-labelledby="figureOneh4">
+        <h4 id="figureOneh4">Figure 1 Notes</h4>
+        <p>The original Figure 1 in the canonical journal article includes the range of the <span class="taxon">Dipodomys heermanni</span> ranging up into Oregon.</p>
+        <p>Since the subspecies the author addresses does not range that far north, and since the subspecies that did range that far north has since been elevated to full species status, I did not include southern Oregon in my recreation of Figure 1.</p>
+        <p>The vertical space saved by not including southern Oregon makes it less likely for the figure caption to flow to a different page than the figure itself displays.</p>
+        <p>The original Figure 1 is intended for monochromatic printing, using diagonal lines to indicate the larger of range of <span class="taxon">Dipodomys heermanni</span> and diagonal lines a different orientation to indicate the range of <span class="taxon">Dipodomys heermanni tularis</span> specifically.</p>
+        <p>The purpose is served but the aesthics are horrible, the rivers and lakes shown under the range indicators causes the eyes of many people, myself included, to become fatigued which can lead to the triggering of disabilities related to eye and brain fatigue, including but limited to dyslexia, headaches, and even seizures.</p>
+        <p>I chose to use colors with the transparency features of <abbr>SVG</abbr> to represent the relevant ranges instead.</p>
+        <p>My update to the range indication assumes at least grayscale displays are available and was tested on a grayscale Kobo to ensure no relevant information was lost.</p>
+        <p>An update to Figure 1 was created based on the range map provided by <a href="https://fwspubs.org/doi/pdf/10.3996/102014-JFWM-078" title="Internet Link">Kofron and Villablanca 2016</a> (Figure 2 on page 239).</p>
+      </section>
+    </section>
+    <section id="plates" aria-labelledby="platesh3">
+      <h3 id="platesh3">Plates</h3>
+      <p>The canonical journal article uses two photographic plates. The first has eight images arranged in a 2&#215;4 grid and the second has ten images arranged in a 2&#215;5 grid. Those layouts do not work well with flowabla ePub content.</p>
+      <p>I split each plate into individual images, with the corresponding caption placed with the image corresponds to. This not only allowed for better viewing within a flowable ePub context, but is also allowed me to provide alternative text for those with visual disability in cases where the image itself contains useful information that is not adequately described within the provided caption.</p>
+      <p>The images were extracted from the scanned <abbr>PDF</abbr> that I had access to. Unfortunately either because the original copy scanned was degraged, or because the scanning equipment was not designed for optimal image reproduction, or as a combination of the two, the quality leaves much to be desired.</p>
+      <p>With Plate 1, each image is 384&#215;288 pixels. No size reduction was performed.</p>
+      <p>With Plate 2, the first eight images are 416&#215;224 pixels and the last two are 416&#215;416320 pixels. Again, no size reduction was performed. However I did have to to rotate the plate exttacted from the <abbr>PDF</abbr> slightly because the plate was scanned at a very slight angle to horizontal.</p>
+      <p>With some of the images, I did increase the contrast a little bit.</p>
+      <section id="platedesire" aria-labelledby="platedesireh4">
+        <h4 id="platedesireh4">Desire for Better Quality</h4>
+        <p>I am not happy with the quality of the images from the photographic plates. I believe I did the best I could do from what I had available, but I also believe better quality is achievable.</p>
+        <p>The original author did a lot of his labaratory work at the University of California Museum of Vertebrate Zoology. It is <em>possible</em> that the original photographs used for Plate 2 are archived there and could be digitally restored. I have not inquired and will not do so, I would rather someone with academic connections do so, but I do not consider it a high priority and there may not be a need.</p>
+        <p>Another possible solution, I suspect that during the era this article was first published, many zoologists had subscriptions to the print version of this journal. I know when my grandfather died, we donated print journals he had from the Chemistry industry.</p>
+        <p>It may be possible to find a print copy of this journal issue and photograph the color plates using a digital SLR and a copy stand. I already own a quality copy stand (inherited from that same grandfather) and a quality <abbr>DSLR</abbr> with a suitable lens for this kind of reproduction work, I would only need suitable lighting equipment for even diffused lighting, which can be rented.</p>
+        <p>This would produce much higher quality reproductions of the images than the scanned version I started with, especially if a Photoshop guru could be found to optimize the images taken.</p>
+        <p>If I am able to pursue this option, the embedded images would both be a better quality reproduction and high resolution reproduction. An image width of 768 pixels would be a good combination for both resolution and file size.</p>
+        <p>I suspect that with this solution, the curator of <abbr>MVZ</abbr> at Berkeley would not need to be bothered with a request for 80 year old original images they may not even have, allowing their time to be used assisting modern research.</p>
+      </section>
+      <section id="litcited" aria-labelledby="litcitedh3">
+        <h3 id="litcitedh3">Literature Cited Changes</h3>
+        <p>The canonical journal article uses a lot of abbreviations for journal publication names that do not work very well with screen readers used by the visually impaired and also are confusing to people who are not familiar with the various journals. I expanded those abbreviations to the full publication names.</p>
+        <p>I also changed the format of the Literature Cited to use an <abbr>HTML</abbr> definitiom list using the aurthor’s name and year of publication as the definition term, and the title and publication as the definition. Where the canonical journal article cites more than piece of literature by the same author, the canonical journal article uses a long line for the author name to indicate it is the same author as the entry above. This is visually readily apparent but it is confusing for screen readers. I put the author name in place, it works better that way for everyone.</p>
+      </section>
+    </section>
   </section>
   <section id="motivation" aria-labelledby="motivationh2">
     <h2 id="motivationh2">Motivation</h2>
@@ -61,11 +133,13 @@
   <section id="todo" aria-labelledby="todoh2">
     <h2 id="todoh2">To Do List</h2>
     <ol>
-      <li>Determine the copyright status of the original paper.</li>
-      <li>If still under copyright, attempt to get proper permission to publish.</li>
+      <li>Attempt to find biographical information on the author.</li>
       <li>Add Internet hyperlinks to as many of the Literature Cited references as possible.</li>
+      <li>Determine the copyright status of the original paper.</li>
+      <li>If still under copyright, attempt to get proper permission to publish.</li>      
       <li>Try to find an original print version of the journal issue so that high quality photographs of the plates can be taken.</li>
-      <li>Attempt to find biographical information on the author</li>
+      <li>Update <abbr>SVG</abbr> for Figure 1 with more accurate coast (especially <abbr>SFBA</abbr>)</li>
+      <li>Redraw Lakes and Rivers in Figure 1 using cubic Bézier curves (<abbr>SVG</abbr><code>path</code> node in place of <code>polyline</code>) for more accurate representation of the river paths and lake shores. This will be very labor intensive.</li>
     </ol>
   </section>
   <section id="copyright" aria-labelledby="copyrighth2">
