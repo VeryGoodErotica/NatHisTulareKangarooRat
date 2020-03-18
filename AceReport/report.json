@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/18/2020, 9:20:43 AM",
+  "dct:date": "3/18/2020, 9:30:30 AM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -209,7 +209,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-18T16:20:39Z"
+      "dcterms:modified": "2020-03-18T16:30:24Z"
     },
     "links": {}
   },
@@ -430,13 +430,13 @@
             "dct:description": "Element’s implicit ARIA role is not a good fallback for the (unsupported) role",
             "earl:pointer": {
               "cfi": [
-                "/4/2/6/2[allen-1895]"
+                "/4/2/6[allen-1895]"
               ],
               "css": [
                 "#allen-1895"
               ]
             },
-            "html": "<dt xmlns=\"http://www.w3.org/1999/xhtml\" id=\"allen-1895\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">Allen, J. A. <time datetime=\"1895\">1895</time></dt>"
+            "html": "<div xmlns=\"http://www.w3.org/1999/xhtml\" id=\"allen-1895\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
           },
           "earl:assertedBy": "aXe",
           "earl:mode": "automatic",
