@@ -41,6 +41,11 @@ span[id^="page"]::after {
   page-break-before: always;
 }
 
+figure.figure {
+  padding: 0;
+  margin: 0;
+}
+
 span.captitle {
   font-style: normal;
   font-weight: bold;
