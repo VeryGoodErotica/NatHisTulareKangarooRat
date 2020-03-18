@@ -48,7 +48,7 @@
       <p>It should of course be noted that with ePub, the viewer software sometimes will use its own font, and the user may also specify their preferred font. This unpredictability of the actual font used to display an ePub, by the way, is another reason why small-caps <em>generally</em> should be avoided in ePub even when a font bundled within the ePub does have the variant.</p>
     </section>
     <section id="pagenumbers" aria-labelledby="pagenumberingh3">
-      <h3 id="pagenumbersh3">Page Numbering</h3>
+      <h3 id="pagenumberingh3">Page Numbering</h3>
       <p>For best <a href="https://www.w3.org/standards/webdesign/accessibility" title="Internet Link">accessibility</a>, ePub content needs to be flowable. The concept of page numbers does not exist, the pagination depends upon the font size in combination with the screen size and orientation of the reading device. Using flowable content fixes many accessibility but creates another, citations of journal articles in other academic works often refer to a page number.</p>
       <p>To help solve this issue, I insert a <span id="pageNNN">Page NNN</span> marker to indicate the equivalent page change in the canonical journal article that corresponds with the current location within the ePub document.</p>
       <p>When the canonical journal article splits a paragraph between two pages, I can not place the marker mid-paragraph as that results in serious readability issues, so I place the marker either before or after the paragraph that wraps the page break, depending upon where the bulk of the paragraph content lies.</p>
