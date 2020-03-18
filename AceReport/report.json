@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/18/2020, 12:28:44 PM",
+  "dct:date": "3/18/2020, 2:41:35 PM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -181,7 +181,7 @@
     "hasSVGContentDocuments": false,
     "hasFormElements": false,
     "hasMathML": false,
-    "hasPageBreaks": false
+    "hasPageBreaks": true
   },
   "earl:testSubject": {
     "url": "../NaturalHistoryOfTheTulareKangarooRat.epub",
@@ -209,7 +209,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-18T19:28:40Z"
+      "dcterms:modified": "2020-03-18T21:41:30Z"
     },
     "links": {}
   },
@@ -233,9 +233,32 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "pass"
+        "earl:outcome": "fail"
       },
-      "assertions": [],
+      "assertions": [
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Publications with page breaks must declare the 'dc:source' metadata"
+          },
+          "earl:assertedBy": "Ace",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "serious",
+            "dct:title": "epub-pagesource",
+            "dct:description": "Ensures the source of page breaks is identified",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/navigation/pagelist.html",
+              "dct:title": "Page Navigation",
+              "dct:description": "Add a 'dc:source' metadata property to the Package Document"
+            },
+            "rulesetTags": [
+              "EPUB"
+            ]
+          }
+        }
+      ],
       "earl:testSubject": {
         "url": "EPUB/content.opf",
         "dct:title": "Natural History of the Tulare Kangaroo Rat"
@@ -830,6 +853,237 @@
               ],
               "css": [
                 "#huxley-1932 > p[role=\"doc-biblioentry\"]"
+              ]
+            },
+            "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "moderate",
+            "dct:title": "aria-dpub-role-fallback",
+            "dct:description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/",
+              "dct:title": "(no specific entry)",
+              "dct:description": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag131"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element’s implicit ARIA role is not a good fallback for the (unsupported) role",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/10/2[lang-1925]/2"
+              ],
+              "css": [
+                "#lang-1925 > p[role=\"doc-biblioentry\"]"
+              ]
+            },
+            "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "moderate",
+            "dct:title": "aria-dpub-role-fallback",
+            "dct:description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/",
+              "dct:title": "(no specific entry)",
+              "dct:description": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag131"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element’s implicit ARIA role is not a good fallback for the (unsupported) role",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/10/4[merriam-1904]/2"
+              ],
+              "css": [
+                "#merriam-1904 > p[role=\"doc-biblioentry\"]"
+              ]
+            },
+            "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "moderate",
+            "dct:title": "aria-dpub-role-fallback",
+            "dct:description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/",
+              "dct:title": "(no specific entry)",
+              "dct:description": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag131"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element’s implicit ARIA role is not a good fallback for the (unsupported) role",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/10/6[nelson-1918]/2"
+              ],
+              "css": [
+                "#nelson-1918 > p[role=\"doc-biblioentry\"]"
+              ]
+            },
+            "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "moderate",
+            "dct:title": "aria-dpub-role-fallback",
+            "dct:description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/",
+              "dct:title": "(no specific entry)",
+              "dct:description": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag131"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element’s implicit ARIA role is not a good fallback for the (unsupported) role",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/10/8[svihla-1930]/2"
+              ],
+              "css": [
+                "#svihla-1930 > p[role=\"doc-biblioentry\"]"
+              ]
+            },
+            "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "moderate",
+            "dct:title": "aria-dpub-role-fallback",
+            "dct:description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/",
+              "dct:title": "(no specific entry)",
+              "dct:description": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag131"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element’s implicit ARIA role is not a good fallback for the (unsupported) role",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/10/10[svihla-1932]/2"
+              ],
+              "css": [
+                "#svihla-1932 > p[role=\"doc-biblioentry\"]"
+              ]
+            },
+            "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "moderate",
+            "dct:title": "aria-dpub-role-fallback",
+            "dct:description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/",
+              "dct:title": "(no specific entry)",
+              "dct:description": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag131"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element’s implicit ARIA role is not a good fallback for the (unsupported) role",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/10/12[true-1886]/2"
+              ],
+              "css": [
+                "#true-1886 > p[role=\"doc-biblioentry\"]"
+              ]
+            },
+            "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "moderate",
+            "dct:title": "aria-dpub-role-fallback",
+            "dct:description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/",
+              "dct:title": "(no specific entry)",
+              "dct:description": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag131"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element’s implicit ARIA role is not a good fallback for the (unsupported) role",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/10/14[vorhies_and_taylor-1922]/2"
+              ],
+              "css": [
+                "#vorhies_and_taylor-1922 > p[role=\"doc-biblioentry\"]"
               ]
             },
             "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
