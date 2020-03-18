@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/18/2020, 11:19:36 AM",
+  "dct:date": "3/18/2020, 11:21:09 AM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -209,7 +209,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-18T18:19:32Z"
+      "dcterms:modified": "2020-03-18T18:21:05Z"
     },
     "links": {}
   },
@@ -628,10 +628,10 @@
             "dct:description": "Element’s implicit ARIA role is not a good fallback for the (unsupported) role",
             "earl:pointer": {
               "cfi": [
-                "/4/2/6/14[grinell-1922]/2"
+                "/4/2/6/14[grinnell-1922]/2"
               ],
               "css": [
-                "#grinell-1922 > p[role=\"doc-biblioentry\"]"
+                "#grinnell-1922 > p[role=\"doc-biblioentry\"]"
               ]
             },
             "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
