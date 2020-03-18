@@ -14,3 +14,11 @@ p[role="doc-biblioentry"] span.title {
 p[role="doc-biblioentry"] span.journal {
   font-style: italic;
 }
+
+p[role="doc-biblioentry"] span.DOI::before {
+  content: "["
+}
+
+p[role="doc-biblioentry"] span.DOI::after {
+  content: "]"
+}
