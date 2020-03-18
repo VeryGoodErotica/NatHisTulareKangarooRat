@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/18/2020, 9:32:56 AM",
+  "dct:date": "3/18/2020, 9:37:30 AM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -209,7 +209,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-18T16:32:51Z"
+      "dcterms:modified": "2020-03-18T16:37:26Z"
     },
     "links": {}
   },
@@ -460,16 +460,49 @@
           "@type": "earl:assertion",
           "earl:result": {
             "earl:outcome": "fail",
+            "dct:description": "Role must be one of the valid ARIA roles",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/6/2[allen-1895]/2"
+              ],
+              "css": [
+                "p[role=\"bilioentry\"]"
+              ]
+            },
+            "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"bilioentry\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "critical",
+            "dct:title": "aria-roles",
+            "dct:description": "Ensures all elements with a role attribute use a valid value",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/script/aria.html",
+              "dct:title": "ARIA",
+              "dct:description": "ARIA roles used must conform to valid values"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag412"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
             "dct:description": "Element has no ARIA role matching its epub:type",
             "earl:pointer": {
               "cfi": [
-                "/4/2/6[allen-1895]"
+                "/4/2/6/2[allen-1895]/2"
               ],
               "css": [
-                "#allen-1895"
+                "p[role=\"bilioentry\"]"
               ]
             },
-            "html": "<div xmlns=\"http://www.w3.org/1999/xhtml\" id=\"allen-1895\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\">"
+            "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"bilioentry\">"
           },
           "earl:assertedBy": "aXe",
           "earl:mode": "automatic",
