@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/18/2020, 9:46:15 AM",
+  "dct:date": "3/18/2020, 10:19:27 AM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -209,7 +209,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-18T16:46:11Z"
+      "dcterms:modified": "2020-03-18T17:19:23Z"
     },
     "links": {}
   },
@@ -467,6 +467,39 @@
               ],
               "css": [
                 "#bailey-1905 > p[role=\"doc-biblioentry\"]"
+              ]
+            },
+            "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "moderate",
+            "dct:title": "aria-dpub-role-fallback",
+            "dct:description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/",
+              "dct:title": "(no specific entry)",
+              "dct:description": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag131"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element’s implicit ARIA role is not a good fallback for the (unsupported) role",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/6/6[bailey-1931]/2"
+              ],
+              "css": [
+                "#bailey-1931 > p[role=\"doc-biblioentry\"]"
               ]
             },
             "html": "<p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"biblioentry\" role=\"doc-biblioentry\">"
