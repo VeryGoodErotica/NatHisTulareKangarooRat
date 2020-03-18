@@ -7,18 +7,38 @@ p[role="doc-biblioentry"] span.author {
   font-weight: bold;
 }
 
+p[role="doc-biblioentry"] span.author::after {
+  content: ".";
+}
+
 p[role="doc-biblioentry"] span.title {
   text-decoration: underline;
+}
+
+p[role="doc-biblioentry"] span.title::after {
+  content: ".";
 }
 
 p[role="doc-biblioentry"] span.journal {
   font-style: italic;
 }
 
-p[role="doc-biblioentry"] span.DOI::before {
+p[role="doc-biblioentry"] span.journal::after {
+  content: ",";
+}
+
+p[role="doc-biblioentry"] span.publisher::after {
+  content: ",";
+}
+
+p[role="doc-biblioentry"] span.details::after {
+  content: ".";
+}
+
+p[role="doc-biblioentry"] span.doi::before {
   content: "["
 }
 
-p[role="doc-biblioentry"] span.DOI::after {
+p[role="doc-biblioentry"] span.doi::after {
   content: "]"
 }
