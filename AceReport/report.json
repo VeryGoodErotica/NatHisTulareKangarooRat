@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/18/2020, 3:16:02 PM",
+  "dct:date": "3/18/2020, 3:31:04 PM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -210,7 +210,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-18T22:15:57Z"
+      "dcterms:modified": "2020-03-18T22:31:00Z"
     },
     "links": {}
   },
@@ -256,40 +256,9 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "fail"
+        "earl:outcome": "pass"
       },
-      "assertions": [
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "aria-label attribute does not exist or is empty\n  Element has no title attribute or the title attribute is empty",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/2[page117]"
-              ],
-              "css": [
-                "#page117"
-              ]
-            },
-            "html": "<span xmlns=\"http://www.w3.org/1999/xhtml\" id=\"page117\" role=\"doc-pagebreak\"></span>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "pagebreak-label",
-            "dct:description": "Ensure page markers have an accessible label",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/navigation/pagelist.html",
-              "dct:title": "Page Breaks"
-            },
-            "rulesetTags": [
-              "cat.epub"
-            ]
-          }
-        }
-      ],
+      "assertions": [],
       "earl:testSubject": {
         "url": "introduction.xhtml",
         "dct:title": "Introduction"
@@ -298,70 +267,9 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "fail"
+        "earl:outcome": "pass"
       },
-      "assertions": [
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "aria-label attribute does not exist or is empty\n  Element has no title attribute or the title attribute is empty",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/2[page117b]"
-              ],
-              "css": [
-                "#page117b"
-              ]
-            },
-            "html": "<span xmlns=\"http://www.w3.org/1999/xhtml\" id=\"page117b\" role=\"doc-pagebreak\"></span>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "pagebreak-label",
-            "dct:description": "Ensure page markers have an accessible label",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/navigation/pagelist.html",
-              "dct:title": "Page Breaks"
-            },
-            "rulesetTags": [
-              "cat.epub"
-            ]
-          }
-        },
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "aria-label attribute does not exist or is empty\n  Element has no title attribute or the title attribute is empty",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/12/2[page119]"
-              ],
-              "css": [
-                "#page119"
-              ]
-            },
-            "html": "<span xmlns=\"http://www.w3.org/1999/xhtml\" id=\"page119\" role=\"doc-pagebreak\"></span>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "pagebreak-label",
-            "dct:description": "Ensure page markers have an accessible label",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/navigation/pagelist.html",
-              "dct:title": "Page Breaks"
-            },
-            "rulesetTags": [
-              "cat.epub"
-            ]
-          }
-        }
-      ],
+      "assertions": [],
       "earl:testSubject": {
         "url": "methods.xhtml",
         "dct:title": "Methods and Acknowledgements"
@@ -370,100 +278,9 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "fail"
+        "earl:outcome": "pass"
       },
-      "assertions": [
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "aria-label attribute does not exist or is empty\n  Element has no title attribute or the title attribute is empty",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/2[page119b]"
-              ],
-              "css": [
-                "#page119b"
-              ]
-            },
-            "html": "<span xmlns=\"http://www.w3.org/1999/xhtml\" id=\"page119b\" role=\"doc-pagebreak\"></span>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "pagebreak-label",
-            "dct:description": "Ensure page markers have an accessible label",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/navigation/pagelist.html",
-              "dct:title": "Page Breaks"
-            },
-            "rulesetTags": [
-              "cat.epub"
-            ]
-          }
-        },
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "aria-label attribute does not exist or is empty\n  Element has no title attribute or the title attribute is empty",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/6[structure]/2/8[page120]"
-              ],
-              "css": [
-                "#page120"
-              ]
-            },
-            "html": "<span xmlns=\"http://www.w3.org/1999/xhtml\" id=\"page120\" role=\"doc-pagebreak\"></span>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "pagebreak-label",
-            "dct:description": "Ensure page markers have an accessible label",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/navigation/pagelist.html",
-              "dct:title": "Page Breaks"
-            },
-            "rulesetTags": [
-              "cat.epub"
-            ]
-          }
-        },
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "aria-label attribute does not exist or is empty\n  Element has no title attribute or the title attribute is empty",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/6[structure]/12[page122]"
-              ],
-              "css": [
-                "#page122"
-              ]
-            },
-            "html": "<span xmlns=\"http://www.w3.org/1999/xhtml\" id=\"page122\" role=\"doc-pagebreak\"></span>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "pagebreak-label",
-            "dct:description": "Ensure page markers have an accessible label",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/navigation/pagelist.html",
-              "dct:title": "Page Breaks"
-            },
-            "rulesetTags": [
-              "cat.epub"
-            ]
-          }
-        }
-      ],
+      "assertions": [],
       "earl:testSubject": {
         "url": "burrow.xhtml",
         "dct:title": "Burrow Systems"
@@ -516,40 +333,9 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "fail"
+        "earl:outcome": "pass"
       },
-      "assertions": [
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "aria-label attribute does not exist or is empty\n  Element has no title attribute or the title attribute is empty",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2[plate1]/2[page121]"
-              ],
-              "css": [
-                "#page121"
-              ]
-            },
-            "html": "<span xmlns=\"http://www.w3.org/1999/xhtml\" id=\"page121\" role=\"doc-pagebreak\"></span>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "pagebreak-label",
-            "dct:description": "Ensure page markers have an accessible label",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/navigation/pagelist.html",
-              "dct:title": "Page Breaks"
-            },
-            "rulesetTags": [
-              "cat.epub"
-            ]
-          }
-        }
-      ],
+      "assertions": [],
       "earl:testSubject": {
         "url": "plate1.xhtml",
         "dct:title": "Plate 1"
