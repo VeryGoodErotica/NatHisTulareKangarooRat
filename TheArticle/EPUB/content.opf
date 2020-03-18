@@ -11,6 +11,8 @@
     <meta property="role" refines="#author0" scheme="marc:relators">aut</meta>
     <dc:identifier id="prng-uuid">9ffee631-54e2-4a7b-824e-af1a8d18ac20</dc:identifier>
     <meta property="marc:scheme" refines="#prng-uuid">uuid</meta>
+    <dc:source id="src-doi">10.2307/1374908</dc:source>
+    <meta refines="#src-doi" property="identifier-type" scheme="onix:codelist5">06</meta>
     <meta property="dcterms:modified">2020-03-13T02:36:30Z</meta>
     <!-- a11y -->
     <meta property="schema:accessibilitySummary">This publication attempts to conform to WCAG 2.0 Level AA. Validation by an accessibility expert has not yet been done.</meta>
