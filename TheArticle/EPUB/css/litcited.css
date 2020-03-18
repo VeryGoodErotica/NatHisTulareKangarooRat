@@ -1,6 +1,8 @@
 p[role="doc-biblioentry"] {
   padding-left: 1.5em;
   text-indent:-1.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
 p[role="doc-biblioentry"] span.author {
