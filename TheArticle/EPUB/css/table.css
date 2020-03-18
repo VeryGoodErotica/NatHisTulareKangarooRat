@@ -199,6 +199,11 @@ tbody tr.header th {
 }
 
 /* table 3 footnote */
+figure.tablefig {
+  padding: 0;
+  margin: 0;
+}
+
 #dogalarm {
   text-align: left;
   font-style: italic;
