@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/18/2020, 2:41:35 PM",
+  "dct:date": "3/18/2020, 2:56:26 PM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -194,6 +194,7 @@
       "dc:date": "2020-03-31",
       "dc:creator": "Donald T. Tappe",
       "dc:identifier": "9ffee631-54e2-4a7b-824e-af1a8d18ac20",
+      "dc:source": "10.2307/1374908",
       "schema:accessibilitySummary": "This publication attempts to conform to WCAG 2.0 Level AA. Validation by an accessibility expert has not yet been done.",
       "schema:accessMode": [
         "textual",
@@ -209,7 +210,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-18T21:41:30Z"
+      "dcterms:modified": "2020-03-18T21:56:21Z"
     },
     "links": {}
   },
@@ -233,32 +234,9 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "fail"
+        "earl:outcome": "pass"
       },
-      "assertions": [
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "Publications with page breaks must declare the 'dc:source' metadata"
-          },
-          "earl:assertedBy": "Ace",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "epub-pagesource",
-            "dct:description": "Ensures the source of page breaks is identified",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/navigation/pagelist.html",
-              "dct:title": "Page Navigation",
-              "dct:description": "Add a 'dc:source' metadata property to the Package Document"
-            },
-            "rulesetTags": [
-              "EPUB"
-            ]
-          }
-        }
-      ],
+      "assertions": [],
       "earl:testSubject": {
         "url": "EPUB/content.opf",
         "dct:title": "Natural History of the Tulare Kangaroo Rat"
