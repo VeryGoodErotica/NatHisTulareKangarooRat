@@ -1,3 +1,7 @@
+ul.bib {
+  list-style-type: none;
+}
+
 p[role="doc-biblioentry"] {
   padding-left: 1.5em;
   text-indent:-1.5em;
