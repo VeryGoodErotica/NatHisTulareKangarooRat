@@ -44,7 +44,7 @@
     <item href="TitlePage.xhtml" id="TitlePage" media-type="application/xhtml+xml" properties="svg"/>
   <!-- The article content -->
     <item href="ToC4spine.xhtml" id="toc4spine" media-type="application/xhtml+xml"/>
-    <item href="introduction.xhtml" id="introduction" media-type="application/xhtml+xml"/>
+    <item href="abstract.xhtml" id="abstract" media-type="application/xhtml+xml"/>
     <item href="methods.xhtml" id="methods" media-type="application/xhtml+xml"/>
     <item href="burrow.xhtml" id="burrow" media-type="application/xhtml+xml"/>
     <item href="food.xhtml" id="food" media-type="application/xhtml+xml"/>
@@ -89,7 +89,7 @@
   <spine>
     <itemref idref="TitlePage"/>
     <itemref idref="toc4spine"/>
-    <itemref idref="introduction"/>
+    <itemref idref="abstract"/>
     <itemref idref="methods"/>
     <itemref idref="burrow"/>
     <itemref idref="food"/>
