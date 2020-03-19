@@ -3,74 +3,74 @@ ul.bib {
   padding-left: 0;
 }
 
-p[role="doc-biblioentry"] {
+p.bib {
   padding-left: 1.5em;
   text-indent:-1.5em;
   margin-top: 0em;
   margin-bottom: 0.2em;
 }
 
-p[role="doc-biblioentry"] span.author {
+p.bib span.author {
   font-weight: bold;
 }
 
-p[role="doc-biblioentry"] span.author::after {
+p.bib span.author::after {
   content: ".";
 }
 
-p[role="doc-biblioentry"] span.title {
+p.bib span.title {
   text-decoration: underline;
 }
 
-p[role="doc-biblioentry"] span.title::after {
+p.bib span.title::after {
   content: ".";
 }
 
-p[role="doc-biblioentry"] span.journal {
+p.bib span.journal {
   font-style: italic;
 }
 
-p[role="doc-biblioentry"] span.journal::after {
+p.bib span.journal::after {
   content: ",";
 }
 
-p[role="doc-biblioentry"] span.publisher::after {
+p.bib span.publisher::after {
   content: ",";
 }
 
-p[role="doc-biblioentry"] span.details::after {
+p.bib span.details::after {
   content: ".";
 }
 
-p[role="doc-biblioentry"] span.doi::before {
+p.bib span.doi::before {
   content: "["
 }
 
-p[role="doc-biblioentry"] span.doi::after {
+p.bib span.doi::after {
   content: "]"
 }
 
-p[role="doc-biblioentry"] span.pdf::before {
+p.bib span.pdf::before {
   content: "["
 }
 
-p[role="doc-biblioentry"] span.pdf::after {
+p.bib span.pdf::after {
   content: "]"
 }
 
-p[role="doc-biblioentry"] span.note {
+p.bib span.note {
   font-style: italic;
 }
 
-p[role="doc-biblioentry"] span.note::before {
+p.bib span.note::before {
   content: "("
 }
 
-p[role="doc-biblioentry"] span.note::after {
+p.bib span.note::after {
   content: ")"
 }
 
-p[role="doc-biblioentry"] span.note em {
+p.bib span.note em {
   font-style: italic;
   font-weight: bold;
 }
