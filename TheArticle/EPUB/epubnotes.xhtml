@@ -22,7 +22,7 @@
     </ol>
   </div>
   <section id="original" aria-labelledby="originalh2">
-    <h2 id="originalh2">Canonical Jornal Article</h2>
+    <h2 id="originalh2">Canonical Journal Article</h2>
     <p>The article was originally published in <span class="jtitle">Journal of Mammalogy</span>, Volume 22, Issue 2, <time datetime="1941-05-14">14 May 1941</time>, Pages 117&#8211;148, <a href="https://doi.org/10.2307/1374908" title="Internet Link">https://doi.org/10.2307/1374908</a>. I refer to this as the <dfn>canonical journal article</dfn> in the rest of this appendix chapter.</p>
     <p>If you are citing the work of Donald T. Tappe in this article, please cite the canonical journal article rather than this ePub. You should of course also verify the information in the canonical journal article as well before citing it.</p>
   </section>
@@ -62,9 +62,9 @@
       <p>When porting the tabular data present in the canonical journal article to ePub, I paid very close attention to both accessibility needs and to how well the tables displayed on a small-screen display. The small-screen display I tested with is my Pixel 3XL using the <a href="https://play.google.com/store/apps/details?id=com.faultexception.reader" title="Internet Resource">Lithium: EPUB Reader</a>. Unfortunately I do not have the ability to test the tabular data in a screen reader, but I did pay very close attention to the accessibility publications, including those provided by The <abbr>DAISY</abbr> Consortium in the <a href="http://kb.daisy.org/publishing/docs/" title="Internet Resource">Accessible Publishing Knowledge Base</a>.</p>
       <p>There are two issues with tabular data that plague small-screen devices. The first is horizontal width, and the second is the number of table rows causing the table to be split across more than one page.</p>
       <p>The table width issue was only a small-screen width issue for me with Table 5, which has seven columns.</p>
-      <p>To help solve the issue, I altered the cell content of the table header including the use of two abbreviation within the table column headers that are not used in the canonical journal article. This <em>mostly</em> solved the problem.</p>
+      <p>To help solve the issue, I altered the cell content of the table header including the use of two abbreviation within the table column headers that are not used in the canonical journal article. This <em>mostly</em> solved the problem, though on small-device screens this table still has issues:</p>
       <figure id="tbl5" aria-labelledby="tbl5figcap">
-        <img src="auximg/ExTable5.png" alt="The column headers and first three rows of data from Table 5 as shown on a small-screen display. In the first column, the words ‘AGE’, ‘days’, and ‘birth’ are broken over multiple lines. In the second column, the word ‘grams’ is broken up over multiple lines, and the numeric data points are broken up at the decimal point over multiple lines"/>
+        <img src="auximg/ExTable5.png" alt="The column headers and first three rows of data from Table 5 as shown on a small-screen display. In the first column header row, the words ‘BODY’, ‘TOTAL’, and ‘EAR’ are each broken up to wrap two lines. In the second column header row, the words ‘days’, and ‘grams’ are each broken up to wrap two lines. In the data rows, multiple though a minority of data cells have the numerical value broken up at the decimal point to wrap two lines."/>
         <figcaption id="tbl5figcap">Screenshot of Table 5 on a small-screen device</figcaption>
       </figure>
       <p>I did not like altering the content of the table header in the canonical journal article but it was absolutely necessary.</p>
@@ -114,8 +114,10 @@
       </section>
       <section id="litcited" aria-labelledby="litcitedh3">
         <h3 id="litcitedh3">Literature Cited Changes</h3>
-        <p>The canonical journal article uses a lot of abbreviations for journal publication names that do not work very well with screen readers used by the visually impaired and also are confusing to people who are not familiar with the various journals. I expanded those abbreviations to the full publication names.</p>
-        <p>I also changed the format of the Literature Cited to use an <abbr>HTML</abbr> definitiom list using the aurthor’s name and year of publication as the definition term, and the title and publication as the definition. Where the canonical journal article cites more than piece of literature by the same author, the canonical journal article uses a long line for the author name to indicate it is the same author as the entry above. This is visually readily apparent but it is confusing for screen readers. I put the author name in place, it works better that way for everyone.</p>
+        <p>The canonical journal article uses a lot of abbreviations for journal publication names that do not work very well with screen readers used by the visually impaired and also are confusing to people who are not familiar with the various journals. I expanded those abbreviations to the full publication names, and also expanded most other abbreviations within the Literature Cited section.</p>
+        <p>In a few places, the entry for the Literature Cited in the canonical journal article had the volume number but lacked the issue number and/or the month of publication. When I was able to determine that information, I added it.</p>
+        <p>Where the canonical journal article cites more than piece of literature by the same author, the canonical journal article uses a long line for the author name to indicate it is the same author as the entry above. This is visually readily apparent but it is confusing for screen readers. I put the author name in place, it works better that way for everyone.</p>
+        <p>When I was able to locate a Digital Object Identifier (<abbr>DOI</abbr>) for literature cited, I added that as well. Note that many older academic publications do not yet have a <abbr>DOI</abbr> and some may never have a <abbr>DOI</abbr>.</p>
       </section>
     </section>
   </section>
