@@ -51,6 +51,8 @@
     <item href="economic.xhtml" id="economic" media-type="application/xhtml+xml"/>
     <item href="water.xhtml" id="water" media-type="application/xhtml+xml"/>
     <item href="activities.xhtml" id="activities" media-type="application/xhtml+xml"/>
+    <item href="sanitation.xhtml" id="sanitation" media-type="application/xhtml+xml"/>
+    <item href="voice.xhtml" id="voice" media-type="application/xhtml+xml"/>
 
     <item href="plate1.xhtml" id="pl1" media-type="application/xhtml+xml"/>
     <item href="table1.xhtml" id="tbl1" media-type="application/xhtml+xml"/>
@@ -96,6 +98,8 @@
     <itemref idref="economic"/>
     <itemref idref="water"/>
     <itemref idref="activities"/>
+    <itemref idref="sanitation"/>
+    <itemref idref="voice"/>
 
     <itemref idref="pl1"/>
     <itemref idref="tbl1"/>
