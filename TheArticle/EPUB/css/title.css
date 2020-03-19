@@ -15,8 +15,12 @@ h3 {
 
 p {
   text-align: center;
-  margin-top: 0em;
+  margin-top: 0.3em;
   margin-bottom: 0em;
+}
+
+h2#jom {
+  margin-top: 0.1em;
 }
 
 text.logo {
