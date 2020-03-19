@@ -44,3 +44,28 @@ p[role="doc-biblioentry"] span.doi::before {
 p[role="doc-biblioentry"] span.doi::after {
   content: "]"
 }
+
+p[role="doc-biblioentry"] span.pdf::before {
+  content: "["
+}
+
+p[role="doc-biblioentry"] span.pdf::after {
+  content: "]"
+}
+
+p[role="doc-biblioentry"] span.note {
+  font-style: italic;
+}
+
+p[role="doc-biblioentry"] span.note::before {
+  content: "("
+}
+
+p[role="doc-biblioentry"] span.note::after {
+  content: ")"
+}
+
+p[role="doc-biblioentry"] span.note em {
+  font-style: italic;
+  font-weight: bold;
+}

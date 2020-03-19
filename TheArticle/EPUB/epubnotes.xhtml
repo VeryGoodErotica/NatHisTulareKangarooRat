@@ -13,7 +13,8 @@
   <div role="navigation" aria-labelledby="navh2">
     <h2 id="navh2">Contents:</h2>
     <ol>
-      <li><a href="#original">Original Article</a></li>
+      <li><a href="#original">Canonical Journal Article</a></li>
+      <li><a href="#port">ePub Port</a></li>
       <li><a href="#alterations">Alterations</a></li>
       <li><a href="#motivation">Motivation</a></li>
       <li><a href="#todo">To Do List</a></li>
@@ -25,6 +26,10 @@
     <h2 id="originalh2">Canonical Journal Article</h2>
     <p>The article was originally published in <span class="jtitle">Journal of Mammalogy</span>, Volume 22, Issue 2, <time datetime="1941-05-14">14 May 1941</time>, Pages 117&#8211;148, <a href="https://doi.org/10.2307/1374908" title="Internet Link">https://doi.org/10.2307/1374908</a>. I refer to this as the <dfn>canonical journal article</dfn> in the rest of this appendix chapter.</p>
     <p>If you are citing the work of Donald T. Tappe in this article, please cite the canonical journal article rather than this ePub. You should of course also verify the information in the canonical journal article as well before citing it.</p>
+  </section>
+  <section id="port" aria-labelledby="porth2">
+    <h2 id="porth2">ePub Port</h2>
+    <p>The canonical journal article was ported to ePub by Michael A. Peters (me) for Pipfrosch Press, a new company started by Michael A. Peters with the specific goal of making natural history publications accessible to those with disabilities, whether those disabilities are the ‘traditional’ kind covered by the American for Disabilities Act, or whether they are the ‘societal’ kind, such as financial poverty or the lack of access to higher education. In my experience, ‘traditional’ disabilities often lead to ‘societal’ disabilities, our society needs to address both or our addressing of ‘traditional’ disabilities is incomplete. Pipfrosch Press hopes to help address those issues.</p>
   </section>
   <section id="alterations" aria-labelledby="alterationsh2">
     <h2 id="alterationsh2">Alterations</h2>
@@ -59,7 +64,7 @@
     </section>
     <section id="tables" aria-labelledby="tablesh3">
       <h3 id="tablesh3">Table Modifications</h3>
-      <p>When porting the tabular data present in the canonical journal article to ePub, I paid very close attention to both accessibility needs and to how well the tables displayed on a small-screen display. The small-screen display I tested with is my Pixel 3XL using the <a href="https://play.google.com/store/apps/details?id=com.faultexception.reader" title="Internet Resource">Lithium ePyb viewer</a>. Unfortunately I do not have the ability to test the tabular data in a screen reader, but I did pay very close attention to the accessibility publications, including those provided by The <abbr>DAISY</abbr> Consortium in the <a href="http://kb.daisy.org/publishing/docs/" title="Internet Resource">Accessible Publishing Knowledge Base</a>.</p>
+      <p>When porting the tabular data present in the canonical journal article to ePub, I paid very close attention to both accessibility needs and to how well the tables displayed on a small-screen display. The small-screen display I tested with is my Pixel 3XL using the <a href="https://play.google.com/store/apps/details?id=com.faultexception.reader" title="Internet Resource">Lithium ePub viewer</a>. Unfortunately I do not have the ability to test the tabular data in a screen reader, but I did pay very close attention to the accessibility publications, including those provided by The <abbr>DAISY</abbr> Consortium in the <a href="http://kb.daisy.org/publishing/docs/" title="Internet Resource">Accessible Publishing Knowledge Base</a>.</p>
       <p>There are two issues with tabular data that plague small-screen devices. The first is horizontal width, and the second is the number of table rows causing the table to be split across more than one page.</p>
       <p>The table width issue was only a small-screen width issue for me with Table 5, which has seven columns.</p>
       <p>To help solve the issue, I altered the cell content of the table header including the use of two abbreviation within the table column headers that are not used in the canonical journal article. This <em>mostly</em> solved the problem, though on small-device screens this table still has issues:</p>
@@ -67,8 +72,19 @@
         <img src="auximg/ExTable5.png" alt="The column headers and first three rows of data from Table 5 as shown on a small-screen display. In the first column header row, the words ‘BODY’, ‘TOTAL’, and ‘EAR’ are each broken up to wrap two lines. In the second column header row, the words ‘days’, and ‘grams’ are each broken up to wrap two lines. In the data rows, multiple though a minority of data cells have the numerical value broken up at the decimal point to wrap two lines."/>
         <figcaption id="tbl5figcap">Screenshot of Table 5 on a small-screen device</figcaption>
       </figure>
-      <p>I did not like altering the content of the table header in the canonical journal article but it was absolutely necessary.</p>
-      <p>The issue of too many data rows for display on a single page still exists. In cases where the table header in the canonical journal article used more than three lines when displayed on my small-screen device, I moved the table caption contents outside of the table and placed it in a table description section <em>directly</em> following the table, with a summarized table caption used in the table itself.</p>
+      <p>Note that if the user of a small-screen device uses a larger font size, as many do, the problem will with that table will be worse and may exist with other tables as well.</p>
+
+      <p>The issue of too many data rows for display on a single page will onviously never be completely solved but I was able to reduce the impact with several of the tables on a small-screen device for this article.</p>
+      <p>With Table 3 I was able to completely solve the issue, on my device at my font size, by using two measures.</p>
+      <p>First I moved the very long caption in the canonical journal article out of the table itself and into a table description section <em>directly</em> following the table. Within the table itself, I added a much shorter summary caption with a link to that table description.</p>
+      <p>Secondly, in the canonical journal article there is a useless data row where the author just shows his math for how the author achieved the total. It is the same data in the last column that shows the total, except the number of seconds has not been reduced to represent less than a minute with the overflow added to the number of minutes.</p>
+      <p>With that useless row removed, in combination with moving the very long table caption outside the table, the table then completely fit on one screen.</p>
+      <p>With Table 5, there are enough data rows that it actually consumed three pages on a small screen device. Again I took two measures to lessen the issue.</p>
+      <p>As with Table 3, I moved the very long table caption used in the canonical journal article outside the table and replaced it inside the table with a shorter summary caption.</p>
+      <p>Secondly, the last five columns all measure a length in millimeters. By moving the word ‘Length’ outside of the first of column headers into the second row along with ‘millimeters’ in a single table header that spans five columns, it allows small-screen devices to compress the data columns enough that occurrences of wrapping data in a column are reduced, which reduces the vertical space needed for the table.</p>
+      <p>The combination of these two changes allows the entire table to fit on just two pages of my small-screen device.</p>
+      <p>Making these changes to Tables 3 and 5 might be considered ‘taboo’ to a purist, but purists can read the <abbr>PDF</abbr> of the canonical journal article. These changes did not alter the data presented, but did make it easier for users to consume the data presented on many devices, and I believe effective communication of the data is far more important than nostalgic purity.</p>
+      <p>One of my <em>personal</em> complaints about scientific publishing is that it is too exclusive, access to journal articles is very difficult for those of us who are not part of the ‘in crowd’, hence why so many in the general public are so easily convinced of absurdities like a link between vaccinations and autism or that climate change is a hoax.</p>
       <section id="tablejs" aria-labelledby="tablejsh4">
         <h4 id="tablejsh4">JavaScript Solution</h4>
         <p>This is not implemented.</p>
@@ -128,8 +144,8 @@
     <p>There is not much natural history about that species that has been published, so to adequately describe it within the field guide, I needed to look up what was published about its closest relative&#8212;the Tulare Kangaroo Rat.</p>
     <p>Getting access to this paper was difficult. I am financially poor, the <abbr>USD</abbr> $35.00 that Oxford Academic wanted was really out of my range, especially when I have been buying bird and plant and other field guides. Getting to libraries is difficult, I am not allowed to drive for medical reasons and spending hours on public transportation to get to one is a risk I can not take when I can not afford the medical bill that catching the Corona Virus would potentially cost to treat.</p>
     <p>When I finally did get access to the paper, the detail the author put into the paper really blew me away. I learned a lot, and I believe after reading it that I have a better chance of potentially recognizing a Berkeley Kangaroo Rat burrow system should I stumble upon in the Mount Diablo Foothills, giving me the possibility of staking the location out to visually confirm their presence at night and potentially report it to the appropriate wildlife authorities.</p>
-    <p>A goal of Pipfrosch Press has always been to publish ePub versions of Public Domain natural history accounts. I was planning to start with Baird &amp; Girard species descriptions from the 19th century which are without a doubt part of the Public Domain. However when I read this article, if this article be made accessible to naturalists in the Bay Area in a digital format that is easy to read on devices like smart phones where <abbr>PDF</abbr> has serious usability issues, <em>maybe</em> it will aid in the discovery of a remnant population that can be preserved.</p>
-    <p>Extinction is forever, if a remnant population does exist, wildlife management has to know about it before they can protect it.</p>
+    <p>A goal of my Pipfrosch Press idea has always been to publish ePub versions of Public Domain natural history accounts. I was planning to start with Baird &amp; Girard species descriptions from the 19th century which are without a doubt part of the Public Domain. However when I read this article, if this article can be made accessible to naturalists in the Bay Area in a digital format that is easy to read on devices like smart phones where <abbr>PDF</abbr> has serious usability issues, <em>maybe</em> it will aid in the discovery of a remnant population that can be preserved.</p>
+    <p>Extinction is forever, if a remnant population does exist, wildlife management has to know about it so they can protect it.</p>
   </section>
   <section id="todo" aria-labelledby="todoh2">
     <h2 id="todoh2">To Do List</h2>
