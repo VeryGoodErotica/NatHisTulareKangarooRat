@@ -40,12 +40,12 @@
     </section>
     <section id="fonts" aria-labelledby="fontsh3">
       <h3 id="fontsh3">Font Changes</h3>
-      <p>The canonical journal article appears to use the Times font, inclusing use of the small-caps variant.</p>
+      <p>The canonical journal article appears to use the Times font, including use of the small-caps variant.</p>
       <p>The Times font was designed for very high resolution printing presses. It does not work as well on screen displays, and serif fonts also are more likely to trigger neurological disabilities such as dyslexia than sans-serif fonts.</p>
       <p>I chose to use <a href="https://01.org/clear-sans" title="Internet Resource">Intel Clear Sans</a> because it is a sans-serif font that is designed specifically to work well with on-screen legibility as well as with print. It also has a redistribution-friendly license.</p>
       <p>With my own personal eye fatigue reading issues, I have found that Intel Clear Sans is easier on my eyes even than Helvetica.</p>
-      <p>Clear Sans lacks a small-caps variant, so text in the canonical journal article that are typeset with small-caps are not typeset  with small-caps in this ePub. Small-caps can be emulated, but the result of emulating small-caps leads to eye and brain fatigue for many users, small-caps should only be used when the <em>genuine font variant</em> exists.</p>
-      <p>It should of course be noted that with ePub, the viewer software sometimes will use its own font, and the user may also specify their preferred font. This unpredictability of the actual font used to display an ePub, by the way, is another reason why small-caps <em>generally</em> should be avoided in ePub even when a font bundled within the ePub does have the variant.</p>
+      <p>Clear Sans lacks a small-caps variant, so text in the canonical journal article that is typeset with small-caps is not typeset  with small-caps in this ePub. Small-caps can be emulated, but the result of emulating small-caps leads to eye and brain fatigue for many users, small-caps should only be used when the <em>genuine font variant</em> exists.</p>
+      <p>It should of course be noted that with ePub, the viewer software sometimes will use its own font, and the user may also specify their preferred font.</p>
     </section>
     <section id="pagenumbers" aria-labelledby="pagenumberingh3">
       <h3 id="pagenumberingh3">Page Numbering</h3>
@@ -59,7 +59,7 @@
     </section>
     <section id="tables" aria-labelledby="tablesh3">
       <h3 id="tablesh3">Table Modifications</h3>
-      <p>When porting the tabular data present in the canonical journal article to ePub, I paid very close attention to both accessibility needs and to how well the tables displayed on a small-screen display. The small-screen display I tested with is my Pixel 3XL using the <a href="https://play.google.com/store/apps/details?id=com.faultexception.reader" title="Internet Resource">Lithium: EPUB Reader</a>. Unfortunately I do not have the ability to test the tabular data in a screen reader, but I did pay very close attention to the accessibility publications, including those provided by The <abbr>DAISY</abbr> Consortium in the <a href="http://kb.daisy.org/publishing/docs/" title="Internet Resource">Accessible Publishing Knowledge Base</a>.</p>
+      <p>When porting the tabular data present in the canonical journal article to ePub, I paid very close attention to both accessibility needs and to how well the tables displayed on a small-screen display. The small-screen display I tested with is my Pixel 3XL using the <a href="https://play.google.com/store/apps/details?id=com.faultexception.reader" title="Internet Resource">Lithium ePyb viewer</a>. Unfortunately I do not have the ability to test the tabular data in a screen reader, but I did pay very close attention to the accessibility publications, including those provided by The <abbr>DAISY</abbr> Consortium in the <a href="http://kb.daisy.org/publishing/docs/" title="Internet Resource">Accessible Publishing Knowledge Base</a>.</p>
       <p>There are two issues with tabular data that plague small-screen devices. The first is horizontal width, and the second is the number of table rows causing the table to be split across more than one page.</p>
       <p>The table width issue was only a small-screen width issue for me with Table 5, which has seven columns.</p>
       <p>To help solve the issue, I altered the cell content of the table header including the use of two abbreviation within the table column headers that are not used in the canonical journal article. This <em>mostly</em> solved the problem, though on small-device screens this table still has issues:</p>
