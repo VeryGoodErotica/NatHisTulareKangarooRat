@@ -9,6 +9,7 @@ pushd ${TMP}
 git clone https://github.com/VeryGoodErotica/NatHisTulareKangarooRat.git
 
 cd NatHisTulareKangarooRat/TheArticle/EPUB
+[ -f ~/PipfroschPressLogo/NewPipfroschPress5.png ] && cp ~/PipfroschPressLogo/NewPipfroschPress5.png auximg/
 python3 ../../tools/updateTimestamp.py content.opf
 cd fonts
 rm -f .gitignore
