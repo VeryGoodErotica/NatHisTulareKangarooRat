@@ -27,6 +27,7 @@ h3 {
 
 figure {
   position: fixed;
+  display: block;
   bottom: 0px;
 }
 
