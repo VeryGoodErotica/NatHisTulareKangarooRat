@@ -23,20 +23,6 @@ abbr.italic {
   font-style: italic;
 }
 
-span[id^="page"] {
-  text-decoration: underline;
-  font-style: italic;
-  font-size: small;
-}
-
-span[id^="page"]::before {
-  content: "[[[";
-}
-
-span[id^="page"]::after {
-  content: "]]]";
-}
-
 .pbb {
   page-break-before: always;
 }
