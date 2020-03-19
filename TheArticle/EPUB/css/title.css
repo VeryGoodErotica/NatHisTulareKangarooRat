@@ -4,13 +4,7 @@ h1 {
 
 h2 {
   text-align: center;
-  margin-bottom: 0.3em;
-}
-
-h3 {
-  text-align: center;
-  margin-top: 0.3em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.4em;
 }
 
 p {
@@ -24,7 +18,9 @@ h2#jom {
 }
 
 h3 {
-  margin-top: 0.1em;
+  text-align: center;
+  margin-top: 0.3em;
+  margin-bottom: 0em;
   font-size: 0.9em;
 }
 
