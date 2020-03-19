@@ -1,0 +1,11 @@
+text.logo {
+  font-family: 'Clear Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+text.ilogo {
+  font-family: 'Clear Sans', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
