@@ -25,6 +25,11 @@ h3 {
   font-size: 0.9em;
 }
 
+figure {
+  position: fixed;
+  bottom: 0px;
+}
+
 text.logo {
   font-family: 'Clear Sans', sans-serif;
   font-style: normal;
