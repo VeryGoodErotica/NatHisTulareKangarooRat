@@ -26,9 +26,7 @@ h3 {
 }
 
 figure {
-  position: fixed;
-  display: block;
-  bottom: 0px;
+  margin-top: -12em;
 }
 
 text.logo {
