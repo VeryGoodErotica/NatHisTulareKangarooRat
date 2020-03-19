@@ -84,6 +84,7 @@
     <item href="plates/plate2j.jpg" id="plate2j" media-type="image/jpeg"/>
   <!-- image used in epubnotes -->
     <item href="auximg/ExTable5.png" id="extable5" media-type="image/png"/>
+    <item href="auximg/NewPipfroschPress5.png" id="NewPipfroschPress5" media-type="image/png"/>
   </manifest>
   <spine>
     <itemref idref="TitlePage"/>
