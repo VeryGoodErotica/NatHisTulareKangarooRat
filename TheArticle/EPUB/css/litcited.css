@@ -1,5 +1,6 @@
 ul.bib {
   list-style-type: none;
+  margin-left: 0;
 }
 
 p[role="doc-biblioentry"] {
