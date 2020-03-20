@@ -80,6 +80,7 @@
   <!-- appendix content -->
     <item href="litcited.xhtml" id="litcited" media-type="application/xhtml+xml"/>
     <item href="epubnotes.xhtml" id="epubnotes" media-type="application/xhtml+xml"/>
+    <item href="accessibility.xhtml" id="accessibility" media-type="application/xhtml+xml"/>
   <!-- Photographic plates -->
     <item href="plates/plate1a.jpg" id="plate1a" media-type="image/jpeg"/>
     <item href="plates/plate1b.jpg" id="plate1b" media-type="image/jpeg"/>
@@ -129,5 +130,6 @@
     <itemref idref="fig4"/>
     <itemref idref="litcited"/>
     <itemref idref="epubnotes"/>
+    <itemref idref="accessibility"/>
   </spine>
 </package>

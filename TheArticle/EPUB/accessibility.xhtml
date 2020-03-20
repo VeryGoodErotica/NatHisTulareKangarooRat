@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+  xmlns:epub="http://www.idpf.org/2007/ops"
+  xmlns:ssml="http://www.w3.org/2001/10/synthesis" ssml:alphabet="ipa">
+<head>
+  <meta charset="utf-8"/>
+  <title>ePub Notes</title>
+  <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="css/common.css"/>
+  <link rel="pronunciation" type="application/pls+xml" href="pronunciation.pls"/>
+</head>
+<body epub:type="backmatter">
+<section epub:type="appendix" role="doc-appendix" aria-labelledby="a11yh1">
+  <h1 id="a11yh1">Content Accessibility</h1>
+  <p>In content publishing and computer programming, <dfn>Accessibility</dfn> (often abbreviated as <abbr>a11y</abbr>&#8212;the letter ‘a’ followed by eleven other letters and ending with the letter ‘y’) is the discipline of identifying access barriers that prevent someone with a disability from being able to access the content, and taking the appropriate measures to provide a means for the impacted users to overcome those barriers.</p>
+  <p>In many cases there are laws that <em>require</em> content producers to take some steps towards content accessibility, but thwse laws are civil laws and so they are very rarely actually enforced unless the people impacted by the accessibility barrier have both the financial means and the emotional strength to file a lawsuit, and then companies often only do the bare minimum that is required to meet the letter of the law.</p>
+  <p>At Pipfrosch Press, we hold the unequivocable position that content accessibility should be the highest priority of the publisher. Not to avoid lawsuits, but because we see people who experience barriers to content accessibility as human beings worthy of dignity and respect. Lawsuits should be rare because publishers should take the necessary steps accessibile simply because <em>it is the right thing to do</em>.</p>
+  <p>In the academic journal world, content accessibility has improved considerably during the last twenty years, but it is still highly problematic <em>especially</em> for journal articles published during the twentieth century, including the journal article that has been converted to the ePub format here.</p>
+  <p>This appendix chapter details the accessibility steps that Pipfrosch Press has taken to provide radically increased content accessibility for this journal article over the very expensive version that is available through JSTOR.</p>
+  <section id="flowable" aria-labelledby="flowableh2">
+    <h2>Flowable Content</h2>
+    <p>JSTOR uses fixed-width <abbr>PDF</abbr> for the vast majority if not all of its historic journal content. A <abbr>PDF</abbr> can be cheaply created by scanning a printed journal, perfectly preserving the pagination that is often referred to by other journal articles.</p>
+    <p>Unfortunately <abbr>PDF</abbr> is a fixed layout design. When a user with a visible disability needs to increase the displayed font in order to access the content, a <abbr>PDF</abbr> increases proportionally in both width and height. This often results in the need for the user to both horizontally scroll and vertically scroll in order to access the access the content, which is highly problematic.</p>
+    <p>Pipfrosch Press has chosen ePub for digital content publishing because it is a <em>flowable</em> layout. When a user needs to increase the font size, it does result in scrolling in either direction. The number of page turns does increase, but scrolling is avoided.</p>
+    <section id="pagination" aria-labelledby="paginationh3">
+      <h3>Journal Article Pagination</h3>
+      <p>With a flowable layout, the concept of specific referencable page numbers has to be emulated. This is accomplished using a <code>role="doc-pagebreak</code> attribute to indicate where a page break occurs in the fixed layout journal along with a <code>&lt;nav epub:type="page-list"/></code> navigation list, as described in the DAISY Consortium ‘<a href="http://kb.daisy.org/publishing/docs/navigation/pagelist.html" title="Internet Resource">Page Navigation</a>’ Accessible Publishing Knowledge Base.</p>
+      <p>Pipfrosch Press implements this method, allowing users to both discover the journal page they are currently reading and allowing users to jump to the equivalent of a specific journal page.</p>
+    </section>
+  </section>
+  <section id="transcription" aria-labelledby="transcriptionh2">
+    <h2>Text Transcription</h2>
+    <p>With the JSTOR version of the canonical journal article, they did at least run the pages through <abbr title="Optical Character Recognition">OCR</abbr> technology so that the images of the text in the journal article could be tagged with the text strings, allowing screen readers to read the paper. Unfortunately they did not finish the job.</p>
+    <p>I can forgive them not distinguishing between a hyphen (-), en-dash (&#8211;), and em-dash (&#8212;) but they did not even use a basic spell checker to determine where the <abbr>OCR</abbr> technology failed.</p>
+    <p>Just as an example, at one location in the scanned image I could see there was stray ink above a lower case ‘o’. I predicted it would be scanned as as an ‘ô’ or an ‘ö’. I was wrong, the <abbr>OCR</abbr> technology interpreted it as a ‘6’.</p>
+    <p>JSTOR charges $39 for individual access to this particular article, even though as of <time datetime="2020-03-20">today</time> it is almost 80 years old. I am sorry, but for that kind of fee, it is almost criminal for them to have not at least run a spell-checker to check for obvious <abbr>OCR</abbr> errors. This is <em>exactly</em> what I mean when I say companies often do the bare minimum to meet the letter of the law when it comes to accessibility.</p>
+    <p>When transcribing the canonical journal article to ePub, I was <em>very</em> careful to make sure I did an accurate job. It is possible there are mistakes, but I doubt there are as many transcription issues as there are with the JSTOR <abbr>PDF</abbr>.</p>
+    <p>With the ePub format, it is also very easy for almost anyone to correct any transcription mistakes I did make, the source <abbr>XHTML</abbr> files can be modified with a simple text editor.</p>
+  </section>
+  <section id="tts" aria-labelledby="ttsh2">
+    <h2 id="ttsh2">Pronunciation Lexicon</h2>
+    <p>As far as I can tell, the JSTOR <abbr>PDF</abbr> for the canonical journal article does not include any pronunciation lexicons.</p>
+    <p>The ePub standard provides two pronunciation lexicon methods for helping a Text to Speech (<abbr>TTS</abbr>) synthesizer accurately read a document.</p>
+    <p><abbr title="Pronunciation Lexicon Specification">PLS</abbr> is a <abbr>W3C</abbr> specification for specifying one or more spellings of a work and how that word should phonetically be produced. It is used a stand-alone file within an ePub for cases where the same spelling should always be pronounced the same way. This is very useful for scientific journal articles which frequently contain technical terms, including taxonomical names, that <abbr>TTS</abbr> synthesizers have trouble correctly pronouncing.</p>
+    <p>The second method is <abbr title="Speech Synthesis Markup Language">SSML</abbr>, which provides the same function but is used in cases where it is better to mark up the specific use case to be pronounced a certain way. For example, ‘I had to <span ssml:ph="kōks">coax</span> the <span ssml:ph="ˈkōaks">coax</span> through the hole.’ In that case, the proper pronunciation of the letters ‘<span ssml:ph="sē ō ā eks">c-o-a-x</span>’ can not be determinned from the letters alone, </abbr> so <abbr>SSML</abbr> would be a better choice to mark up that word. In that case, some <abbr>TTS</abbr> synthethizers are actually smart enough to determine if the word is being used as a verb or a noun and may not need phonetic markup, but hopefully that example conveyed the point.</p>
+    <p>I make use of both <abbr>PLS</abbr> and <abbr>SSML</abbr>, depending upon which is choice I deem to be better for the specific use case. When a user needs <abbr>TTS</abbr> to access content, they should not be considered to be second-class citizens where it is deemed okay for many of the words to be read to them incorrectly.</p>
+    <p>Unfortunately at this this time, very few ePub readers actually implement either solution, but I am aware of at least one custom reader used by an education facility in Japan that does. Hopefully more will in the future. One of the reasons reader implementation is so low is that ePub usage of lexicons is low, but one of the reasons ePub usage of lexicons is low is because the implementation in readers is low. Both of those need to change.</p>
+  </section>
+</section>
+</body>
+</html>
