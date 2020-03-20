@@ -115,12 +115,19 @@
     <phoneme>iːpəb</phoneme>
     <phoneme alphabet="x-sampa">i:p@b</phoneme>
   </lexeme>
+<!-- J -->
+  <lexeme>
+    <graphme>JSTOR</graphme>
+    <phoneme>jāstôr</phoneme>
+    <phoneme alphabet="x-sampa">jāstôr</phoneme>
+  </lexeme>
 <!-- K -->
   <lexeme>
     <graphme>Kangaroo</graphme>
     <graphme>kangaroo</graphme>
     <phoneme>ˌkæŋ.ɡəˈɹu</phoneme>
     <phoneme alphabet="x-sampa">%k{N.ɡ@"r\u</phoneme>
+  </lexeme>
 <!-- L -->
   <lexeme>
     <grapheme>latidude</grapheme>

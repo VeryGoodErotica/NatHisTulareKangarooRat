@@ -4,7 +4,7 @@
   xmlns:ssml="http://www.w3.org/2001/10/synthesis" ssml:alphabet="ipa">
 <head>
   <meta charset="utf-8"/>
-  <title>ePub Notes</title>
+  <title>Content Accessibility</title>
   <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
   <link rel="stylesheet" type="text/css" href="css/common.css"/>
   <link rel="pronunciation" type="application/pls+xml" href="pronunciation.pls"/>
@@ -26,13 +26,14 @@
       <h3 id="paginationh3">Journal Article Pagination</h3>
       <p>With a flowable layout, the concept of specific referencable page numbers has to be emulated. This is accomplished using a <code>role="doc-pagebreak</code> attribute to indicate where a page break occurs in the fixed layout journal along with a <code>&lt;nav epub:type="page-list"/></code> navigation list, as described in the DAISY Consortium ‘<a href="http://kb.daisy.org/publishing/docs/navigation/pagelist.html" title="Internet Resource">Page Navigation</a>’ Accessible Publishing Knowledge Base.</p>
       <p>Pipfrosch Press implements this method, allowing users to both discover the journal page they are currently reading and allowing users to jump to the equivalent of a specific journal page.</p>
+      <p>Unfortunately not all ePub readers make this pagination feature available to the user, but many do.</p>
     </section>
   </section>
   <section id="transcription" aria-labelledby="transcriptionh2">
     <h2 id="transcriptionh2">Text Transcription</h2>
     <p>With the JSTOR version of the canonical journal article, they did at least run the pages through <abbr title="Optical Character Recognition">OCR</abbr> technology so that the images of the text in the journal article could be tagged with the text strings, allowing screen readers to read the paper. Unfortunately they did not finish the job.</p>
     <p>I can forgive them not distinguishing between a hyphen (-), en-dash (&#8211;), and em-dash (&#8212;) but they did not even use a basic spell checker to determine where the <abbr>OCR</abbr> technology failed.</p>
-    <p>Just as an example, at one location in the scanned image I could see there was stray ink above a lower case ‘o’. I predicted it would be scanned as as an ‘ô’ or an ‘ö’. I was wrong, the <abbr>OCR</abbr> technology interpreted it as a ‘6’.</p>
+    <p>Just as an example, at one location in the scanned image I could see there was stray ink above a lower case <span ssml:ph="ō">‘o’</span>. I predicted it would be scanned as as an <span ssml:ph="ˈsərkəmˌfleks ō">‘ô’</span> or an <span ssml:ph="ˈˈo͝omˌlout ō">‘ö’</span>. I was wrong, the <abbr>OCR</abbr> technology interpreted it as a <span ssml:ph="siks">‘6’</span>.</p>
     <p>JSTOR charges $39 for individual access to this particular article, even though as of <time datetime="2020-03-20">today</time> it is almost 80 years old. I am sorry, but for that kind of fee, it is almost criminal for them to have not at least run a spell-checker to check for obvious <abbr>OCR</abbr> errors. This is <em>exactly</em> what I mean when I say companies often do the bare minimum to meet the letter of the law when it comes to accessibility.</p>
     <p>When transcribing the canonical journal article to ePub, I was <em>very</em> careful to make sure I did an accurate job. It is possible there are mistakes, but I doubt there are as many transcription issues as there are with the JSTOR <abbr>PDF</abbr>.</p>
     <p>With the ePub format, it is also very easy for almost anyone to correct any transcription mistakes I did make, the source <abbr>XHTML</abbr> files can be modified with a simple text editor.</p>
@@ -45,6 +46,8 @@
     <p>The second method is <abbr title="Speech Synthesis Markup Language">SSML</abbr>, which provides the same function but is used in cases where it is better to mark up the specific use case to be pronounced a certain way. For example, ‘I had to <span ssml:ph="kōks">coax</span> the <span ssml:ph="ˈkōaks">coax</span> through the hole.’ In that case, the proper pronunciation of the letters ‘<span ssml:ph="sē ō ā eks">c-o-a-x</span>’ can not be determinned from the letters alone, so <abbr>SSML</abbr> would be a better choice to mark up that word. In that case, some <abbr>TTS</abbr> synthethizers <em>may</em> actually smart enough to determine if the word is being used as a verb or a noun and may not need phonetic markup, but hopefully that example still conveys the point.</p>
     <p>I make use of both <abbr>PLS</abbr> and <abbr>SSML</abbr>, depending upon which is choice I deem to be better for the specific use case. When a user needs <abbr>TTS</abbr> to access content, they should not be considered to be second-class citizens where it is deemed okay for many of the words to be read to them incorrectly.</p>
     <p>Unfortunately at this this time, very few ePub readers actually implement either solution, but I am aware of at least one custom reader used by an education facility in Japan that does. Hopefully more will in the future. One of the reasons reader implementation is so low is that ePub usage of lexicons is low, but one of the reasons ePub usage of lexicons is low is because the implementation in readers is low. Both of those need to change.</p>
+    <p>With <abbr>SSML</abbr> I am using the International Phonetic Alphabet (<abbr>IPA</abbr>). Unfortunately with <abbr>SSML</abbr> only one phonetic alphabet can be used at a time.</p>
+    <p>With <abbr>PLS</abbr> I am using <abbr>IPA</abbr> as the defined alphabet but also provide <abbr title="Extended Speech Assessment Methods Phonetic Alphabet">X-SAMPA</abbr> as a fall-back alternative just in case a <abbr>TTS</abbr> sysnthesizer supports <abbr>X-SAMPA</abbr> but does not support <abbr>IPA</abbr>.</p>
   </section>
 </section>
 </body>
