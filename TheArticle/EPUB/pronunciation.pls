@@ -44,9 +44,12 @@
 <!-- other -->
   <!-- needed -->
   <!-- Altitudinally -->
+  <!-- bathing -->
   <!-- Berkeley -->
+  <!-- bullae -->
   <!-- Caliente -->
   <!-- circular -->
+  <!-- clayey -->
   <!-- collapsible -->
   <!-- conspicuous -->
   <!-- contour -->
@@ -58,13 +61,17 @@
   <!-- diameters -->
   <!-- diurnal -->
   <!-- drouth -->
+  <!-- elliptical -->
   <!-- excretory -->
+  <!-- feces -->
   <!-- forage -->
   <!-- forages -->
   <!-- foraging -->
   <!-- filaree -->
+  <!-- fossorial -->
   <!-- Fremont -->
   <!-- genus -->
+  <!-- granular -->
   <!-- iodine -->
   <!-- Jerusalem -->
   <!-- lath -->
@@ -91,6 +98,7 @@
   <!-- species -->
   <!-- subsidiary -->
   <!-- succulent -->
+  <!-- unvegetated -->
   <!-- urinary -->
   <!-- Vertebrate -->
   <!-- Zoology -->
