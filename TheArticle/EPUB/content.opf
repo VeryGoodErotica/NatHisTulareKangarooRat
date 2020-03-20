@@ -28,6 +28,8 @@
   </metadata>
   <manifest>
     <item href="ToC.xhtml" id="ToC" media-type="application/xhtml+xml" properties="nav"/>
+  <!-- PLS -->
+    <item href="pronunciation.pls" id="pls-lexicon" media-type="application/pls+xml"/>
   <!-- CSS -->
     <item href="css/fonts.css" id="css__fonts" media-type="text/css"/>
     <item href="css/common.css" id="css__common" media-type="text/css"/>
