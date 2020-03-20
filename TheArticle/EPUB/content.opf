@@ -9,6 +9,15 @@
     <dc:date>2020-03-31</dc:date>
     <dc:creator id="author0">Donald T. Tappe</dc:creator>
     <meta property="role" refines="#author0" scheme="marc:relators">aut</meta>
+    <meta property="role" refines="#author0" scheme="marc:relators">pht</meta>
+    <dc:contributor id="photographer0">Joseph S. Dixon</dc:contributor>
+    <meta property="role" refines="#photographer0" scheme="marc:relators">pht</meta>
+    <dc:contributor id="editor0">Michael A. Peters</dc:contributor>
+    <meta property="role" refines="editor0" scheme="marc:relators">edt</meta>
+    <meta property="role" refines="editor0" scheme="marc:relators">ill</meta>
+    <meta property="role" refines="editor0" scheme="marc:relators">prg</meta>
+    <dc:contributor id="logo0">Nicole Wilson</dc:creator>
+    <meta property="role" refines="logo0" scheme="marc:relators">ill</meta>
     <dc:identifier id="prng-uuid">9ffee631-54e2-4a7b-824e-af1a8d18ac20</dc:identifier>
     <meta property="marc:scheme" refines="#prng-uuid">uuid</meta>
     <dc:source id="src-doi">10.2307/1374908</dc:source>
