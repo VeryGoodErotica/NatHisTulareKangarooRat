@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/20/2020, 10:46:25 AM",
+  "dct:date": "3/20/2020, 11:23:16 AM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -193,6 +193,11 @@
       "dc:publisher": "Pipfrosch Press",
       "dc:date": "2020-03-31",
       "dc:creator": "Donald T. Tappe",
+      "dc:contributor": [
+        "Joseph S. Dixon",
+        "Michael A. Peters",
+        "Nicole Wilson"
+      ],
       "dc:identifier": "9ffee631-54e2-4a7b-824e-af1a8d18ac20",
       "dc:source": "10.2307/1374908",
       "schema:accessibilitySummary": "This publication attempts to conform to WCAG 2.0 Level AA. Validation by an accessibility expert has not yet been done.",
@@ -210,7 +215,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-20T17:46:21Z"
+      "dcterms:modified": "2020-03-20T18:23:11Z"
     },
     "links": {}
   },
