@@ -16,7 +16,7 @@
     <meta property="role" refines="editor0" scheme="marc:relators">edt</meta>
     <meta property="role" refines="editor0" scheme="marc:relators">ill</meta>
     <meta property="role" refines="editor0" scheme="marc:relators">prg</meta>
-    <dc:contributor id="logo0">Nicole Wilson</dc:creator>
+    <dc:contributor id="logo0">Nicole Wilson</dc:contributor>
     <meta property="role" refines="logo0" scheme="marc:relators">ill</meta>
     <dc:identifier id="prng-uuid">9ffee631-54e2-4a7b-824e-af1a8d18ac20</dc:identifier>
     <meta property="marc:scheme" refines="#prng-uuid">uuid</meta>
