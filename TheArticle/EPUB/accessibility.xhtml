@@ -18,18 +18,18 @@
   <p>In the academic journal world, content accessibility has improved considerably during the last twenty years, but it is still highly problematic <em>especially</em> for journal articles published during the twentieth century, including the journal article that has been converted to the ePub format here.</p>
   <p>This appendix chapter details the accessibility steps that Pipfrosch Press has taken to provide radically increased content accessibility for this journal article over the very expensive version that is available through JSTOR.</p>
   <section id="flowable" aria-labelledby="flowableh2">
-    <h2>Flowable Content</h2>
+    <h2 id="flowableh2">Flowable Content</h2>
     <p>JSTOR uses fixed-width <abbr>PDF</abbr> for the vast majority if not all of its historic journal content. A <abbr>PDF</abbr> can be cheaply created by scanning a printed journal, perfectly preserving the pagination that is often referred to by other journal articles.</p>
     <p>Unfortunately <abbr>PDF</abbr> is a fixed layout design. When a user with a visible disability needs to increase the displayed font in order to access the content, a <abbr>PDF</abbr> increases proportionally in both width and height. This often results in the need for the user to both horizontally scroll and vertically scroll in order to access the access the content, which is highly problematic.</p>
     <p>Pipfrosch Press has chosen ePub for digital content publishing because it is a <em>flowable</em> layout. When a user needs to increase the font size, it does result in scrolling in either direction. The number of page turns does increase, but scrolling is avoided.</p>
     <section id="pagination" aria-labelledby="paginationh3">
-      <h3>Journal Article Pagination</h3>
+      <h3 id="paginationh3">Journal Article Pagination</h3>
       <p>With a flowable layout, the concept of specific referencable page numbers has to be emulated. This is accomplished using a <code>role="doc-pagebreak</code> attribute to indicate where a page break occurs in the fixed layout journal along with a <code>&lt;nav epub:type="page-list"/></code> navigation list, as described in the DAISY Consortium ‘<a href="http://kb.daisy.org/publishing/docs/navigation/pagelist.html" title="Internet Resource">Page Navigation</a>’ Accessible Publishing Knowledge Base.</p>
       <p>Pipfrosch Press implements this method, allowing users to both discover the journal page they are currently reading and allowing users to jump to the equivalent of a specific journal page.</p>
     </section>
   </section>
   <section id="transcription" aria-labelledby="transcriptionh2">
-    <h2>Text Transcription</h2>
+    <h2 id="transcriptionh2">Text Transcription</h2>
     <p>With the JSTOR version of the canonical journal article, they did at least run the pages through <abbr title="Optical Character Recognition">OCR</abbr> technology so that the images of the text in the journal article could be tagged with the text strings, allowing screen readers to read the paper. Unfortunately they did not finish the job.</p>
     <p>I can forgive them not distinguishing between a hyphen (-), en-dash (&#8211;), and em-dash (&#8212;) but they did not even use a basic spell checker to determine where the <abbr>OCR</abbr> technology failed.</p>
     <p>Just as an example, at one location in the scanned image I could see there was stray ink above a lower case ‘o’. I predicted it would be scanned as as an ‘ô’ or an ‘ö’. I was wrong, the <abbr>OCR</abbr> technology interpreted it as a ‘6’.</p>
