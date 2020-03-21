@@ -17,6 +17,17 @@
   <p>At Pipfrosch Press, we hold the unequivocable position that content accessibility should be the highest priority of the publisher. Not to avoid lawsuits, but because we see people who experience barriers to content accessibility as human beings worthy of dignity and respect. Lawsuits should be rare because publishers should take the necessary steps accessibile simply because <em>it is the right thing to do</em>.</p>
   <p>In the academic journal world, content accessibility has improved considerably during the last twenty years, but it is still highly problematic <em>especially</em> for journal articles published during the twentieth century, including the journal article that has been converted to the ePub format here.</p>
   <p>This appendix chapter details the accessibility steps that Pipfrosch Press has taken to provide radically increased content accessibility for this journal article over the very expensive version that is available through JSTOR.</p>
+  <p>From the JSTOR website:</p>
+  <blockquote>
+    We have made every effort to ensure that our image-based PDF files are accessible and can be read with screen readers like JAWS. These files are tagged at a high level using an automated process. While this method is not exact, it dramatically increases the accessibility of the files as compared to an untagged version.
+  </blockquote>
+  <span class="blockquote"><a href="https://about.jstor.org/accessibility/" title="Internet Resource">https://about.jstor.org/accessibility/</a></span>
+  <p>Please note these two portions of the above quote:</p>
+  <ol class="italic">
+    <li>tagged at a high level using an <em>automated process</em></li>
+    <li>dramatically increases the accessibility of the files <em>as compared to an untagged version</em></li>
+  </ol>
+  <p>Automated processes will produce <abbr>PDF</abbr> image-based files that are more accessible than just images but they are still <strong>severely</strong> lacking in accessibility. Their process very well may meet the letter of the law, but it does not adequately meet the needs of many users.</p>
   <section id="flowable" aria-labelledby="flowableh2">
     <h2 id="flowableh2">Flowable Content</h2>
     <p>JSTOR uses fixed-layout <abbr>PDF</abbr> for the vast majority if not all of its historic journal content. A <abbr>PDF</abbr> can be cheaply created by scanning a printed journal, perfectly preserving the pagination that is often referred to by other journal articles.</p>
@@ -48,6 +59,53 @@
     <p>Unfortunately at this this time, very few ePub readers actually implement either solution, but I am aware of at least one custom reader used by an education facility in Japan that does. Hopefully more will in the future. One of the reasons reader implementation is so low is that ePub usage of lexicons is low, but one of the reasons ePub usage of lexicons is low is because the implementation in readers is low. Both of those need to change.</p>
     <p>With <abbr>SSML</abbr> I am using the International Phonetic Alphabet (<abbr>IPA</abbr>). Unfortunately with <abbr>SSML</abbr> only one phonetic alphabet can be used at a time.</p>
     <p>With <abbr>PLS</abbr> I am using <abbr>IPA</abbr> as the defined alphabet but also provide <abbr title="Extended Speech Assessment Methods Phonetic Alphabet">X-SAMPA</abbr> as a fall-back alternative just in case a <abbr>TTS</abbr> sysnthesizer supports <abbr>X-SAMPA</abbr> but does not support <abbr>IPA</abbr>.</p>
+  </section>
+  <section id="fonts" aria-labelledby="fontsh2">
+    <h2 id="fontsh2">Fonts and Justification</h2>
+    <p>With a <abbr>PDF</abbr> created from scanning a printed document, the font can not be changed, what you see is actually an image. With some <abbr>PDF</abbr> documents the font can be changed, but it looks horrible if the replacement font does not have identical font metrics. In either case, text justification can not be changed.</p>
+    <p>The canonical journal article was published using a serif font, either Times or a derivative of Times.</p>
+    <p>Reasearch has shown that serif fonts are particularly hard for people with dyslexia to read. Dyslexia is a complex spectrum and there is no ‘best font’ for dyslexia but sans-serif fonts in general are a far better choice for reducing the impact of dyslexia.</p>
+    <p>Serif fonts also cause eye and brain fatigue in many of us who are not dyslexic, myself included. The problem seems to be worse on computer screens than in print, my <em>guess</em> is because computer screens tend to have a much lower <abbr>DPI</abbr> resolution than printing presses, but that is speculatory.</p>
+    <p>Eye and brain fatigue results in reduced reading comprehension, headaches, and in my case, an increased liklihood of an epilepric seizure. To be accessible, digital content <em>must</em> allow the user to change the font used to one that does not result in eye and brain fatigue.</p>    
+    <p>In the JSTOR <abbr>PDF</abbr> it is simply not possible to alter the font used. In an ePub document, changing the font used is relatively easy. Many ePub readers allow the user to override the publisher specified font family without even needing to modify the ePub.</p>
+    <p>With ePub documents published by Pipfrosch Press, the Intel&#174; <a href="https://01.org/clear-sans" title="Internet Resource">Clear Sans</a> font was chosen. I chose that family for two reasons:</p>
+    <ol>
+      <li>It uses a non-royalty free software license that explicitly allows redistribution.</li>
+      <li>It is by far the easiest font on my eyes that I have used in a digital context that allows free redistribution.</li>
+    </ol>
+    <p>The sans-serif Apple fonts that currently ship with Apple devices are also extremely easy on my eyes but Apple does not allow their redistribution.</p>
+    <p>The Fira Sans originally created for the Firefox <abbr>OS</abbr> meets the first requirement, but I found that my eyes tire with it as well. Looking at the font in a font editor, it uses fancy curves with the font stems, and I wonder if that is the issue. I do not know.</p>
+    <p>I wanted Fira Sans to work because it has a small-caps variant, but it tired my eyes out too quickly. Not as quicklY as serif fonts do, but quickly enough.</p>
+    <p>Interestingly, at least for me personally, on eInk devices virtually any sans-serif fonts works well for me. It is only with the <abbr>LCD</abbr> displays used on computer monitors and ‘smart devices’ where my eyes tend to be picky.</p>
+    <p>Due to the fact that Clear Sans does not have a small-caps variant, Pipfrosch Press does not currently use small-caps even when reproducing an upstream paper that did so.</p>
+    <p>With respect to justified text, the majoroty of academic journals use justified text. Pipfrosch Press does not specify justified text. For most people on small screens, justified text is actually harder to read even though it looks beautiful. Beautiful typesetting misses the point of typesetting if it decreases the readability of the content.</p>
+    <p>Many ePub readers allow the user to specify justified text if that is what the user prefers, and some even default to justified text.</p>
+    <p>The main point is though that with ePub, the user can easily select a different font to be used and the user can easily decide whether or not they want the text justified, allowing the user to easily remove accessibility barriers that might otherwise exist but can not be altered in a <abbr>PDF</abbr> document.</p>
+    <p>In some cases, changing the font may change how text in an <abbr>SVG</abbr> figure aligns. To reduce the impact of that happening, the font specified for use in <abbr>SVG</abbr> is specified differently than for the body content. At least some ePub readers are smart enough to then allow changing the body font while preserving the font defined for use in the <abbr>SVG</abbr> figures.</p>
+  </section>
+  <section id="navigation" aria-labelledby="navigationh2">
+    <h2 id="navigationh2">Content Navigation</h2>
+    <p>In order for a digital document to be accessible, it <strong>MUST</strong> have a means for navigating the document that assistive technology such as a screen reader can properly utilize.</p>
+    <p><abbr>PDF</abbr> has this capability and this is an area where modern journal papers published within the last twenty years often do things properly, but where the JSTOR <abbr>PDF</abbr> for the canonical journal article ported to ePub here completely fails.</p>
+    <p>Instead of using the <abbr>PDF</abbr> digital Table of Contents to provide navigation within the canonical journal article, it is used for a table of contents to the journal issue where <strong>EVERY EVERY INCLUDING THE ARTICLE IN THE PDF</strong> is a link to JSTOR.</p>
+    <p>They can use the <abbr>PDF</abbr> facilities to promote their own high-dollar warehousing of the content, but they can’t provide even the most basic navigation within the article contained in the <abbr>PDF</abbr>. And this is what they expect people like me without institutional access to pay $39 per article to access. They may be part of a ‘not-for-profit organization’ organization but they are still grifters. I’m sorry but they charge such a high access fee for 80 year old papers without even providing even what basic accessibility features <abbr>PDF</abbr> is capable of that would be quick to implement, that is <em>exactly</em> what they are. I wonder how much universities pay them for this sub-standard service, universities that often also then pay someone to make it accessible when a student needs the features.</p>
+    <p>Pipfrosch Press properly uses the content navigation facilities that ePub makes available to assistive technology.</p>
+    <p>In addition to a visual hierarchical Table of Contents that appears after preface, machine parsible navigation content lists that allow for
+<span role="list">
+  <span role="listitem">landmark navigation,</span>
+  <span role="listitem">hierarchical sequential ‘spine’ navigation for every section included in the ePub,</span>
+  <span role="listitem">table navigation,</span>
+  <span role="listitem">figure navigation,</span>
+  <span role="listitem">illustration navigation,</span>
+  <span role="listitem">and navigation by canonical journal article page number.</span>
+</span>
+While not all ePub readers expose these navigation lists to viewers who are not using assistive technology, these lists use a standardized <abbr>API</abbr> that allows assistive technology to use these machine parsible navigation lists to help a user easily access the specific portion of the article the user wishes to navigate to.</p>
+    <p>When a professor or research references a specific page number, table, figure, photographic plate, or section within the canonical journal article, a user of assistive technology can easily navigate to that article location within this ePub where they can not easily do so within the JSTOR <abbr>PDF</abbr> <em>even though <abbr>PDF</abbr> itself supports the ability to do so</em>.</p>
+  </section>
+  <section id="tables" aria-labelledby="tablesh2">
+    <h2 id="tablesh2">Tabular Data</h2>
+    <p>The canonical journal article contains five different tables.</p>
+    <p>When properly marked up, tabular data is not a problem for assistive technology. This is an area where academic <abbr>PDF</abbr> documents produced within the last twenty years has significantly improved.</p>
   </section>
 </section>
 </body>

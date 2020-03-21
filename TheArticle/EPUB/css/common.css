@@ -41,3 +41,16 @@ span.captitle {
 .hidden {
   visibility: hidden;
 }
+
+ol.italic li {
+  font-style: italic;
+}
+
+ol.italic li em {
+  text-decoration: underline;
+}
+
+span.blockquote::before {
+  content: "—";
+  padding-left: 2em;
+}
