@@ -163,6 +163,44 @@ While not all ePub readers expose these navigation lists to viewers who are not 
       <p>On screen sizes and font size combinations where these issues exist, <abbr>PDF</abbr> is absolutely horrid and as a fixed-layout format, <abbr>PDF</abbr> really can not be fixed in that respect.</p>
     </section>
   </section>
+  <section id="figures" aria-labelledby="figuresh2">
+    <h2 id="figuresh2">Figures</h2>
+    <p>With respect to figures, I still have a lot to learn about proper use of accessibility application programming interfaces for best results of assistive technology.</p>
+    <p>Figures typically involves a graphical sketch or data graph, frequently but not always with text as part of the figure beyond just the caption for the figure.</p>
+    <p>In modern academic journals, the actual figure is typically typeset from a vector source in the Encapsulated Postscript Format (<abbr>EPS</abbr>) or from another vector source that is easily translatable to <abbr>EPS</abbr>. The advantage to <abbr>EPS</abbr> is that it scales to whatever the needed size for rasterization at the resolution being printed or viewed.</p>
+    <p>Within the ePub format, the supported vector image formage is Scalable Vector Graphics (<abbr>SVG</abbr>).</p>
+    <p>In an ideal world when porting a <abbr>PDF</abbr> to ePub, the <abbr>EPS</abbr> or other vector source used for the <abbr>PDF</abbr> is directly converted to <abbr>SVG</abbr>. That is not possible with historic academic papers where the <abbr>PDF</abbr> is created by scanning the printed journal.</p>
+    <p>With historic academic papers, the printed figures are scanned and will often have visual artificats as a result of rasterization at a different <abbr>DPI</abbr> that the resolution at which they were scanned. These visual artifacts are very noticeable in the JSTOR <abbr>PDF</abbr> for the canonical journal article.</p>
+    <p>For the four figures present within the canonical journal article, rather than using the scanned rasterized figures I chose the labor intensive recreating them manually in <abbr>SVG</abbr>.</p>
+    <p>When an <abbr>SVG</abbr> illustration is referenced in an ePub spine page using the <abbr>XHTML</abbr> <code>img</code> image tag, the accessibility markup is limited to what is available for bitmap image formats like <abbr>JPEG</abbr> and <abbr>PNG</abbr>.</p>
+    <p>When an <abbr>SVG</abbr> illustration is embedded in the <abbr>XHTML</abbr> directly then additional accessibility interfaces are potentially available, and this is where my current ignorance on the topic lies. I still need to learn about both what these interfaces are, the best practices for their use, and whether or not current assistive technology even makes use of them in the context of an ePub document.</p>
+    <p>Two of these interfaces are the <abbr>SVG</abbr> <code>title</code> node and the <abbr>SVG</abbr> description node. Their use is fairly self-explanatory.</p>
+    <p>What I am <em>hoping</em> is that it is possible to do things like associate numerical text on a graph with which axis they are associated with and points on a graph with their coordinates even if the coordinates are not printed on the figure itself.</p>
+    <p>If that level of accessibility tagging is possible in such a way that the user can <em>choose</em> whether or not they want the data conveyed to them, then I would like to do it. It may help some users without eyesight visualize graphical figures in their mind.</p>
+    <p>At this point in time, the accessibility of the figures in this <abbr>PDF</abbr> are limited to text descriptions within the <abbr>SVG</abbr> <code>description</code> node, which is less accessibility than I would like but more accessibility than is provided by the JSTOR <abbr>PDF</abbr>.</p>
+    <section id="fig1note" aria-labelledby="fig1noteh3">
+      <h3 id="fig1noteh3">Figure 1 Note</h3>
+      <p>Figure 1 in the canonical journal article was creating for monochrome printing, strictly black and white, not even grayscale.</p>
+      <p>To indicate the range of <span class="taxon">Dipodomys heermanni</span> in general, diagonal lines sloping from north-west towards southeast were used. To indicate the range of <span class="taxon">Dipodomys heermanni tularensis</span> specifically, diagonal lines running from south-west towards northeast with less distance between them were used.</p>
+      <p>For the time of publication, that was appropriate, but it creates a visual accessibility hazard. My eyes get fatigued rather quickly while looking at it, a result of the high contrast between the lines exasperated by the geographical features underneath the lines. You can actually see the effects of my mental fatigue with how sloppy my rendering of the San Francisco and San Pablo bay are, my brain was really worn out.</p>
+      <p>When recreating Figure 1, I chose to take advantage of the fact that even inexpensive ePub reading devices like the Kobo Clara have grayscale available, while smartphones and tablets have full color available. The result is much better.</p>
+      <p>I also chose not to include the range of <span class="taxon">Dipodomys heermanni</span> into Oregon. At the time, that was acurate, but the subspecies of <span class="taxon">Dipodomys heermanni</span> that ranges that far north has since been elevated to full species status based upon very compelling genetics.</p>
+      <p>By leaving out the Oregon portion of the range on that map, the height of the figure is reduced making it less likely that the caption accompanying the figure will float to a second page on devices with less vertical height relative to horizontal width.</p>
+      <p>I plan on recreating Figure 1 with a more accurate but less detailed coast, probably modeled off the maps in <a href="litcited.xhtml#grinnell-1922">Grinnell 1922</a>, my next major project for Pipfrosch Press. I also plan to use cubic Bézier curves for the coast, rivers, and lakes, and place them with better geographical accuracy.</p>
+    </section>
+  </section>
+  <section id="plates" aria-labelledby="platesh2">
+    <h2 id="platesh2">Plates</h2>
+    <p>The canonical journal article uses two photographic plates. The first has eight images arranged in a 2&#215;4 grid and the second has ten images arranged in a 2&#215;5 grid. Those layouts do not work well with flowabla ePub content.</p>
+    <p>For the first plate, it is my opinion that seven of the eight images are adequately described by the associated caption, with the eighth plate <em>mostly</em> adequately described by the associated caption.</p>
+    <p>For the second plate, only one of the ten images is adequately described by the associated caption. The other nine are useless to those who can not see them without adequate detailed descriptions of the images themselves.</p>
+    <p>Ten photographic images in total that need alternative text provided for the document to be accessible. The JSTOR <abbr>PDF</abbr> does not provide alternative text for any of them.</p>
+    <p>This is a prime blatant example of where automated accessibility test software fails. If you upload the JSTOR <abbr>PDF</abbr> to an automated accessibility test site, it will claim it is <abbr>WCAG</abbr> 2.0 AA compliant, with statistics showing 34 images that have alternative text.</p>
+    <p>Even if you include the four figures, the paper would only have 22 images. So how the frack do they have 34 images with alternative text? Simple. A scanned page counts as an image, and the <abbr>OCR</abbr> text for those scanned pages counts as alternative text.</p>
+    <p>The <em>actual</em> images do not have alternative text. The scanned page they are part of has <abbr>OCR</abbr> from the journal page they appear on.</p>
+    <p>Automated accessibility tests help identify blatant accessibility errors, but they say nothing about actual compliance.</p>
+    <p>This ePub has proper alternative text for all ten images that benefit from alternative text, and the other eight images have the apprioate <code>aria-labelledby</code> set to identify the caption specific to the image as suitable alternative text.</p>
+  </section>
 </section>
 </body>
 </html>
