@@ -118,8 +118,8 @@
 <!-- J -->
   <lexeme>
     <graphme>JSTOR</graphme>
-    <phoneme>jāstôr</phoneme>
-    <phoneme alphabet="x-sampa">jāstôr</phoneme>
+    <phoneme>ˈdʒeɪstɔːr</phoneme>
+    <phoneme alphabet="x-sampa">"dZeIstO:r</phoneme>
   </lexeme>
 <!-- K -->
   <lexeme>
