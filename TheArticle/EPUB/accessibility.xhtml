@@ -12,22 +12,31 @@
 <body epub:type="backmatter">
 <section epub:type="appendix" role="doc-appendix" aria-labelledby="a11yh1">
   <h1 id="a11yh1">Content Accessibility</h1>
+  <p>This appendix chapter is unrelated to the academic journal content within this ePub. This appendix chapter exists to explain why the ePub port of the canonical journal article when a JSTOR <abbr>PDF</abbr> already exists is so important.</p>
   <p>In content publishing and computer programming, <dfn>Accessibility</dfn> (often abbreviated as <abbr>a11y</abbr>&#8212;the letter ‘a’ followed by eleven other letters and ending with the letter ‘y’) is the discipline of identifying access barriers that prevent someone with a disability from being able to access the content, and taking the appropriate measures to provide a means for the impacted users to overcome those barriers.</p>
   <p>In many cases there are laws that <em>require</em> content producers to take some steps towards content accessibility, but these laws are civil laws and so they are very rarely actually enforced unless the people impacted by the accessibility barrier have both the financial means and the emotional strength to file a lawsuit, and then companies often only do the bare minimum that is required to meet the letter of the law.</p>
   <p>At Pipfrosch Press, we hold the unequivocable position that content accessibility should be the highest priority of the publisher. Not to avoid lawsuits, but because we see people who experience barriers to content accessibility as human beings worthy of dignity and respect. Lawsuits should be rare because publishers should take the necessary steps accessibile simply because <em>it is the right thing to do</em>.</p>
-  <p>In the academic journal world, content accessibility has improved considerably during the last twenty years, but it is still highly problematic <em>especially</em> for journal articles published during the twentieth century, including the journal article that has been converted to the ePub format here.</p>
-  <p>This appendix chapter details the accessibility steps that Pipfrosch Press has taken to provide radically increased content accessibility for this journal article over the very expensive version that is available through JSTOR.</p>
-  <p>From the JSTOR website:</p>
-  <blockquote>
+  <p>A common misconception about accessibility is that documents which work reasonably well with a screen reader are accessible.</p>
+  <p>It certainly can be said that a document which does not work well with a screen reader is not accessible, but the converse is not true. Screen readers do address certain access barriers but they do not address all access barriers. Furthermore when a document does work with a screen reader, <em>how well it works</em> with a screen reader frequently can be dramatically improved.</p>
+  <p>Automated tests can not adequately validate the accessibility of a document. Businesses like automated tests because they are cheap t run, and they do have value, but numerous documents will serious accessibility issues pass automated tests with flying colors.</p>
+  <p>Just as an example, without tagging a bibliography as such, I can create a bibliography using a simple <abbr>HTML</abbr> definition list that visually works just fine as a bibliography and screen readers would read it just fine. The document that contains this kind of bibliography would pass ePub accessibility tests with flying colors, in fact that is how I use to create a bibliography in ePub before I knew better and automated tests never complained, but it is not be accessible because it is not tagged as a bibliography using the proper metadata tags so it is not validated according to bibliography accessibility standards and is not available to assistive technology using the programming interfaces specifically designed for a bibliography.</p>
+  <p>Automated tests do serve a very useful purpose but they should only be seen as <em>part</em> of the process of evaluating the accessibility of a document.</p>
+  <section id="academics" aria-labelledby="academicsh2">
+    <h2 id="academicsh2">Accessibility of Academic Papers</h2>
+    <p>In the academic journal world, content accessibility has improved considerably during the last twenty years, but it is still highly problematic <em>especially</em> for journal articles published during the twentieth century, including the journal article that has been converted to the ePub format here.</p>
+    <p>This rest of this appendix chapter details the accessibility steps that Pipfrosch Press has taken to provide radically increased content accessibility for the journal article in this ePub over the very expensive version that is available through JSTOR.</p>
+    <p>From the JSTOR website:</p>
+    <blockquote>
     We have made every effort to ensure that our image-based PDF files are accessible and can be read with screen readers like JAWS. These files are tagged at a high level using an automated process. While this method is not exact, it dramatically increases the accessibility of the files as compared to an untagged version.
-  </blockquote>
-  <span class="blockquote"><a href="https://about.jstor.org/accessibility/" title="Internet Resource">https://about.jstor.org/accessibility/</a></span>
-  <p>Please note these two portions of the above quote:</p>
-  <ol class="italic">
-    <li>tagged at a high level using an <em>automated process</em></li>
-    <li>dramatically increases the accessibility of the files <em>as compared to an untagged version</em></li>
-  </ol>
-  <p>Automated processes will produce <abbr>PDF</abbr> image-based files that are more accessible than just images but they are still <strong>severely</strong> lacking in accessibility. Their process very well may meet the letter of the law, but it does not adequately meet the needs of many users.</p>
+    </blockquote>
+    <span class="blockquote"><a href="https://about.jstor.org/accessibility/" title="Internet Resource">https://about.jstor.org/accessibility/</a></span>
+    <p>Please note these two portions of the above quote:</p>
+    <ol class="italic">
+      <li>&#8230;tagged at a high level using an <em>automated process</em>.</li>
+      <li>&#8230;dramatically increases the accessibility of the files <em>as compared to an untagged version</em>.</li>
+    </ol>
+    <p>Automated tagging will produce image-based <abbr>PDF</abbr> files that are more accessible than the same file without tagging but they are still <strong>severely</strong> lacking in accessibility. The JSTOR process very well may meet the letter of the law, but it does not adequately meet the needs of many users.</p>
+  </section>
   <section id="flowable" aria-labelledby="flowableh2">
     <h2 id="flowableh2">Flowable Content</h2>
     <p>JSTOR uses fixed-layout <abbr>PDF</abbr> for the vast majority if not all of its historic journal content. A <abbr>PDF</abbr> can be cheaply created by scanning a printed journal, perfectly preserving the pagination that is often referred to by other journal articles.</p>
@@ -106,6 +115,53 @@ While not all ePub readers expose these navigation lists to viewers who are not 
     <h2 id="tablesh2">Tabular Data</h2>
     <p>The canonical journal article contains five different tables.</p>
     <p>When properly marked up, tabular data is not a problem for assistive technology. This is an area where academic <abbr>PDF</abbr> documents produced within the last twenty years has significantly improved.</p>
+    <p>The tables in the JSTOR <abbr>PDF</abbr> are not properly marked up for accessibility.</p>
+    <p>The reproduction of those tables in this ePub are properly marked up for accessibility, assistive technology can properly and meaningfully navigate the tabular data.</p>
+    <p>Assistive technology access to the tabular data however is only <em>part</em> of proper accessibility.</p>
+    <section id="epubtables" aria-labelledby="epubtablesh3">
+      <h3 id="epubtablesh3">ePub Tabular Visual Access Barrier</h3>
+      <p>When an ePub document is viewed on a small screen with a normal font size or on a moderate screen but with a very large font size, ePub viewers often fail miserably where <abbr>PDF</abbr> does not.</p>
+      <p>I believe this is a design flaw in ePub viewers rather than in the ePub specification itself, but who is to blame does not really matter to the impacted users.</p>
+      <p>When the data does not adequately fit in the horizontal space available, ePub viewers will squash some columns breaking up single words over multiple lines. What they <em>should</em> do provide for horizontal scrolling of the table without squashing the tabular data. There are several different ways this could be accomplished.</p>
+      <p>My preferred mechanism would be to allow the user to click (or tap with a touchscreen) the table to view the table with side scrolling so that data columns are not overly compressed. Some viewers already provide this ability with images, even allowing the user to zoom in on the image.</p>
+      <p>With tables it would have to be done carefully, table cells markes as headers with a scope of a table row should not horizontally scrow out of view, columns with such rows should have other columns horizontally scroll beneath them so that these headers containing columns, when present, are always visible. This would have to be thought out because sometimes a table footer contains a header with a row scope that spand many columns in the table body that are not headers.</p>
+      <p>Another issue that exists is tables are often broken up into multiple pages because the rows will not all fit on a single screen. This problem is exasperated by row height being increased when cell data wraps multiple lines in order to squish it horizontally.</p>
+      <p>What ePub readers <em>should</em> do is allow the table body elements to scroll between the table header and if present, the table footer. This way the table header and footer are always visible on large table and the user can vertically scroll the data rows between them.</p>
+      <p>It would be nice if ePub viewers did these things when a table does not fit horizontally and/or vertically on the screen, but I am not aware of any that do.</p>
+      <p>Using my Pixel 3XL as a testing device, I was able to reduce the impact of these issues with some of the tables.</p>
+      <div role="list">
+        <div role="listitem">
+          <p>In the case of Table 1, no changes were necessary. With a standard font size on the Pixel 3XL, it fits on one page without any words being split across multiple lines.</p>
+        </div>
+        <div role="listitem">
+          <p>With Table 2, horizontal compression impacts one of the table heading splitting several individual words across multiple lines, but none of the data cells were impacted.</p>
+          <p>The table does require two pages but there is not anything I can do to make it fit on a single page on this device.</p>
+        </div>
+        <div role="listitem">
+          <p>With Table 3, the table caption in the canonical journal article is extraordinarily long, consuming about &#188; of the available space on my Pixel 3XL.</p>
+          <p>Table 3 also had a superfluous row in the table footer where the author simply showed the math for how the author obtained the results.</p>
+          <p>By moving the very long caption into a ‘Table Description’ section directly following the table and using a much shorter summarized caption, in combination with removing the superfluous row from the table footer, I managed to get the entire table to fit on a single page on the Pixel 3XL.</p>
+        </div>
+        <div role="listitem">
+          <p>With Table 4, no changes were made. It does use two pages on the Pixel 3XL but there are no changes that would reduce it to a single page.</p>
+        </div>
+        <div role="listitem">
+          <p>Table 5 was the most problematic table on the Pixel 3XL as that table has seven columns and numerous rows, resulting is massive horizontal compression issues that impacted some of the data cells.</p>
+          <p>The last five rows are all length measurements in millimeters, by combining the five identical ‘millimeter’ heading columns in the second row of the table header into a single cell that spans all five rows, and by moving the identical word ‘LENGTH’ from the last five header cells in the first row of the table header into the now single ‘millimeter’ heading columns in the second row, I was able to radically reduce the horizontal column compression issues.</p>
+          <p>Additionally changing the ‘WEIGHT’ heading column to the abbreviation ‘<abbr>WT</abbr>’ and changing the ‘HIND FOOT’ heading column to the abbreviation ‘<abbr>H.F.</abbr>’ further reduced the horizontal column compression issue. Many data cells however still had their numerical data split across two lines. Reducing the font size for the numerical data cells <em>mostly</em> solved that issue, but it is still present.</p>
+          <p>The table still used three pages on the Pixel 3XL. By moving the length table caption to its own ‘Table Description’ section directly following the table and using a much shorter summarized caption, I was able to reduce that to two pages.</p>
+          <p>Table 5 still suffers from horizontal column compression:</p>
+          <figure id="tbl5" aria-labelledby="tbl5figcap">
+            <img src="auximg/ExTable5.png" alt="The column headers and first three rows of data from Table 5 as shown on a small-screen display. In the first column header row, the words ‘BODY’, ‘TOTAL’, and ‘EAR’ are each broken up to wrap two lines. In the second column header row, the words ‘days’, and ‘grams’ are each broken up to wrap two lines. In the data rows, multiple though a minority of data cells have the numerical value broken up at the decimal point to wrap two lines."/>
+            <figcaption id="tbl5figcap">Screenshot of Table 5 on a small-screen device</figcaption>
+          </figure>
+          <p>The problem however has been greatly reduced.</p>
+        </div>
+      </div>
+      <p>In conclusion, ePub provides excellent support for tabular data when assistive technology is used.</p>
+      <p>When assistive technology is not used, there are still some issues that need improvement by the ePub reader software developers, but those issues can at least be partially be reduced, and Pipfrosch Press is dedicated to doing so.</p>
+      <p>On screen sizes and font size combinations where these issues exist, <abbr>PDF</abbr> is absolutely horrid and as a fixed-layout format, <abbr>PDF</abbr> really can not be fixed in that respect.</p>
+    </section>
   </section>
 </section>
 </body>
