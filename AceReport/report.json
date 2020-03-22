@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/20/2020, 3:58:13 PM",
+  "dct:date": "3/22/2020, 6:25:09 AM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -16,8 +16,8 @@
   },
   "outlines": {
     "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n  <li>Title Page</li>\n  <li>Copyright Page</li>\n  <li>Contents Page</li>\n  <li>Abstract</li>\n  <li>Methods and Acknowledgements</li>\n  <li>Burrow Systems<ol>\n    <li>Structure</li>\n    <li>Surface Runways</li>\n    <li>Location of Burrows</li>\n    <li>Nests and Places of Rest</li>\n  </ol></li>\n  <li>Food and Storage</li>\n  <li>Economic Importance</li>\n  <li>Water Requirements</li>\n  <li>Activities<ol>\n    <li>Surface Activity</li>\n    <li>Sub-surface Activity</li>\n    <li>Foraging</li>\n    <li>Dust Bathing</li>\n  </ol></li>\n  <li>Sanitation</li>\n  <li>Voice and Communication</li>\n  <li>Senses<ol>\n    <li>Hearing</li>\n    <li>Sight</li>\n    <li>Smell</li>\n  </ol></li>\n\n  <li>Summary</li>\n  <li>Literature Cited</li>\n  <li>ePub Notes</li>\n  <li>Content Accessibility</li>\n</ol>",
-    "headings": "<ul><li><span class=\"toc-h1\">Natural History of the Tulare Kangaroo Rat</span><ul><li><span class=\"toc-h2\">by Donald T. Tappe</span><li><span class=\"toc-h2\">Journal of Mammalogy</span><ul><li><span class=\"toc-h3\">Volume 22, No. 2, May 14 1941</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Copyright Information</span><li><span class=\"toc-h1\">Contents</span><ul><li><span class=\"toc-h2\">Auxillary Content</span><li><span class=\"toc-h2\">Article Table of Contents</span><li><span class=\"toc-h2\">List of Tables</span><li><span class=\"toc-h2\">List of Figures</span><li><span class=\"toc-h2\">List of Plates</span></li></ul></li><li><span class=\"toc-h1\">Abstract</span><li><span class=\"toc-h1\">Methods and Acknowledgements</span><li><span class=\"toc-h1\">Burrow Systems</span><li><span class=\"toc-h1\">Food and Storage</span><li><span class=\"toc-h1\">Economic Importance</span><li><span class=\"toc-h1\">Water Requirements</span><li><span class=\"toc-h1\">Activities</span><li><span class=\"toc-h1\">Sanitation</span><li><span class=\"toc-h1\">Voice and Communication</span><li><span class=\"toc-h1\">Senses</span><li><span class=\"toc-h1\">Summary</span><li><span class=\"toc-h1\">Plate 1</span><ul><li><span class=\"toc-h2\">Table 3 Description</span><li><span class=\"toc-h2\">Table 5 Description</span></li></ul></li><li><span class=\"toc-h1\">Plate 2</span><li><span class=\"toc-h1\">Literature Cited</span><li><span class=\"toc-h1\">ePub Notes</span><ul><li><span class=\"toc-h2\">Contents:</span><li><span class=\"toc-h2\">Canonical Journal Article</span><li><span class=\"toc-h2\">ePub Port</span><li><span class=\"toc-h2\">Alterations</span><ul><li><span class=\"toc-h3\">Title Page, Abstract, and Table of Contents</span><li><span class=\"toc-h3\">Font Changes</span><li><span class=\"toc-h3\">Page Numbering</span><li><span class=\"toc-h3\">Table Modifications</span><ul><li><span class=\"toc-h4\">JavaScript Solution</span></li></ul></li><li><span class=\"toc-h3\">Figure Modifications</span><ul><li><span class=\"toc-h4\">Figure 1 Notes</span></li></ul></li><li><span class=\"toc-h3\">Plates</span><ul><li><span class=\"toc-h4\">Desire for Better Quality</span></li></ul></li><li><span class=\"toc-h3\">Literature Cited Changes</span></li></ul></li><li><span class=\"toc-h2\">Motivation</span><li><span class=\"toc-h2\">To Do List</span><li><span class=\"toc-h2\">Copyright Status</span><li><span class=\"toc-h2\">Donations</span></li></ul></li><li><span class=\"toc-h1\">Content Accessibility</span><ul><li><span class=\"toc-h2\">Flowable Content</span><ul><li><span class=\"toc-h3\">Journal Article Pagination</span></li></ul></li><li><span class=\"toc-h2\">Text Transcription</span><li><span class=\"toc-h2\">Pronunciation Lexicon</span></li></ul></li></ul>",
-    "html": "<ol><li><ol><li><i>Untitled BODY</i><ol><li>Natural History of the Tulare Kangaroo Rat<ol><li>by Donald T. Tappe</li><li>Journal of Mammalogy<ol><li>Volume 22, No. 2, May 14 1941</li></ol></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Copyright Information</li></ol></li></ol></li><li><ol><li>Contents<ol><li>Auxillary Content</li><li>Article Table of Contents</li><li>List of Tables</li><li>List of Figures</li><li>List of Plates</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Abstract</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods and Acknowledgements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Burrow Systems<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Food and Storage</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Economic Importance</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Water Requirements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Activities<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Sanitation</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Voice and Communication</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Senses<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Summary</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 1</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i><ol><li>Table 3 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i><ol><li>Table 5 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 2</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Literature Cited</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>ePub Notes<ol><li>Contents:</li><li>Canonical Journal Article</li><li>ePub Port</li><li>Alterations<ol><li>Title Page, Abstract, and Table of Contents</li><li>Font Changes</li><li>Page Numbering</li><li>Table Modifications<ol><li>JavaScript Solution</li></ol></li><li>Figure Modifications<ol><li>Figure 1 Notes</li></ol></li><li>Plates<ol><li>Desire for Better Quality</li><li>Literature Cited Changes</li></ol></li></ol></li><li>Motivation</li><li>To Do List</li><li>Copyright Status</li><li>Donations</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Content Accessibility<ol><li>Flowable Content<ol><li>Journal Article Pagination</li></ol></li><li>Text Transcription</li><li>Pronunciation Lexicon</li></ol></li></ol></li></ol></li></ol>"
+    "headings": "<ul><li><span class=\"toc-h1\">Natural History of the Tulare Kangaroo Rat</span><ul><li><span class=\"toc-h2\">by Donald T. Tappe</span><li><span class=\"toc-h2\">Journal of Mammalogy</span><ul><li><span class=\"toc-h3\">Volume 22, No. 2, May 14 1941</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Copyright Information</span><li><span class=\"toc-h1\">Contents</span><ul><li><span class=\"toc-h2\">Auxillary Content</span><li><span class=\"toc-h2\">Article Table of Contents</span><li><span class=\"toc-h2\">List of Tables</span><li><span class=\"toc-h2\">List of Figures</span><li><span class=\"toc-h2\">List of Plates</span></li></ul></li><li><span class=\"toc-h1\">Abstract</span><li><span class=\"toc-h1\">Methods and Acknowledgements</span><li><span class=\"toc-h1\">Burrow Systems</span><li><span class=\"toc-h1\">Food and Storage</span><li><span class=\"toc-h1\">Economic Importance</span><li><span class=\"toc-h1\">Water Requirements</span><li><span class=\"toc-h1\">Activities</span><li><span class=\"toc-h1\">Sanitation</span><li><span class=\"toc-h1\">Voice and Communication</span><li><span class=\"toc-h1\">Senses</span><li><span class=\"toc-h1\">Summary</span><li><span class=\"toc-h1\">Plate 1</span><ul><li><span class=\"toc-h2\">Table 3 Description</span><li><span class=\"toc-h2\">Table 5 Description</span></li></ul></li><li><span class=\"toc-h1\">Plate 2</span><li><span class=\"toc-h1\">Literature Cited</span><li><span class=\"toc-h1\">ePub Notes</span><ul><li><span class=\"toc-h2\">Contents:</span><li><span class=\"toc-h2\">Canonical Journal Article</span><li><span class=\"toc-h2\">ePub Port</span><li><span class=\"toc-h2\">Alterations</span><ul><li><span class=\"toc-h3\">Title Page, Abstract, and Table of Contents</span><li><span class=\"toc-h3\">Font Changes</span><li><span class=\"toc-h3\">Page Numbering</span><li><span class=\"toc-h3\">Table Modifications</span><ul><li><span class=\"toc-h4\">JavaScript Solution</span></li></ul></li><li><span class=\"toc-h3\">Figure Modifications</span><ul><li><span class=\"toc-h4\">Figure 1 Notes</span></li></ul></li><li><span class=\"toc-h3\">Plates</span><ul><li><span class=\"toc-h4\">Desire for Better Quality</span></li></ul></li><li><span class=\"toc-h3\">Literature Cited Changes</span></li></ul></li><li><span class=\"toc-h2\">Motivation</span><li><span class=\"toc-h2\">To Do List</span><li><span class=\"toc-h2\">Copyright Status</span><li><span class=\"toc-h2\">Donations</span></li></ul></li><li><span class=\"toc-h1\">Content Accessibility</span><ul><li><span class=\"toc-h2\">Accessibility of Academic Papers</span><li><span class=\"toc-h2\">Flowable Content</span><ul><li><span class=\"toc-h3\">Journal Article Pagination</span></li></ul></li><li><span class=\"toc-h2\">Text Transcription</span><li><span class=\"toc-h2\">Pronunciation Lexicon</span><li><span class=\"toc-h2\">Fonts and Justification</span><li><span class=\"toc-h2\">Content Navigation</span><li><span class=\"toc-h2\">Tabular Data</span><ul><li><span class=\"toc-h3\">ePub Tabular Visual Access Barrier</span></li></ul></li><li><span class=\"toc-h2\">Figures</span><ul><li><span class=\"toc-h3\">Figure 1 Note</span></li></ul></li><li><span class=\"toc-h2\">Plates</span><li><span class=\"toc-h2\">Works Cited Accessibility</span><li><span class=\"toc-h2\">Semantic Markup and Labels</span><li><span class=\"toc-h2\">Extendable Accessibility</span><li><span class=\"toc-h2\">Missing Accessibility</span><li><span class=\"toc-h2\">The Importance of JSTOR</span><ul><li><span class=\"toc-h3\">Aaron Swartz</span></li></ul></li></ul></li></ul>",
+    "html": "<ol><li><ol><li><i>Untitled BODY</i><ol><li>Natural History of the Tulare Kangaroo Rat<ol><li>by Donald T. Tappe</li><li>Journal of Mammalogy<ol><li>Volume 22, No. 2, May 14 1941</li></ol></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Copyright Information</li></ol></li></ol></li><li><ol><li>Contents<ol><li>Auxillary Content</li><li>Article Table of Contents</li><li>List of Tables</li><li>List of Figures</li><li>List of Plates</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Abstract</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods and Acknowledgements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Burrow Systems<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Food and Storage</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Economic Importance</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Water Requirements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Activities<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Sanitation</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Voice and Communication</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Senses<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Summary</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 1</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i><ol><li>Table 3 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i><ol><li>Table 5 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 2</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Literature Cited</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>ePub Notes<ol><li>Contents:</li><li>Canonical Journal Article</li><li>ePub Port</li><li>Alterations<ol><li>Title Page, Abstract, and Table of Contents</li><li>Font Changes</li><li>Page Numbering</li><li>Table Modifications<ol><li>JavaScript Solution</li></ol></li><li>Figure Modifications<ol><li>Figure 1 Notes</li></ol></li><li>Plates<ol><li>Desire for Better Quality</li><li>Literature Cited Changes</li></ol></li></ol></li><li>Motivation</li><li>To Do List</li><li>Copyright Status</li><li>Donations</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Content Accessibility<ol><li>Accessibility of Academic Papers</li><li>Flowable Content<ol><li>Journal Article Pagination</li></ol></li><li>Text Transcription</li><li>Pronunciation Lexicon</li><li>Fonts and Justification</li><li>Content Navigation</li><li>Tabular Data<ol><li>ePub Tabular Visual Access Barrier</li></ol></li><li>Figures<ol><li>Figure 1 Note</li></ol></li><li>Plates</li><li>Works Cited Accessibility</li><li>Semantic Markup and Labels</li><li>Extendable Accessibility</li><li>Missing Accessibility</li><li>The Importance of JSTOR<ol><li>Aaron Swartz</li></ol></li></ol></li></ol></li></ol></li></ol>"
   },
   "data": {
     "images": [
@@ -171,7 +171,7 @@
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"auximg/ExTable5.png\" alt=\"The column headers and first three rows of data from Table 5 as shown on a small-screen display. In the first column header row, the words ‘BODY’, ‘TOTAL’, and ‘EAR’ are each broken up to wrap two lines. In the second column header row, the words ‘days’, and ‘grams’ are each broken up to wrap two lines. In the data rows, multiple though a minority of data cells have the numerical value broken up at the decimal point to wrap two lines.\" />",
         "figcaption": "Screenshot of Table 5 on a small-screen device",
-        "location": "epubnotes.xhtml#epubcfi(/4/2/10[alterations]/16[tables]/12[tbl5]/2)"
+        "location": "accessibility.xhtml#epubcfi(/4/2/36[tables]/14[epubtables]/22/10/12[tbl5]/2)"
       }
     ]
   },
@@ -215,7 +215,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-20T22:58:08Z"
+      "dcterms:modified": "2020-03-22T13:25:05Z"
     },
     "links": {}
   },
@@ -514,9 +514,76 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "pass"
+        "earl:outcome": "fail"
       },
-      "assertions": [],
+      "assertions": [
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Invalid ARIA attribute value: aria-labelledby=\"jstorh2\"",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/50[jstor]"
+              ],
+              "css": [
+                "#jstor"
+              ]
+            },
+            "html": "<section xmlns=\"http://www.w3.org/1999/xhtml\" id=\"jstor\" aria-labelledby=\"jstorh2\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "critical",
+            "dct:title": "aria-valid-attr-value",
+            "dct:description": "Ensures all ARIA attributes have valid values",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/script/aria.html",
+              "dct:title": "ARIA",
+              "dct:description": "ARIA attributes must conform to valid values"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag412"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Invalid ARIA attribute value: aria-labelledby=\"swartzh3\"",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/50[jstor]/10"
+              ],
+              "css": [
+                "section[title=\"swartz\"]"
+              ]
+            },
+            "html": "<section xmlns=\"http://www.w3.org/1999/xhtml\" title=\"swartz\" aria-labelledby=\"swartzh3\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "critical",
+            "dct:title": "aria-valid-attr-value",
+            "dct:description": "Ensures all ARIA attributes have valid values",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/script/aria.html",
+              "dct:title": "ARIA",
+              "dct:description": "ARIA attributes must conform to valid values"
+            },
+            "rulesetTags": [
+              "cat.aria",
+              "wcag2a",
+              "wcag412"
+            ]
+          }
+        }
+      ],
       "earl:testSubject": {
         "url": "accessibility.xhtml",
         "dct:title": "Content Accessibility"
@@ -524,6 +591,6 @@
     }
   ],
   "earl:result": {
-    "earl:outcome": "pass"
+    "earl:outcome": "fail"
   }
 }
