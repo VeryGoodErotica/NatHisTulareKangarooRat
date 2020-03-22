@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/22/2020, 6:25:09 AM",
+  "dct:date": "3/22/2020, 6:25:46 AM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -215,7 +215,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-22T13:25:05Z"
+      "dcterms:modified": "2020-03-22T13:25:41Z"
     },
     "links": {}
   },
@@ -514,76 +514,9 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "fail"
+        "earl:outcome": "pass"
       },
-      "assertions": [
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "Invalid ARIA attribute value: aria-labelledby=\"jstorh2\"",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/50[jstor]"
-              ],
-              "css": [
-                "#jstor"
-              ]
-            },
-            "html": "<section xmlns=\"http://www.w3.org/1999/xhtml\" id=\"jstor\" aria-labelledby=\"jstorh2\">"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "critical",
-            "dct:title": "aria-valid-attr-value",
-            "dct:description": "Ensures all ARIA attributes have valid values",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/script/aria.html",
-              "dct:title": "ARIA",
-              "dct:description": "ARIA attributes must conform to valid values"
-            },
-            "rulesetTags": [
-              "cat.aria",
-              "wcag2a",
-              "wcag412"
-            ]
-          }
-        },
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "Invalid ARIA attribute value: aria-labelledby=\"swartzh3\"",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/50[jstor]/10"
-              ],
-              "css": [
-                "section[title=\"swartz\"]"
-              ]
-            },
-            "html": "<section xmlns=\"http://www.w3.org/1999/xhtml\" title=\"swartz\" aria-labelledby=\"swartzh3\">"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "critical",
-            "dct:title": "aria-valid-attr-value",
-            "dct:description": "Ensures all ARIA attributes have valid values",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/script/aria.html",
-              "dct:title": "ARIA",
-              "dct:description": "ARIA attributes must conform to valid values"
-            },
-            "rulesetTags": [
-              "cat.aria",
-              "wcag2a",
-              "wcag412"
-            ]
-          }
-        }
-      ],
+      "assertions": [],
       "earl:testSubject": {
         "url": "accessibility.xhtml",
         "dct:title": "Content Accessibility"
@@ -591,6 +524,6 @@
     }
   ],
   "earl:result": {
-    "earl:outcome": "fail"
+    "earl:outcome": "pass"
   }
 }
