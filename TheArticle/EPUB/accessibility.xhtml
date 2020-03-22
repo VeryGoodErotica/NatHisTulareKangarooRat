@@ -13,18 +13,19 @@
 <section epub:type="appendix" role="doc-appendix" aria-labelledby="a11yh1">
   <h1 id="a11yh1">Content Accessibility</h1>
   <p>This appendix chapter is unrelated to the academic journal content within this ePub. This appendix chapter exists to explain why the ePub port of the canonical journal article when a JSTOR <abbr>PDF</abbr> already exists is so important.</p>
-  <p>In content publishing and computer programming, <dfn>Accessibility</dfn> (often abbreviated as <abbr>a11y</abbr>&#8212;the letter ‘a’ followed by eleven other letters and ending with the letter ‘y’) is the discipline of identifying access barriers that prevent someone with a disability from being able to access the content, and taking the appropriate measures to provide a means for the impacted users to overcome those barriers.</p>
+  <p>In content publishing, <dfn>Accessibility</dfn> (often abbreviated as <abbr>a11y</abbr>&#8212;the letter ‘a’ followed by eleven other letters and ending with the letter ‘y’) is the discipline of identifying access barriers that prevent someone with a disability from being able to access the content, and taking the appropriate measures to provide a means for the impacted users to overcome those barriers.</p>
   <p>In many cases there are laws that <em>require</em> content producers to take some steps towards content accessibility, but these laws are civil laws and so they are very rarely actually enforced unless the people impacted by the accessibility barrier have both the financial means and the emotional strength to file a lawsuit, and then companies often only do the bare minimum that is required to meet the letter of the law.</p>
-  <p>At Pipfrosch Press, we hold the unequivocable position that content accessibility should be the highest priority of the publisher. Not to avoid lawsuits, but because we see people who experience barriers to content accessibility as human beings worthy of dignity and respect. Lawsuits should be rare because publishers should take the necessary steps accessibile simply because <em>it is the right thing to do</em>.</p>
+  <p>At Pipfrosch Press, we hold the unequivocable position that content accessibility should be the highest priority of the publisher. Not to avoid lawsuits, but because we see people who experience barriers to content accessibility as human beings worthy of dignity and respect. Lawsuits should be rare because publishers should take the necessary steps to make their content accessibile simply because <em>it is the right thing to do</em>.</p>
   <p>A common misconception about accessibility is that documents which work reasonably well with a screen reader are accessible.</p>
   <p>It certainly can be said that a document which does not work well with a screen reader is not accessible, but the converse is not true. Screen readers do address certain access barriers but they do not address all access barriers. Furthermore when a document does work with a screen reader, <em>how well it works</em> with a screen reader frequently can be dramatically improved.</p>
   <p>Automated tests can not adequately validate the accessibility of a document. Businesses like automated tests because they are cheap t run, and they do have value, but numerous documents will serious accessibility issues pass automated tests with flying colors.</p>
-  <p>Just as an example, without tagging a bibliography as such, I can create a bibliography using a simple <abbr>HTML</abbr> definition list that visually works just fine as a bibliography and screen readers would read it just fine. The document that contains this kind of bibliography would pass ePub accessibility tests with flying colors, in fact that is how I use to create a bibliography in ePub before I knew better and automated tests never complained, but it is not be accessible because it is not tagged as a bibliography using the proper metadata tags so it is not validated according to bibliography accessibility standards and is not available to assistive technology using the programming interfaces specifically designed for a bibliography.</p>
+  <p>I literally hate the fact that many automated tests will declare a document to be <abbr>WCAG</abbr> 2.0 AA compliant. Such declarations from an automated test is dishonest, and one should question the integrity of the programming as a result. Only a human trained in content accessibility can adequately determine if a document meets a particularly accessibility standard level.</p>
+  <p>Just as an example, without tagging a bibliography as a bibliography, I can create a bibliography using a simple <abbr>HTML</abbr> definition list that visually works just fine as a bibliography and screen readers would read it just fine. The document that contains this kind of bibliography would pass ePub accessibility tests with flying colors. In fact that is how I use to create a bibliography in ePub before I knew better and automated tests never complained, but it is not as accessible as it should be because it is not properly tagged as a bibliography so that part is not validated according to bibliography accessibility standards.</p>
   <p>Automated tests do serve a very useful purpose but they should only be seen as <em>part</em> of the process of evaluating the accessibility of a document.</p>
   <section id="academics" aria-labelledby="academicsh2">
     <h2 id="academicsh2">Accessibility of Academic Papers</h2>
     <p>In the academic journal world, content accessibility has improved considerably during the last twenty years, but it is still highly problematic <em>especially</em> for journal articles published during the twentieth century, including the journal article that has been converted to the ePub format here.</p>
-    <p>This rest of this appendix chapter details the accessibility steps that Pipfrosch Press has taken to provide radically increased content accessibility for the journal article in this ePub over the very expensive version that is available through JSTOR.</p>
+    <p>The rest of this appendix chapter details the accessibility steps that Pipfrosch Press has taken to provide radically increased content accessibility for the journal article in this ePub over the very expensive version that is available through JSTOR.</p>
     <p>From the JSTOR website:</p>
     <blockquote>
     We have made every effort to ensure that our image-based PDF files are accessible and can be read with screen readers like JAWS. These files are tagged at a high level using an automated process. While this method is not exact, it dramatically increases the accessibility of the files as compared to an untagged version.
@@ -85,7 +86,7 @@
     <p>The sans-serif Apple fonts that currently ship with Apple devices are also extremely easy on my eyes but Apple does not allow their redistribution.</p>
     <p>The Fira Sans originally created for the Firefox <abbr>OS</abbr> meets the first requirement, but I found that my eyes tire with it as well. Looking at the font in a font editor, it uses fancy curves with the font stems, and I wonder if that is the issue. I do not know.</p>
     <p>I wanted Fira Sans to work because it has a small-caps variant, but it tired my eyes out too quickly. Not as quicklY as serif fonts do, but quickly enough.</p>
-    <p>Interestingly, at least for me personally, on eInk devices virtually any sans-serif fonts works well for me. It is only with the <abbr>LCD</abbr> displays used on computer monitors and ‘smart devices’ where my eyes tend to be picky.</p>
+    <p>Interestingly, at least for me personally, on eInk devices virtually any sans-serif fonts works well for me. It is only with the <abbr>LCD</abbr> displays used on computer monitors and ‘smart devices’ where my eyes tend to be picky. This ePub has been tested on a Kobo Clara <abbr>HD</abbr> (available from Walmart) specifically to make sure it works for those who prefer eInk devices.</p>
     <p>Due to the fact that Clear Sans does not have a small-caps variant, Pipfrosch Press does not currently use small-caps even when reproducing an upstream paper that did so.</p>
     <p>With respect to justified text, the majoroty of academic journals use justified text. Pipfrosch Press does not specify justified text. For most people on small screens, justified text is actually harder to read even though it looks beautiful. Beautiful typesetting misses the point of typesetting if it decreases the readability of the content.</p>
     <p>Many ePub readers allow the user to specify justified text if that is what the user prefers, and some even default to justified text.</p>
@@ -200,6 +201,58 @@ While not all ePub readers expose these navigation lists to viewers who are not 
     <p>The <em>actual</em> images do not have alternative text. The scanned page they are part of has <abbr>OCR</abbr> from the journal page they appear on.</p>
     <p>Automated accessibility tests help identify blatant accessibility errors, but they say nothing about actual compliance.</p>
     <p>This ePub has proper alternative text for all ten images that benefit from alternative text, and the other eight images have the apprioate <code>aria-labelledby</code> set to identify the caption specific to the image as suitable alternative text.</p>
+  </section>
+  <section id="biblio" aria-labelledby="biblioh2">
+    <h2 id="biblioh2">Works Cited Accessibility</h2>
+    <p>As is common in academic articles, the canonical journal article as a bibliography that is full of acronyms.</p>
+    <p>With respect to journal names, many of these abbreviations are actually standardized. However if you have ever listened to an academic bibliography read by a screen reader, it is an absolutely <em>horrible</em> experience.</p>
+    <p>I expanded the vast majority of the abbreviations in the Literature Cited so that this issue can be avoided.</p>
+    <p>Furthermore, I hunted down <abbr>DOI</abbr> and Handle <abbr>URI</abbr> identifiers, and when I could not locate those for the Literature Cited, I huted normal hyperlinks to a source for the article or book being cited.</p>
+    <p>Both of those steps make the Literature Cited as it appears in this ePub <em>much</em> more user friendly and accessible than in the JSTOR <abbr>PDF</abbr>.</p>
+    <p>Additionally I fixed a couple typos within the bibliography.</p>
+    <p>In one instance, the canonical journal articles uses ‘New Mexico’ where the <em>actual</em> journal article actually referred to ‘Mexico’ (<a href="litcited.xhtml#allen-1895">Allen 1895</a>) and in other case the canonical journal article references ‘Volume 9’ where the <em>actual</em> journal article appeared in ‘Volume 11’ (<a href="litcited.xhtml#svihla-1930">Svihla 1930</a>).</p>
+    <p>I also added author first names in place of just a first initial when the original article specified it (or alternatively the middle name in place of middle initial in a few cases), <abbr>etc.</abbr></p>
+  </section>
+  <section id="misc" aria-labelledby="semantich2">
+    <h2 id="semantich2">Semantic Markup and Labels</h2>
+    <p>In addition to the above changes, I added semantic markup throughout the article where necessary.</p>
+    <p>For example, I put the <abbr>HTML</abbr> <code>&lt;time&gt;</code> tag around any date or time. This kind of semantic markup can help assistive technology understand how to present the data to the user. Just an example, should the numeric string ‘one-nine-eight-four’ be read as ‘nineteen eighty-four’ or as ‘one-thousand nine-hundrend eighty-four’? Semantic markup can aid in helping assistive technology make that decision.</p>
+    <p>Another example, in several places the author describes a list of things inside a paragraph. For the sighted user, it is easy for use to move our eyes through such a list but it is not as easy for a blind user unless there is markup designating that the various strings within the paragraph are items in a list. I tried to add that kind of contextual markup where I recognized a need for it.</p>
+    <p>The canonical journal article marks major sections with centered bold text. I <em>suspect</em> the JSTOR <abbr>OCR</abbr> technology properly flagged those as heading level regions in the <abbr>PDF</abbr>, but within those major sections, the canonical journal article maks subsections by using italicized text followed by a period and then an em-dash. My guess is the <abbr>OCR</abbr> technology missed marking those as markers. They are appropriately labeled in this ePub.</p>
+  </section>
+  <section id="extendable" aria-labelledby="extendableh2">
+    <h2 id="extendableh2">Extendable Accessibility</h2>
+    <p>In several nations, including the United States, institutions like libraries and universities are specifically given authority under law to modify a work for the purpose of adding accessibility features needed by a user.</p>
+    <p><abbr>PDF</abbr> is very difficult to modify. Even things like changing the font to a font that a certain user needs to lower accessibility barriers is virtually impossible with <abbr>PDF</abbr>.</p>
+  </section>
+  <section id="missing" aria-labelledby="missingh2">
+    <h2 id="missingh2">Missing Accessibility</h2>
+    <p>Note that I believe this to be beyond the scope of <abbr>JSTOR</abbr>.</p>
+    <p>Pipfrosch Press tagets an audience of citizen science rather than audience of academic science.</p>
+    <p>As such, for Pipfrosch Press publications to be accessible, there needs to be a glossary of terms that someone with a ninth grade level of education may not understand.</p>
+    <p>I am in the process of identifying which terms need a glossary entry. Once those terms have been identified, then I will need to create a glossary for those terms, hopefully Pipfrosch Press will be able to reach an agreement with a publisher that already published definitions of scientific terms that allows us to use their definitions when needed as such definitions have likely already been professionally reveiwed.</p>
+  </section>
+  <section id="jstor" aria-labelledby="jstorh2">
+    <h2>The Importance of JSTOR</h2>
+    <p>It needs to be made abundantly clear that Pipfrosch Press believed JSTOR performs a critical role in academic research.</p>
+    <p>Journal articles <em>must</em> be digitally preserved as published, including original pagination, and <em>must</em> be made available to researchers in that form. JSTOR meets that need.</p>
+    <p>I do believe JSTOR has a responsibility to improve the accessibility of their archived <abbr>PDF</abbr> documents, to the technical extent that <abbr>PDF</abbr> allows for, but I do not think ill of JSTOR and I do believe they provide a very important service that benefits society.</p>
+    <section title="swartz" aria-labelledby="swartzh3">
+      <h3>Aaron Swartz</h3>
+      <p>As a fan of Aaron Swartz, many are surprised that I do no begrudge JSTOR.</p>
+      <p>When you live in poverty, as I do, systematic oppression of the poor class by the upper class is very apparant.</p>
+      <p>The $20 a month it costs for <a href="https://support.jstor.org/hc/en-us/articles/115004675707-JPASS-Individual-Subscriptions-to-JSTOR" title="Internet Link">JPASS</a> is a financial barrier to access for many of us, myself included. For those who live in financial privilege, $20 a month being a barrier may seem like a foreign concept, but when you have to ration rice and pasta just so you can afford to pay your phone bill, $20 a month is a very real barrier to access.</p>
+      <p>Libraries have access to many of these materials for free, but believe it or not, it is actually much easier to visit a library and take advantage of those free resources when you have financial privilege than when you are poor.</p>
+      <p>Aaron Swartz understood this. He thought it was ridiculous that access to academic research should be restricted by socio-economic class in an age when the Internet significantly lowers the cost of disseminating such information.</p>
+      <p>If you have not done so, please read his <a href="https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt" target="Internet Resource">Guerilla Open Access Manifesto</a>.</p>
+      <p>When he tried to do something about it, it led to his death. What he did was illegal. I will not say it was wrong, I do not believe what he did was wrong, but what he did was <em>technically</em> illegal.</p>
+      <p>The United States government ruthelessly prosecuted him for it, and I do mean ruthlessly. What the federal prosecutors did was immoral and wrong. What the federal prosecutors did may have been legal, but it was without a doubt immoral and wrong.</p>
+      <p>JSTOR had no desire to prosecute him, let me make that very clear. It was the oligarchy that does not want the class division to disappear that ruthlessly wanted him prosecuted and contributed to his death.</p>
+      <p>If you do not believe their is an oligarchy in the United States, the same government that says we can not afford to provide health care to the poor&#8212;resulting in numerous deaths because meducines like insulin that costs a mere $5.00 per vial to make is sold for several hundred dollars&#8212;was more than willing to pump <strong>trillions</strong> (yes, multiple trillions) into the stock market during the 2020 to save their own assets. What do you call that if not an oligarchy?</p>
+      <p>I do not like the JSTOR financial barrier and I want that to go away, but JSTOR did not want to prosecute Aaron Swarz. To place blame on them for his prosecution is misplaced blame. The blame squarely belongs with the United States of America, as the title of the case&#8212;<span class="italic">United States of America <abbr>v.</abbr> Aaron Swartz</span>&#8212;clearly indicates.</p>
+      <p>Place the blame where it <em>clearly</em> belongs, with the government of the United States of America.</p>
+      <p>True patriots want to fix the problems with their country, they do not turn a blind eye to the problems.</p>
+    </section>
   </section>
 </section>
 </body>

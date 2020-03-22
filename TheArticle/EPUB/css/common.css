@@ -54,3 +54,7 @@ span.blockquote::before {
   content: "—";
   padding-left: 2em;
 }
+
+span.italic {
+  font-style: italic;
+}
