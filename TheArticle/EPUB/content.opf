@@ -54,6 +54,7 @@
   <!-- most of front matter -->
     <item href="TitlePage.xhtml" id="TitlePage" media-type="application/xhtml+xml" properties="svg"/>
     <item href="copyright.xhtml" id="copyright" media-type="application/xhtml+xml"/>
+    <item href="preface.xhtml" id="preface" media-type="application/xhtml+xml"/>
   <!-- The article content -->
     <item href="ToC4spine.xhtml" id="toc4spine" media-type="application/xhtml+xml"/>
     <item href="abstract.xhtml" id="abstract" media-type="application/xhtml+xml"/>
@@ -107,6 +108,7 @@
   <spine>
     <itemref idref="TitlePage"/>
     <itemref idref="copyright"/>
+    <itemref idref="preface"/>
     <itemref idref="toc4spine"/>
     <itemref idref="abstract"/>
     <itemref idref="methods"/>
