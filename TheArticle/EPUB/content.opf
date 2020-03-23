@@ -69,6 +69,7 @@
     <item href="voice.xhtml" id="voice" media-type="application/xhtml+xml"/>
     <item href="senses.xhtml" id="senses" media-type="application/xhtml+xml"/>
     <item href="locomotion.xhtml" id="locomotion" media-type="application/xhtml+xml"/>
+    <item href="escape.xhtml" id="escape" media-type="application/xhtml+xml"/>
 
     <item href="summary.xhtml" id="summary" media-type="application/xhtml+xml"/>
   <!-- appendix content -->
@@ -123,6 +124,7 @@
     <itemref idref="voice"/>
     <itemref idref="senses"/>
     <itemref idref="locomotion"/>
+    <itemref idref="escape"/>
 
     <itemref idref="summary"/>
     <itemref idref="pl1"/>
