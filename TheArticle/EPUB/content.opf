@@ -71,6 +71,7 @@
     <item href="locomotion.xhtml" id="locomotion" media-type="application/xhtml+xml"/>
     <item href="escape.xhtml" id="escape" media-type="application/xhtml+xml"/>
     <item href="breeding.xhtml" id="breeding" media-type="application/xhtml+xml"/>
+    <item href="parturition.xhtml" id="parturition" media-type="application/xhtml+xml"/>
 
     <item href="summary.xhtml" id="summary" media-type="application/xhtml+xml"/>
   <!-- appendix content -->
@@ -127,6 +128,7 @@
     <itemref idref="locomotion"/>
     <itemref idref="escape"/>
     <itemref idref="breeding"/>
+    <itemref idref="parturition"/>
 
     <itemref idref="summary"/>
     <itemref idref="pl1"/>
