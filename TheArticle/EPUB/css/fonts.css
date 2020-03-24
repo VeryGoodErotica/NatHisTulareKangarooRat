@@ -22,3 +22,10 @@ font-weight: bold;
 font-style: italic;
 src: url(../fonts/ClearSans-BoldItalic-wlatin.ttf);
 }
+/* for figure 3 */
+@font-face {
+font-family: 'Averia';
+font-weight: normal;
+font-style: normal;
+src: url(../fonts/Averia-Regular.ttf);
+}

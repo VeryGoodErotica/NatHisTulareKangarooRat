@@ -52,6 +52,7 @@
     <item href="fonts/ClearSans-Bold-wlatin.ttf" id="font.ClearSans.Bold" media-type="font/otf"/>
     <item href="fonts/ClearSans-Italic-wlatin.ttf" id="font.ClearSans.Italic" media-type="font/otf"/>
     <item href="fonts/ClearSans-BoldItalic-wlatin.ttf" id="font.ClearSans.BoldItalic" media-type="font/otf"/>
+    <item href="fonts/Averia-Regular.ttf" id="font.Averia.Regular" media-type="font/otf"/>
   <!-- most of front matter -->
     <item href="TitlePage.xhtml" id="TitlePage" media-type="application/xhtml+xml" properties="svg"/>
     <item href="copyright.xhtml" id="copyright" media-type="application/xhtml+xml"/>
