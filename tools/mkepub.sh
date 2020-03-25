@@ -11,7 +11,7 @@ git clone https://github.com/VeryGoodErotica/NatHisTulareKangarooRat.git
 cd NatHisTulareKangarooRat/TheArticle/EPUB
 
 # testing alternate css
-cat css/noitalics.css >> css/a11y.css
+#cat css/noitalics.css >> css/a11y.css
 
 [ -f ~/PipfroschPressLogo/NewPipfroschPress5.png ] && cp ~/PipfroschPressLogo/NewPipfroschPress5.png auximg/
 python3 ../../tools/updateTimestamp.py content.opf
