@@ -28,18 +28,18 @@ cd ../..
 echo -n application/epub+zip >mimetype
 
 zip -r -X Book.zip mimetype META-INF EPUB
-mv Book.zip NaturalHistoryOfTheTulareKangarooRat.epub
+mv Book.zip NaturalHistoryOfTheTulareKangarooRat.kepub.epub
 
 cat EPUB/css/noitalics.css >> EPUB/css/a11y.css
 zip -r -X Book.zip mimetype META-INF EPUB
-mv Book.zip NaturalHistoryOfTheTulareKangarooRat-NoItalics.epub
+mv Book.zip NaturalHistoryOfTheTulareKangarooRat-NoItalics.kepub.epub
 
 
-sh ../tools/epubcheck.sh NaturalHistoryOfTheTulareKangarooRat.epub
+sh ../tools/epubcheck.sh NaturalHistoryOfTheTulareKangarooRat.kepub.epub
 
 if hash ace 2>/dev/null; then
   if [ ! -f ${CWD}/AceReport/noace.tmp ]; then
-    ace -f -s -o AceReport NaturalHistoryOfTheTulareKangarooRat.epub
+    ace -f -s -o AceReport NaturalHistoryOfTheTulareKangarooRat.kepub.epub
     rm -rf ${CWD}/AceReport/data
     [ ! -d ${CWD}/AceReport ] && mkdir ${CWD}/AceReport
     mv AceReport/data ${CWD}/AceReport/
@@ -51,8 +51,8 @@ if hash ace 2>/dev/null; then
 fi
 
 
-mv NaturalHistoryOfTheTulareKangarooRat.epub ${CWD}/
-mv NaturalHistoryOfTheTulareKangarooRat-NoItalics.epub ${CWD}/
+mv NaturalHistoryOfTheTulareKangarooRat.kepub.epub ${CWD}/
+mv NaturalHistoryOfTheTulareKangarooRat-NoItalics.kepub.epub ${CWD}/
 
 popd
 
