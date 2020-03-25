@@ -40,14 +40,14 @@
     </ol>
     <p>Automated tagging will produce image-based <abbr>PDF</abbr> files that are more accessible than the same file without tagging but they are still <strong>severely</strong> lacking in accessibility. The JSTOR process very well may meet the letter of the law, but it does not adequately meet the needs of many users.</p>
   </section>
-  <section id="flowable" aria-labelledby="flowableh2">
-    <h2 id="flowableh2">Flowable Content</h2>
+  <section id="responsive" aria-labelledby="responsiveh2">
+    <h2 id="responsiveh2">Responsive Content</h2>
     <p>JSTOR uses fixed-layout <abbr>PDF</abbr> for the vast majority if not all of its historic journal content. A <abbr>PDF</abbr> can be cheaply created by scanning a printed journal, perfectly preserving the pagination that is often referred to by other journal articles.</p>
     <p>Unfortunately <abbr>PDF</abbr> is a fixed-layout design. When a user with a vision disability needs to increase the displayed font size in order to access the content, a <abbr>PDF</abbr> increases proportionally in both width and height. This often results in the need for the user to both horizontally scroll and vertically scroll in order to access the content, which is highly problematic.</p>
-    <p>Pipfrosch Press has chosen ePub for digital content publishing because it is a <em>flowable</em> layout. When a user needs to increase the font size, it does not result in scrolling in either direction. The number of page turns does increase, but scrolling is avoided.</p>
+    <p>Pipfrosch Press has chosen ePub for digital content publishing because it is a <em>responsive</em> layout. When a user needs to increase the font size, it does not result in scrolling in either direction. The number of page turns does increase, but scrolling is avoided.</p>
     <section id="pagination" aria-labelledby="paginationh3">
       <h3 id="paginationh3">Journal Article Pagination</h3>
-      <p>With a flowable-layout, the concept of specific referable page numbers has to be emulated. This is accomplished using the method described in the DAISY Consortium ‘<a href="http://kb.daisy.org/publishing/docs/navigation/pagelist.html" title="Internet Resource">Page Navigation</a>’ Accessible Publishing Knowledge Base.</p>
+      <p>With a responsive layout, the concept of specific referable page numbers has to be emulated. This is accomplished using the method described in the DAISY Consortium ‘<a href="http://kb.daisy.org/publishing/docs/navigation/pagelist.html" title="Internet Resource">Page Navigation</a>’ Accessible Publishing Knowledge Base.</p>
       <p>Pipfrosch Press implements that method, allowing users to both discover the journal page they are currently reading and allowing users to jump to the equivalent of a specific journal page.</p>
       <p>Unfortunately not all ePub readers make this pagination feature available to the user, but many do.</p>
     </section>
@@ -87,13 +87,13 @@
     </ol>
     <p>The sans-serif Apple fonts that currently ship with Apple devices are also extremely easy on my eyes but Apple does not allow their redistribution.</p>
     <p>The Fira Sans family originally created for the Firefox <abbr>OS</abbr> meets the first requirement, but I found that my eyes tire with it as well. Looking at the font in a font editor, it uses fancy curves with the font stems, and I wonder if that is the issue. I do not know.</p>
-    <p>I wanted Fira Sans to work because it has a small-caps variant, but it tired my eyes out too quickly. Not as quicklY as serif fonts do, but quickly enough.</p>
+    <p>I wanted Fira Sans to work because it has a small-caps variant, but it tired my eyes out too quickly. Not as quickly as serif fonts do, but quickly enough.</p>
     <p>Interestingly, at least for me personally, on eInk devices virtually any sans-serif fonts works well for me. It is only with the <abbr>LCD</abbr> displays used on computer monitors and ‘smart devices’ where my eyes tend to be picky. This ePub has been tested on a Kobo Clara <abbr>HD</abbr> (available from Walmart) specifically to make sure it works for those who prefer eInk devices.</p>
     <p>Due to the fact that Clear Sans does not have a small-caps variant, Pipfrosch Press does not currently use small-caps even when reproducing an upstream paper that did so.</p>
     <p>With respect to justified text, the majority of academic journals use justified text. Pipfrosch Press does not specify justified text. For most people on small screens, justified text is actually harder to read even though it looks beautiful. Beautiful typesetting misses the point of typesetting if it decreases the readability of the content.</p>
     <p>Many ePub readers allow the user to specify justified text if that is what the user prefers, and some even default to justified text.</p>
     <p>The main point is though that with ePub, the user can easily select a different font to be used and the user can easily decide whether or not they want the text justified, allowing the user to easily remove accessibility barriers that might otherwise exist but can not be altered in a <abbr>PDF</abbr> document.</p>
-    <p>In some cases, changing the font may change how text in an <abbr>SVG</abbr> figure aligns. To reduce the impact of that happening, the font specified for use in <abbr>SVG</abbr> is specified differently than for the body content. At least some ePub readers (inluding the previously mentioned Kobo Clara <abbr>HD</abbr>) are smart enough to then allow changing the body font while preserving the font defined for use in the <abbr>SVG</abbr> figures.</p>
+    <p>In some cases, changing the font may change how text in an <abbr>SVG</abbr> figure aligns. To reduce the impact of that happening, the font specified for use in <abbr>SVG</abbr> is specified differently than for the body content. At least some ePub readers (including the previously mentioned Kobo Clara <abbr>HD</abbr>) are smart enough to then allow changing the body font while preserving the font defined for use in the <abbr>SVG</abbr> figures.</p>
   </section>
   <section id="navigation" aria-labelledby="navigationh2">
     <h2 id="navigationh2">Content Navigation</h2>
@@ -101,7 +101,7 @@
     <p><abbr>PDF</abbr> has this capability and this is an area where modern journal papers published within the last twenty years often do things properly, but where the JSTOR <abbr>PDF</abbr> for the canonical journal article ported to ePub here completely fails.</p>
     <p>Instead of using the <abbr>PDF</abbr> digital Table of Contents to provide navigation within the canonical journal article, it is used for a table of contents to the journal issue where <strong>EVERY ARTICLE INCLUDING THE ARTICLE IN THE PDF</strong> is a link to JSTOR. Personally I find that inexcusable.</p>
     <p>Pipfrosch Press properly uses the content navigation facilities that ePub makes available to assistive technology.</p>
-    <p>In addition to a visual hierarchical Table of Contents that appears after preface, machine parsible navigation content lists that allow for
+    <p>In addition to a visual hierarchical Table of Contents that appears after preface, machine parsable navigation content lists that allow for
 <span role="list">
   <span role="listitem">landmark navigation,</span>
   <span role="listitem">hierarchical sequential ‘spine’ navigation for every section included in the ePub,</span>
@@ -110,7 +110,7 @@
   <span role="listitem">illustration navigation,</span>
   <span role="listitem">and navigation by canonical journal article page number</span>
 </span>
-are provided. While not all ePub readers expose these navigation lists to viewers who are not using assistive technology, these lists use a standardized <abbr>API</abbr> that allows assistive technology to use these machine parsible navigation lists.</p>
+are provided. While not all ePub readers expose these navigation lists to viewers who are not using assistive technology, these lists use a standardized <abbr>API</abbr> that allows assistive technology to use these machine parsable navigation lists.</p>
     <p>When a professor or researcher references a specific
 <span role="list">
   <span role="listitem">page number,</span>
@@ -163,7 +163,7 @@ within the canonical journal article, a user of assistive technology can easily 
           <p>Table 5 still suffers from horizontal column compression:</p>
           <figure id="tbl5" aria-labelledby="tbl5figcap">
             <img src="auximg/ExTable5.png" alt="The column headers and first three rows of data from Table 5 as shown on a small-screen display. In the first column header row, the words ‘BODY’, ‘TOTAL’, and ‘EAR’ are each broken up to wrap two lines. In the second column header row, the words ‘days’, and ‘grams’ are each broken up to wrap two lines. In the data rows, multiple though a minority of data cells have the numerical value broken up at the decimal point to wrap two lines."/>
-            <figcaption id="tbl5figcap">Screenshot of Table 5 on a small-screen device</figcaption>
+            <figcaption id="tbl5figcap">Screencap of Table 5 on a small-screen device</figcaption>
           </figure>
           <p>The problem however has been greatly reduced.</p>
         </div>
@@ -201,7 +201,7 @@ within the canonical journal article, a user of assistive technology can easily 
   </section>
   <section id="plates" aria-labelledby="platesh2">
     <h2 id="platesh2">Plates</h2>
-    <p>The canonical journal article uses two photographic plates. The first has eight images arranged in a 2&#215;4 grid and the second has ten images arranged in a 2&#215;5 grid. Those layouts do not work well with flowable ePub content.</p>
+    <p>The canonical journal article uses two photographic plates. The first has eight images arranged in a 2&#215;4 grid and the second has ten images arranged in a 2&#215;5 grid. Those layouts do not work well with responsive ePub content.</p>
     <p>For the first plate, it is my opinion that seven of the eight images are adequately described by the associated caption, with the eighth plate <em>mostly</em> adequately described by the associated caption.</p>
     <p>For the second plate, only one of the ten images is adequately described by the associated caption. The other nine are useless to those who can not see them without adequate detailed descriptions of the images themselves.</p>
     <p>Ten photographic images in total that need alternative text provided for the document to be accessible. The JSTOR <abbr>PDF</abbr> does not provide alternative text for any of them.</p>
