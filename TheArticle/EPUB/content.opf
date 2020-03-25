@@ -88,6 +88,7 @@
     <item href="table5.xhtml" id="tbl5" media-type="application/xhtml+xml"/>    
     <item href="plate2.xhtml" id="pl2" media-type="application/xhtml+xml"/>
     <item href="figure4.xhtml" id="fig4" media-type="application/xhtml+xml" properties="svg"/>
+    <item href="fig4desc.xhtml" id="fig4desc" media-type="application/xhtml+xml"/>
   <!-- appendix content -->
     <item href="litcited.xhtml" id="litcited" media-type="application/xhtml+xml"/>
     <item href="epubnotes.xhtml" id="epubnotes" media-type="application/xhtml+xml"/>
@@ -149,6 +150,7 @@
     <itemref idref="litcited"/>
     <itemref idref="fig2desc"/>
     <itemref idref="fig3desc"/>
+    <itemref idref="fig4desc"/>
     <itemref idref="epubnotes"/>
     <itemref idref="accessibility"/>
   </spine>
