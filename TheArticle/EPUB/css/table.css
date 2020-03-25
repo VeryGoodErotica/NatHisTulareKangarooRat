@@ -274,3 +274,19 @@ figure.tablefig {
 #table5 tbody td {
   font-size: smaller;
 }
+
+/* pgtable specific */
+
+#pgtable tbody tr:nth-child(odd) {
+  background: #ddd;
+}
+
+#pgtable td {
+  text-align: left;
+  font-size: smaller;
+  padding-right: 0.3em;
+}
+
+#pgtable td.null {
+  text-align: center;
+}
