@@ -1,6 +1,6 @@
 /* some people, including but not exclusively those with dyslexia,
    sometimes have problems with italic fonts.
-   Append this to common.css and most italicized fonts will
+   Append this to a11y.css and most italicized fonts will
    use an alternative */
 
 body {

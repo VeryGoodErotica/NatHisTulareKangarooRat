@@ -43,11 +43,13 @@
   <!-- CSS -->
     <item href="css/fonts.css" id="css__fonts" media-type="text/css"/>
     <item href="css/common.css" id="css__common" media-type="text/css"/>
-    <item href="css/noitalics-common.css" id="css__noitalics_common" media-type="text/css"/>
     <item href="css/title.css" id="css__title" media-type="text/css"/>
     <item href="css/table.css" id="css_table" media-type="text/css"/>
     <item href="css/svg.css" id="css_svg" media-type="text/css"/>
     <item href="css/litcited.css" id="css_litcited" media-type="text/css"/>
+    <!-- alternative css -->
+    <item href="css/noitalics.css" id="css__noitalics" media-type="text/css"/>
+    <item href="css/a11y.css" id="css__a11y" media-type="text/css"/>
   <!-- fonts -->
     <item href="fonts/ClearSans-Regular-wlatin.ttf" id="font.ClearSans.Regular" media-type="font/otf"/>
     <item href="fonts/ClearSans-Bold-wlatin.ttf" id="font.ClearSans.Bold" media-type="font/otf"/>
