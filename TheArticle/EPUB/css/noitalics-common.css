@@ -35,7 +35,7 @@ dfn {
 }
 
 abbr.italic {
-  font-weight: bold;
+  font-style: normal;
 }
 
 span.captitle {
