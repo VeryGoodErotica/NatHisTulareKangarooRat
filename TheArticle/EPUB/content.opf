@@ -36,7 +36,7 @@
     <!-- end a11y -->
   </metadata>
   <manifest>
-    <item href="CoverImage.png" id="cover-image" media-type="image/png" properties="cover-image"/>
+    <item href="CoverImage.jpg" id="cover-image" media-type="image/jpeg" properties="cover-image"/>
     <item href="ToC.xhtml" id="ToC" media-type="application/xhtml+xml" properties="nav"/>
   <!-- PLS -->
     <item href="pronunciation.pls" id="pls-lexicon" media-type="application/pls+xml"/>
