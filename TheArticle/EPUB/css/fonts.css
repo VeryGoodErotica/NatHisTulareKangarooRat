@@ -25,7 +25,7 @@ src: url(../fonts/ClearSans-BoldItalic-wlatin.ttf);
 /* for figure 3 */
 @font-face {
 font-family: 'Averia';
-font-weight: normal;
+font-weight: bold;
 font-style: normal;
-src: url(../fonts/Averia-Regular-wlatin.ttf);
+src: url(../fonts/Averia-Bold-wlatin.ttf);
 }
