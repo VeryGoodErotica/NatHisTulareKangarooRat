@@ -288,7 +288,7 @@ figure.tablefig {
 }
 
 #pgtable tbody tr td:nth-child(2) {
-  border-right: 2px solid;
+  border-right: 2px solid gray;
 }
 
 #pgtable tbody tr td:nth-child(3) {
