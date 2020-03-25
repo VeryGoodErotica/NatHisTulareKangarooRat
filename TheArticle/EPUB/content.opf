@@ -82,6 +82,7 @@
     <item href="table3.xhtml" id="tbl3" media-type="application/xhtml+xml"/>
     <item href="table4.xhtml" id="tbl4" media-type="application/xhtml+xml"/>
     <item href="figure2.xhtml" id="fig2" media-type="application/xhtml+xml" properties="svg"/>
+    <item href="fig2desc.xhtml" id="fig2desc" media-type="application/xhtml+xml"/>
     <item href="figure3.xhtml" id="fig3" media-type="application/xhtml+xml" properties="svg"/>
     <item href="fig3desc.xhtml" id="fig3desc" media-type="application/xhtml+xml"/>
     <item href="table5.xhtml" id="tbl5" media-type="application/xhtml+xml"/>    
@@ -146,6 +147,7 @@
     <itemref idref="pl2"/>
     <itemref idref="fig4"/>
     <itemref idref="litcited"/>
+    <itemref idref="fig2desc"/>
     <itemref idref="fig3desc"/>
     <itemref idref="epubnotes"/>
     <itemref idref="accessibility"/>
