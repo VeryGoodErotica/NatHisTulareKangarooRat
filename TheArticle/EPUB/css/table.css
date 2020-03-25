@@ -287,6 +287,10 @@ figure.tablefig {
   padding-right: 0.3em;
 }
 
+#pgtable tbody tr td:nth-child(2) {
+  border-right: 2px solid;
+}
+
 #pgtable td.null {
   text-align: center;
 }
