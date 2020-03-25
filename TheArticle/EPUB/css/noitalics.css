@@ -55,3 +55,33 @@ ol.italic li em {
 span.italic {
   font-weight: bold;
 }
+
+/* tables */
+
+table caption {
+  font-style: normal;;
+}
+
+tr.units th {
+  font-style: normal;
+}
+
+#dogalarm {
+  text-align: left;
+  font-style: normal;
+  font-size: smaller;
+}
+
+/* litcited */
+
+p.bib span.journal {
+  font-style: normal;
+}
+
+/* titlepage */
+
+text.ilogo {
+  font-family: 'Clear Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}

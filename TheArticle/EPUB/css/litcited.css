@@ -57,20 +57,3 @@ p.bib span.pdf::before {
 p.bib span.pdf::after {
   content: "]"
 }
-
-p.bib span.note {
-  font-style: italic;
-}
-
-p.bib span.note::before {
-  content: "("
-}
-
-p.bib span.note::after {
-  content: ")"
-}
-
-p.bib span.note em {
-  font-style: italic;
-  font-weight: bold;
-}
