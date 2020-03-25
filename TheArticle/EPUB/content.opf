@@ -80,7 +80,7 @@
     <item href="growth.xhtml" id="growth" media-type="application/xhtml+xml" properties="mathml"/>
     <item href="carrying.xhtml" id="carrying" media-type="application/xhtml+xml"/>
     <item href="movements.xhtml" id="movements" media-type="application/xhtml+xml"/>
-
+    <item href="relationships.xhtml" id="relationships" media-type="application/xhtml+xml"/>
     <item href="lifespan.xhtml" id="lifespan" media-type="application/xhtml+xml"/>
     <item href="summary.xhtml" id="summary" media-type="application/xhtml+xml"/>
   <!-- appendix content -->
@@ -147,7 +147,7 @@
     <itemref idref="growth"/>
     <itemref idref="carrying"/>
     <itemref idref="movements"/>
-    
+    <itemref idref="relationships"/>
     <itemref idref="lifespan"/>
     <itemref idref="summary"/>
     <itemref idref="fig1"/>

@@ -30,6 +30,10 @@ echo -n application/epub+zip >mimetype
 zip -r -X Book.zip mimetype META-INF EPUB
 mv Book.zip NaturalHistoryOfTheTulareKangarooRat.epub
 
+cat EPUB/css/noitalics.css >> EPUB/css/a11y.css
+zip -r -X Book.zip mimetype META-INF EPUB
+mv Book.zip NaturalHistoryOfTheTulareKangarooRat-NoItalics.epub
+
 
 sh ../tools/epubcheck.sh NaturalHistoryOfTheTulareKangarooRat.epub
 
@@ -48,6 +52,7 @@ fi
 
 
 mv NaturalHistoryOfTheTulareKangarooRat.epub ${CWD}/
+mv NaturalHistoryOfTheTulareKangarooRat-NoItalics.epub ${CWD}/
 
 popd
 
