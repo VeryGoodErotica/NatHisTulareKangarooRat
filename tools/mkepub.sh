@@ -18,6 +18,7 @@ cp -p /usr/local/ePubFonts/ClearSans-Bold-wlatin.ttf .
 cp -p /usr/local/ePubFonts/ClearSans-Italic-wlatin.ttf .
 cp -p /usr/local/ePubFonts/ClearSans-Regular-wlatin.ttf .
 cp -p /usr/local/ePubFonts/Averia-Bold-wlatin.ttf .
+cp -p /usr/local/ePubFonts/Averia-Regular-wlatin.ttf .
 cd ../..
 
 echo -n application/epub+zip >mimetype

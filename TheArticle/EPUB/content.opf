@@ -43,6 +43,7 @@
   <!-- CSS -->
     <item href="css/fonts.css" id="css__fonts" media-type="text/css"/>
     <item href="css/common.css" id="css__common" media-type="text/css"/>
+    <item href="css/noitalics-common.css" id="css__noitalics_common" media-type="text/css"/>
     <item href="css/title.css" id="css__title" media-type="text/css"/>
     <item href="css/table.css" id="css_table" media-type="text/css"/>
     <item href="css/svg.css" id="css_svg" media-type="text/css"/>
@@ -52,6 +53,7 @@
     <item href="fonts/ClearSans-Bold-wlatin.ttf" id="font.ClearSans.Bold" media-type="font/otf"/>
     <item href="fonts/ClearSans-Italic-wlatin.ttf" id="font.ClearSans.Italic" media-type="font/otf"/>
     <item href="fonts/ClearSans-BoldItalic-wlatin.ttf" id="font.ClearSans.BoldItalic" media-type="font/otf"/>
+    <item href="fonts/Averia-Regular-wlatin.ttf" id="font.Averia.Regular" media-type="font/otf"/>
     <item href="fonts/Averia-Bold-wlatin.ttf" id="font.Averia.Bold" media-type="font/otf"/>
   <!-- most of front matter -->
     <item href="TitlePage.xhtml" id="TitlePage" media-type="application/xhtml+xml" properties="svg"/>

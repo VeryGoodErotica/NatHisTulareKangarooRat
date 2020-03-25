@@ -1,0 +1,66 @@
+/* some people, including but not exclusively those with dyslexia,
+   sometimes have problems with italic fonts.
+   Use this in place of common.css and most italicized fonts will
+   use an alternative */
+
+body {
+  font-family: 'Clear Sans', sans-serif;
+}
+
+p {
+  widows: 1;
+  orphans: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.taxon {
+  font-family: 'Averia', sans-serif;
+  text-decoration: underline;
+}
+
+abbr.italic {
+  font-weight: bold;
+}
+
+.pbb {
+  page-break-before: always;
+}
+
+figure.figure {
+  padding: 0;
+  margin: 0;
+}
+
+span.captitle {
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+ol.italic li {
+  font-weight: bold;
+}
+
+ol.italic li em {
+  text-decoration: underline;
+}
+
+span.blockquote::before {
+  content: "—";
+  padding-left: 2em;
+}
+
+span.italic {
+  font-weight: bold;
+}
