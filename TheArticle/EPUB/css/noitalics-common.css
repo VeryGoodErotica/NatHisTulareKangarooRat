@@ -7,6 +7,23 @@ body {
   font-family: 'Clear Sans', sans-serif;
 }
 
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+em strong {
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+strong em {
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 p {
   widows: 1;
   orphans: 1;
