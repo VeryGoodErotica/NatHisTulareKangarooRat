@@ -58,3 +58,10 @@ span.blockquote::before {
 span.italic {
   font-style: italic;
 }
+
+blockquote.poem {
+  font-family: 'Alex Brush', cursive;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
