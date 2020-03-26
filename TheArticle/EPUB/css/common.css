@@ -11,6 +11,11 @@ a {
   text-decoration: none;
 }
 
+/* for benefit of grayscale viewers */
+a:link,a:visited {
+  color: #483d8B;
+}
+
 h1 {
   text-align: center;
 }
