@@ -103,6 +103,7 @@
     <item href="pagination.xhtml" id="pagination" media-type="application/xhtml+xml"/>
     <item href="epubnotes.xhtml" id="epubnotes" media-type="application/xhtml+xml"/>
     <item href="accessibility.xhtml" id="accessibility" media-type="application/xhtml+xml"/>
+    <item href="todo.xhtml" id="todo" media-type="application/xhtml+xml"/>
   <!-- Photographic plates -->
     <item href="plates/plate1a.jpg" id="plate1a" media-type="image/jpeg"/>
     <item href="plates/plate1b.jpg" id="plate1b" media-type="image/jpeg"/>
@@ -169,5 +170,6 @@
     <itemref idref="fig4desc"/>
     <itemref idref="epubnotes"/>
     <itemref idref="accessibility"/>
+    <itemref idref="todo"/>
   </spine>
 </package>

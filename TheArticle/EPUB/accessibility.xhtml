@@ -50,6 +50,7 @@
       <p>With a responsive layout, the concept of specific referable page numbers has to be emulated. This is accomplished using the method described in the DAISY Consortium ‘<a href="http://kb.daisy.org/publishing/docs/navigation/pagelist.html" title="Internet Resource">Page Navigation</a>’ Accessible Publishing Knowledge Base.</p>
       <p>Pipfrosch Press implements that method, allowing users to both discover the journal page they are currently reading and allowing users to jump to the equivalent of a specific journal page.</p>
       <p>Unfortunately not all ePub readers make this pagination feature available to the user, but many do.</p>
+      <p>To compensate for those ePub readers that do not expose pagination, I created an index table specifically for finding a part of the paper referenced by the page number in the canonical journal article.</p>
     </section>
   </section>
   <section id="transcription" aria-labelledby="transcriptionh2">
@@ -233,6 +234,8 @@ within the canonical journal article, a user of assistive technology can easily 
     <h2 id="extendableh2">Extendable Accessibility</h2>
     <p>In several nations, including the United States, institutions like libraries and universities are specifically given authority under law to modify a work for the purpose of adding accessibility features needed by a user.</p>
     <p><abbr>PDF</abbr> is very difficult to modify. Even things like changing the font to a font that a certain user needs to lower accessibility barriers is virtually impossible with <abbr>PDF</abbr>.</p>
+    <p>Every <abbr>XHTML</abbr> page references a style sheet titled &#8216;<code>css/a11y.css</code>&#8217; as the last style sheet loaded for rendering the page. This style sheet is ordinarily empty but if any <abbr>CSS</abbr> changes need to be made to assist a user in overcoming an accessibility barrier, styles declared in that style sheet will always override styles declared in the other style sheets.</p>
+    <p>It is known to me that for some users, italic text is an accessibility barrier. A style sheet titled &#8216;<code>css/noitalics.css</code>&#8217; is distributed inside the ePub but is not referenced by any of the pages. Placing the contents of that file inside the &#8216;<code>css/a11y.css</code>&#8217; style sheet will intelligently substitute non-italic style where the ePub normally calls for italicized text. Pipfrosch Press plans to always distribute alternative versions of all ePub content that do not contain italicized text.</p>
   </section>
   <section id="missing" aria-labelledby="missingh2">
     <h2 id="missingh2">Currently Missing Features</h2>
