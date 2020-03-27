@@ -223,6 +223,13 @@ within the canonical journal article, a user of assistive technology can easily 
     <p>In one instance, the canonical journal articles uses ‘New Mexico’ where the <em>actual</em> journal article actually referred to ‘Mexico’ (<a href="litcited.xhtml#allen-1895">Allen 1895</a>) and in other case the canonical journal article references ‘Volume 9’ where the <em>actual</em> journal article appeared in ‘Volume 11’ (<a href="litcited.xhtml#svihla-1930">Svihla 1930</a>).</p>
     <p>I also added author first names in place of just a first initial when the original article specified it (or alternatively the middle name in place of middle initial in a few cases), <abbr>etc.</abbr></p>
   </section>
+  <section id="mathml" aria-labelledby="mathmlh2">
+    <h2 id="mathmlh2">Mathematical Equations</h2>
+    <p>The canonical journal article contains one mathematical equation, typeset inline, along with descriptions of the variables which are also typeset inline.</p>
+    <p>It is possible, though highly unlikely, that the automated <abbr>OCR</abbr> scanning and tagging tool used by JSTOR is able to make those equations accessible to screen readers but I suspect such tagging, when it is done by JSTOR, is manually done when a user with a disability files an accessibility complaint.</p>
+    <p>Many ePub viewers are deficient at the proper rendering of <abbr>MathML</abbr>. I used the facilies of <a href="https://mathmlcloud.org/" title="Internet Resoource">MathML Cloud</a> to generate <abbr>SVG</abbr> images which are used in the ePub to display the equation and lone variables to the end user. This was done using an <abbr>XHTML</abbr> <code>object</code> tag with the <abbr>SVG</abbr> image referenced in the <code>data</code> attribute, allowing the actual <abbr>MathML</abbr> to be included as a child of the <code>object</code> tag. It is doubtful that any ePub viewers that do properly render <abbr>MathML</abbr> will choose the <abbr>MathML</abbr> over the <abbr>SVG</abbr> image, but it is possible. Regardless, the equation and variables do properly display with the <abbr>SVG</abbr> image.</p>
+    <p>There are currently some members of the digital publishing community who have a lot more experience with both ePub and <abbr>MathML</abbr> than I have who are working on a set of &#8216;best practice&#8217; guidelines for <abbr>MathML</abbr> in ePub that take dyslexia and low vision users into account in addition to screen readers. I will likely follow their guidelines when they publish it.</p>
+  </section>
   <section id="misc" aria-labelledby="semantich2">
     <h2 id="semantich2">Semantic Markup and Labels</h2>
     <p>In addition to the above changes, I added semantic markup throughout the article where necessary.</p>
