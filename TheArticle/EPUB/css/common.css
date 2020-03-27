@@ -71,3 +71,9 @@ blockquote.poem {
   font-size: 1.3em;
   text-align: center;
 }
+
+/* mathml */
+math, math[mode="inline"] {
+  font-family: "STIX Two Math", "STIX Two Text", Times;
+  font-style: normal;
+}
