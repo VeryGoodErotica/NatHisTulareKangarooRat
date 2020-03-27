@@ -2,6 +2,11 @@ body {
   font-family: 'Clear Sans', sans-serif;
 }
 
+code {
+  font-family: 'Fira Mono', monospace;
+  font-weight: 500;
+}
+
 p {
   widows: 1;
   orphans: 1;

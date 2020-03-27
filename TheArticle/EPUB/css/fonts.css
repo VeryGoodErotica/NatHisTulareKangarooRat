@@ -40,3 +40,9 @@ font-weight: normal;
 font-style: normal;
 src: url(../fonts/AlexBrush-Regular.ttf);
 }
+@font-face {
+font-family: 'Fira Mono';
+font-weight: 500;
+font-style: normal;
+src: url(../fonts/FiraMono-Medium-wlatin.ttf);
+}
