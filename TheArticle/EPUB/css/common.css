@@ -80,3 +80,9 @@ blockquote.poem {
   font-size: 1.3em;
   text-align: center;
 }
+
+span.math-equation object {
+  vertical-align: -0.5ex;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
