@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/27/2020, 12:05:38 PM",
+  "dct:date": "3/27/2020, 12:07:54 PM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -215,7 +215,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-27T19:05:33Z"
+      "dcterms:modified": "2020-03-27T19:07:49Z"
     },
     "links": {}
   },
@@ -451,41 +451,6 @@
         "earl:outcome": "fail"
       },
       "assertions": [
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/36[tail]/2/6/2[mathml-equation-svg]"
-              ],
-              "css": [
-                "#mathml-equation-svg"
-              ]
-            },
-            "html": "<object xmlns=\"http://www.w3.org/1999/xhtml\" data=\"mathmlsvg/equation.svg\" id=\"mathml-equation-svg\">"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "object-alt",
-            "dct:description": "Ensures <object> elements have alternate text",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/html/object.html",
-              "dct:title": "Object",
-              "dct:description": "<object> elements must have alternate text"
-            },
-            "rulesetTags": [
-              "cat.text-alternatives",
-              "wcag2a",
-              "wcag111",
-              "section508",
-              "section508.22.a"
-            ]
-          }
-        },
         {
           "@type": "earl:assertion",
           "earl:result": {
