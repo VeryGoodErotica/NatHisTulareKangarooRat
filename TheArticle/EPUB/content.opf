@@ -46,6 +46,7 @@
     <item href="css/title.css" id="css__title" media-type="text/css"/>
     <item href="css/table.css" id="css_table" media-type="text/css"/>
     <item href="css/svg.css" id="css_svg" media-type="text/css"/>
+    <item href="css/mathml.css" id="css_svg" media-type="text/css"/>
     <item href="css/litcited.css" id="css_litcited" media-type="text/css"/>
     <!-- alternative css -->
     <item href="css/noitalics.css" id="css__noitalics" media-type="text/css"/>

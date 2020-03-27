@@ -1,0 +1,25 @@
+span[role="math"] object {
+  display: inline-block;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+#mathml.equation.svg {
+  vertical-align: -0.5ex;
+}
+
+#mathml.y.svg {
+  vertical-align: -0.5ex;
+}
+
+#mathml.b.svg {
+  vertical-align: -0.167ex;
+}
+
+#mathml.x.svg {
+  vertical-align: -0.167ex;
+}
+
+#mathml.k.svg {
+  vertical-align: -0.167ex;
+}
