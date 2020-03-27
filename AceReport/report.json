@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/26/2020, 10:50:37 AM",
+  "dct:date": "3/27/2020, 12:05:38 PM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -15,9 +15,9 @@
     }
   },
   "outlines": {
-    "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n  <li>Title Page</li>\n  <li>Copyright Page</li>\n  <li>Preface</li>\n  <li>Contents Page</li>\n  <li>Abstract</li>\n  <li>Methods and Acknowledgments</li>\n  <li>Burrow Systems<ol>\n    <li>Structure</li>\n    <li>Surface Runways</li>\n    <li>Location of Burrows</li>\n    <li>Nests and Places of Rest</li>\n  </ol></li>\n  <li>Food and Storage</li>\n  <li>Economic Importance</li>\n  <li>Water Requirements</li>\n  <li>Activities<ol>\n    <li>Surface Activity</li>\n    <li>Sub-surface Activity</li>\n    <li>Foraging</li>\n    <li>Dust Bathing</li>\n  </ol></li>\n  <li>Sanitation</li>\n  <li>Voice and Communication</li>\n  <li>Senses<ol>\n    <li>Hearing</li>\n    <li>Sight</li>\n    <li>Smell</li>\n  </ol></li>\n  <li>Locomotion<ol>\n    <li>Method</li>\n    <li>Speed</li>\n    <li>Endurance</li>\n  </ol></li>\n  <li>Methods of Escape From Enemies</li>\n  <li>Breeding</li>\n  <li>Parturition</li>\n  <li>Growth, Development and Behavior of Young<ol>\n    <li>Age at which young leave burrows</li>\n    <li>Tail growth-coefficient</li>\n  </ol></li>\n  <li>Methods of Carrying Young</li>\n  <li>Population Movements<ol>\n    <li>Emigration of young</li>\n    <li>Extent of individual movements</li>\n  </ol></li>\n  <li>Animal Relationships</li>\n  <li>Length of Life</li>\n  <li>Summary</li>\n  <li>Literature Cited</li>\n  <li>Page Number Index</li>\n  <li>Figure 2 Text Description</li>\n  <li>Figure 3 Text Description</li>\n  <li>Figure 4 Text Description</li>  \n  <li>ePub Notes</li>\n  <li>Content Accessibility</li>\n  <li>To Do List</li>\n  <li>About Piprosch Press<ol>\n    <li>Macro Biology Field Guide</li>\n  </ol></li>\n</ol>",
-    "headings": "<ul><li><span class=\"toc-h1\">Natural History of the Tulare Kangaroo Rat</span><ul><li><span class=\"toc-h2\">by Donald T. Tappe</span><li><span class=\"toc-h2\">Journal of Mammalogy</span><ul><li><span class=\"toc-h3\">Volume 22, No. 2, May 14 1941</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Copyright Information</span><li><span class=\"toc-h1\">Preface</span><li><span class=\"toc-h1\">Contents</span><ul><li><span class=\"toc-h2\">Auxillary Content</span><li><span class=\"toc-h2\">Article Table of Contents</span><li><span class=\"toc-h2\">List of Tables</span><li><span class=\"toc-h2\">List of Figures</span><li><span class=\"toc-h2\">List of Plates</span></li></ul></li><li><span class=\"toc-h1\">Abstract</span><li><span class=\"toc-h1\">Methods and Acknowledgments</span><li><span class=\"toc-h1\">Burrow Systems</span><li><span class=\"toc-h1\">Food and Storage</span><li><span class=\"toc-h1\">Economic Importance</span><li><span class=\"toc-h1\">Water Requirements</span><li><span class=\"toc-h1\">Activities</span><li><span class=\"toc-h1\">Sanitation</span><li><span class=\"toc-h1\">Voice and Communication</span><li><span class=\"toc-h1\">Senses</span><li><span class=\"toc-h1\">Locomotion</span><li><span class=\"toc-h1\">Methods of Escape From Enemies</span><li><span class=\"toc-h1\">Breeding</span><li><span class=\"toc-h1\">Parturition</span><li><span class=\"toc-h1\">Growth, Development and Behavior of Young</span><li><span class=\"toc-h1\">Methods of Carrying Young</span><li><span class=\"toc-h1\">Population Movements</span><li><span class=\"toc-h1\">Animal Relationships</span><li><span class=\"toc-h1\">Length of Life</span><li><span class=\"toc-h1\">Summary</span><li><span class=\"toc-h1\">Plate 1</span><ul><li><span class=\"toc-h2\">Table 3 Description</span><li><span class=\"toc-h2\">Table 5 Description</span></li></ul></li><li><span class=\"toc-h1\">Plate 2</span><li><span class=\"toc-h1\">Literature Cited</span><li><span class=\"toc-h1\">Figure 2 Text Description</span><ul><li><span class=\"toc-h2\">SVG Title</span><li><span class=\"toc-h2\">SVG Description</span></li></ul></li><li><span class=\"toc-h1\">Figure 3 Text Description</span><ul><li><span class=\"toc-h2\">SVG Title</span><li><span class=\"toc-h2\">SVG Description</span></li></ul></li><li><span class=\"toc-h1\">Figure 4 Text Description</span><ul><li><span class=\"toc-h2\">SVG Title</span><li><span class=\"toc-h2\">SVG Description</span></li></ul></li><li><span class=\"toc-h1\">ePub Notes</span><ul><li><span class=\"toc-h2\">Contents:</span><li><span class=\"toc-h2\">Canonical Journal Article</span><li><span class=\"toc-h2\">ePub Port</span><li><span class=\"toc-h2\">Alterations</span><ul><li><span class=\"toc-h3\">Floats</span><li><span class=\"toc-h3\">Hyperlink Abbreviations</span></li></ul></li><li><span class=\"toc-h2\">Motivation</span><li><span class=\"toc-h2\">Donations</span></li></ul></li><li><span class=\"toc-h1\">Content Accessibility</span><ul><li><span class=\"toc-h2\">Accessibility of Academic Papers</span><li><span class=\"toc-h2\">Responsive Content</span><ul><li><span class=\"toc-h3\">Journal Article Pagination</span></li></ul></li><li><span class=\"toc-h2\">Text Transcription</span><li><span class=\"toc-h2\">Pronunciation Lexicon</span><li><span class=\"toc-h2\">Fonts and Justification</span><li><span class=\"toc-h2\">Content Navigation</span><li><span class=\"toc-h2\">Tabular Data</span><ul><li><span class=\"toc-h3\">ePub Tabular Visual Access Barrier</span></li></ul></li><li><span class=\"toc-h2\">Figures</span><ul><li><span class=\"toc-h3\">Figure 1 Note</span></li></ul></li><li><span class=\"toc-h2\">Plates</span><li><span class=\"toc-h2\">Works Cited Accessibility</span><li><span class=\"toc-h2\">Semantic Markup and Labels</span><li><span class=\"toc-h2\">Extendable Accessibility</span><li><span class=\"toc-h2\">Currently Missing Features</span><li><span class=\"toc-h2\">The Importance of JSTOR</span><ul><li><span class=\"toc-h3\">Aaron Swartz</span></li></ul></li></ul></li><li><span class=\"toc-h1\">To Do List</span><ul><li><span class=\"toc-h2\">Article Copyright</span><li><span class=\"toc-h2\">Pipfrosch Logo</span><li><span class=\"toc-h2\">Phonetic Markup</span><li><span class=\"toc-h2\">Glossary of Terms</span><li><span class=\"toc-h2\">Figure 1 Redraw</span><ul><li><span class=\"toc-h3\">Updated Figure 1</span></li></ul></li><li><span class=\"toc-h2\">Cover Art</span><li><span class=\"toc-h2\">Photographic Plates</span></li></ul></li><li><span class=\"toc-h1\">About Pipfrosch Press</span><ul><li><span class=\"toc-h2\">Macro Biology Field Guide</span></li></ul></li></ul>",
-    "html": "<ol><li><ol><li><i>Untitled BODY</i><ol><li>Natural History of the Tulare Kangaroo Rat<ol><li>by Donald T. Tappe</li><li>Journal of Mammalogy<ol><li>Volume 22, No. 2, May 14 1941</li></ol></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Copyright Information</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Preface</li></ol></li></ol></li><li><ol><li>Contents<ol><li>Auxillary Content</li><li>Article Table of Contents</li><li>List of Tables</li><li>List of Figures</li><li>List of Plates</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Abstract</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods and Acknowledgments</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Burrow Systems<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Food and Storage</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Economic Importance</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Water Requirements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Activities<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Sanitation</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Voice and Communication</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Senses<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Locomotion<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods of Escape From Enemies</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Breeding</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Parturition</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Growth, Development and Behavior of Young<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods of Carrying Young</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Population Movements<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Animal Relationships</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Length of Life</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Summary</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 1</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i><ol><li>Table 3 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i><ol><li>Table 5 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 2</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Literature Cited</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Figure 2 Text Description<ol><li>SVG Title</li><li>SVG Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Figure 3 Text Description<ol><li>SVG Title</li><li>SVG Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Figure 4 Text Description<ol><li>SVG Title</li><li>SVG Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>ePub Notes<ol><li>Contents:</li><li>Canonical Journal Article</li><li>ePub Port</li><li>Alterations<ol><li>Floats</li><li>Hyperlink Abbreviations</li></ol></li><li>Motivation</li><li>Donations</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Content Accessibility<ol><li>Accessibility of Academic Papers</li><li>Responsive Content<ol><li>Journal Article Pagination</li></ol></li><li>Text Transcription</li><li>Pronunciation Lexicon</li><li>Fonts and Justification</li><li>Content Navigation</li><li>Tabular Data<ol><li>ePub Tabular Visual Access Barrier</li></ol></li><li>Figures<ol><li>Figure 1 Note</li></ol></li><li>Plates</li><li>Works Cited Accessibility</li><li>Semantic Markup and Labels</li><li>Extendable Accessibility</li><li>Currently Missing Features</li><li>The Importance of JSTOR<ol><li>Aaron Swartz</li></ol></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>To Do List<ol><li>Article Copyright</li><li>Pipfrosch Logo</li><li>Phonetic Markup</li><li>Glossary of Terms</li><li>Figure 1 Redraw<ol><li>Updated Figure 1</li></ol></li><li>Cover Art</li><li>Photographic Plates</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>About Pipfrosch Press<ol><li>Macro Biology Field Guide</li></ol></li></ol></li></ol></li></ol>"
+    "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n  <li>Title Page</li>\n  <li>Copyright Page</li>\n  <li>Preface</li>\n  <li>Contents Page</li>\n  <li>Abstract</li>\n  <li>Methods and Acknowledgments</li>\n  <li>Burrow Systems<ol>\n    <li>Structure</li>\n    <li>Surface Runways</li>\n    <li>Location of Burrows</li>\n    <li>Nests and Places of Rest</li>\n  </ol></li>\n  <li>Food and Storage</li>\n  <li>Economic Importance</li>\n  <li>Water Requirements</li>\n  <li>Activities<ol>\n    <li>Surface Activity</li>\n    <li>Sub-surface Activity</li>\n    <li>Foraging</li>\n    <li>Dust Bathing</li>\n  </ol></li>\n  <li>Sanitation</li>\n  <li>Voice and Communication</li>\n  <li>Senses<ol>\n    <li>Hearing</li>\n    <li>Sight</li>\n    <li>Smell</li>\n  </ol></li>\n  <li>Locomotion<ol>\n    <li>Method</li>\n    <li>Speed</li>\n    <li>Endurance</li>\n  </ol></li>\n  <li>Methods of Escape From Enemies</li>\n  <li>Breeding</li>\n  <li>Parturition</li>\n  <li>Growth, Development and Behavior of Young<ol>\n    <li>Age at which young leave burrows</li>\n    <li>Tail growth-coefficient</li>\n  </ol></li>\n  <li>Methods of Carrying Young</li>\n  <li>Population Movements<ol>\n    <li>Emigration of young</li>\n    <li>Extent of individual movements</li>\n  </ol></li>\n  <li>Animal Relationships</li>\n  <li>Length of Life</li>\n  <li>Summary</li>\n  <li>Literature Cited</li>\n  <li>Page Number Index</li>\n  <li>Figure 2 Text Description</li>\n  <li>Figure 3 Text Description</li>\n  <li>Figure 4 Text Description</li>  \n  <li>ePub Notes</li>\n  <li>Content Accessibility</li>\n  <li>To Do List</li>\n  <li>About Piprosch Press<ol>\n    <li>Macro Biology Field Guide</li>\n    <li>Donations</li>\n  </ol></li>\n</ol>",
+    "headings": "<ul><li><span class=\"toc-h1\">Natural History of the Tulare Kangaroo Rat</span><ul><li><span class=\"toc-h2\">by Donald T. Tappe</span><li><span class=\"toc-h2\">Journal of Mammalogy</span><ul><li><span class=\"toc-h3\">Volume 22, No. 2, May 14 1941</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Copyright Information</span><li><span class=\"toc-h1\">Preface</span><li><span class=\"toc-h1\">Contents</span><ul><li><span class=\"toc-h2\">Auxillary Content</span><li><span class=\"toc-h2\">Article Table of Contents</span><li><span class=\"toc-h2\">List of Tables</span><li><span class=\"toc-h2\">List of Figures</span><li><span class=\"toc-h2\">List of Plates</span></li></ul></li><li><span class=\"toc-h1\">Abstract</span><li><span class=\"toc-h1\">Methods and Acknowledgments</span><li><span class=\"toc-h1\">Burrow Systems</span><li><span class=\"toc-h1\">Food and Storage</span><li><span class=\"toc-h1\">Economic Importance</span><li><span class=\"toc-h1\">Water Requirements</span><li><span class=\"toc-h1\">Activities</span><li><span class=\"toc-h1\">Sanitation</span><li><span class=\"toc-h1\">Voice and Communication</span><li><span class=\"toc-h1\">Senses</span><li><span class=\"toc-h1\">Locomotion</span><li><span class=\"toc-h1\">Methods of Escape From Enemies</span><li><span class=\"toc-h1\">Breeding</span><li><span class=\"toc-h1\">Parturition</span><li><span class=\"toc-h1\">Growth, Development and Behavior of Young</span><li><span class=\"toc-h1\">Methods of Carrying Young</span><li><span class=\"toc-h1\">Population Movements</span><li><span class=\"toc-h1\">Animal Relationships</span><li><span class=\"toc-h1\">Length of Life</span><li><span class=\"toc-h1\">Summary</span><li><span class=\"toc-h1\">Plate 1</span><ul><li><span class=\"toc-h2\">Table 3 Description</span><li><span class=\"toc-h2\">Table 5 Description</span></li></ul></li><li><span class=\"toc-h1\">Plate 2</span><li><span class=\"toc-h1\">Literature Cited</span><li><span class=\"toc-h1\">Figure 2 Text Description</span><ul><li><span class=\"toc-h2\">SVG Title</span><li><span class=\"toc-h2\">SVG Description</span></li></ul></li><li><span class=\"toc-h1\">Figure 3 Text Description</span><ul><li><span class=\"toc-h2\">SVG Title</span><li><span class=\"toc-h2\">SVG Description</span></li></ul></li><li><span class=\"toc-h1\">Figure 4 Text Description</span><ul><li><span class=\"toc-h2\">SVG Title</span><li><span class=\"toc-h2\">SVG Description</span></li></ul></li><li><span class=\"toc-h1\">ePub Notes</span><ul><li><span class=\"toc-h2\">Contents:</span><li><span class=\"toc-h2\">Canonical Journal Article</span><li><span class=\"toc-h2\">ePub Port</span><li><span class=\"toc-h2\">Alterations</span><ul><li><span class=\"toc-h3\">Floats</span><li><span class=\"toc-h3\">Hyperlink Abbreviations</span></li></ul></li><li><span class=\"toc-h2\">Motivation</span></li></ul></li><li><span class=\"toc-h1\">Content Accessibility</span><ul><li><span class=\"toc-h2\">Accessibility of Academic Papers</span><li><span class=\"toc-h2\">Responsive Content</span><ul><li><span class=\"toc-h3\">Journal Article Pagination</span></li></ul></li><li><span class=\"toc-h2\">Text Transcription</span><li><span class=\"toc-h2\">Pronunciation Lexicon</span><li><span class=\"toc-h2\">Fonts and Justification</span><li><span class=\"toc-h2\">Content Navigation</span><li><span class=\"toc-h2\">Tabular Data</span><ul><li><span class=\"toc-h3\">ePub Tabular Visual Access Barrier</span></li></ul></li><li><span class=\"toc-h2\">Figures</span><ul><li><span class=\"toc-h3\">Figure 1 Note</span></li></ul></li><li><span class=\"toc-h2\">Plates</span><li><span class=\"toc-h2\">Works Cited Accessibility</span><li><span class=\"toc-h2\">Mathematical Equations</span><li><span class=\"toc-h2\">Semantic Markup and Labels</span><li><span class=\"toc-h2\">Extendable Accessibility</span><li><span class=\"toc-h2\">Currently Missing Features</span><li><span class=\"toc-h2\">The Importance of JSTOR</span><ul><li><span class=\"toc-h3\">Aaron Swartz</span></li></ul></li></ul></li><li><span class=\"toc-h1\">To Do List</span><ul><li><span class=\"toc-h2\">Article Copyright</span><li><span class=\"toc-h2\">Pipfrosch Logo</span><li><span class=\"toc-h2\">Phonetic Markup</span><li><span class=\"toc-h2\">Glossary of Terms</span><li><span class=\"toc-h2\">Accessibility Testing</span><li><span class=\"toc-h2\">Figure 1 Redraw</span><ul><li><span class=\"toc-h3\">Updated Figure 1</span></li></ul></li><li><span class=\"toc-h2\">Cover Art</span><li><span class=\"toc-h2\">Photographic Plates</span></li></ul></li><li><span class=\"toc-h1\">About Pipfrosch Press</span><ul><li><span class=\"toc-h2\">Macro Biology Field Guide</span><li><span class=\"toc-h2\">Donations</span></li></ul></li></ul>",
+    "html": "<ol><li><ol><li><i>Untitled BODY</i><ol><li>Natural History of the Tulare Kangaroo Rat<ol><li>by Donald T. Tappe</li><li>Journal of Mammalogy<ol><li>Volume 22, No. 2, May 14 1941</li></ol></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Copyright Information</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Preface</li></ol></li></ol></li><li><ol><li>Contents<ol><li>Auxillary Content</li><li>Article Table of Contents</li><li>List of Tables</li><li>List of Figures</li><li>List of Plates</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Abstract</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods and Acknowledgments</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Burrow Systems<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Food and Storage</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Economic Importance</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Water Requirements</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Activities<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Sanitation</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Voice and Communication</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Senses<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Locomotion<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods of Escape From Enemies</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Breeding</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Parturition</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Growth, Development and Behavior of Young<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Methods of Carrying Young</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Population Movements<ol><li><i>Untitled SECTION</i></li><li><i>Untitled SECTION</i></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Animal Relationships</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Length of Life</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Summary</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 1</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i><ol><li>Table 3 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i><ol><li>Table 5 Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Plate 2</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Literature Cited</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li><i>Untitled SECTION</i></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Figure 2 Text Description<ol><li>SVG Title</li><li>SVG Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Figure 3 Text Description<ol><li>SVG Title</li><li>SVG Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Figure 4 Text Description<ol><li>SVG Title</li><li>SVG Description</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>ePub Notes<ol><li>Contents:</li><li>Canonical Journal Article</li><li>ePub Port</li><li>Alterations<ol><li>Floats</li><li>Hyperlink Abbreviations</li></ol></li><li>Motivation</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Content Accessibility<ol><li>Accessibility of Academic Papers</li><li>Responsive Content<ol><li>Journal Article Pagination</li></ol></li><li>Text Transcription</li><li>Pronunciation Lexicon</li><li>Fonts and Justification</li><li>Content Navigation</li><li>Tabular Data<ol><li>ePub Tabular Visual Access Barrier</li></ol></li><li>Figures<ol><li>Figure 1 Note</li></ol></li><li>Plates</li><li>Works Cited Accessibility</li><li>Mathematical Equations</li><li>Semantic Markup and Labels</li><li>Extendable Accessibility</li><li>Currently Missing Features</li><li>The Importance of JSTOR<ol><li>Aaron Swartz</li></ol></li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>To Do List<ol><li>Article Copyright</li><li>Pipfrosch Logo</li><li>Phonetic Markup</li><li>Glossary of Terms</li><li>Accessibility Testing</li><li>Figure 1 Redraw<ol><li>Updated Figure 1</li></ol></li><li>Cover Art</li><li>Photographic Plates</li></ol></li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>About Pipfrosch Press<ol><li>Macro Biology Field Guide</li><li>Donations</li></ol></li></ol></li></ol></li></ol>"
   },
   "data": {
     "images": [
@@ -215,7 +215,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-26T17:50:31Z"
+      "dcterms:modified": "2020-03-27T19:05:33Z"
     },
     "links": {}
   },
@@ -448,9 +448,185 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "pass"
+        "earl:outcome": "fail"
       },
-      "assertions": [],
+      "assertions": [
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/36[tail]/2/6/2[mathml-equation-svg]"
+              ],
+              "css": [
+                "#mathml-equation-svg"
+              ]
+            },
+            "html": "<object xmlns=\"http://www.w3.org/1999/xhtml\" data=\"mathmlsvg/equation.svg\" id=\"mathml-equation-svg\">"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "serious",
+            "dct:title": "object-alt",
+            "dct:description": "Ensures <object> elements have alternate text",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/html/object.html",
+              "dct:title": "Object",
+              "dct:description": "<object> elements must have alternate text"
+            },
+            "rulesetTags": [
+              "cat.text-alternatives",
+              "wcag2a",
+              "wcag111",
+              "section508",
+              "section508.22.a"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/36[tail]/2/8/2[mathml-y-svg]"
+              ],
+              "css": [
+                "#mathml-y-svg"
+              ]
+            },
+            "html": "<object xmlns=\"http://www.w3.org/1999/xhtml\" data=\"mathmlsvg/y.svg\" id=\"mathml-y-svg\">\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n  <mi>y</mi>\n</math></object>"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "serious",
+            "dct:title": "object-alt",
+            "dct:description": "Ensures <object> elements have alternate text",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/html/object.html",
+              "dct:title": "Object",
+              "dct:description": "<object> elements must have alternate text"
+            },
+            "rulesetTags": [
+              "cat.text-alternatives",
+              "wcag2a",
+              "wcag111",
+              "section508",
+              "section508.22.a"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/36[tail]/2/10/2[mathml-x-svg]"
+              ],
+              "css": [
+                "#mathml-x-svg"
+              ]
+            },
+            "html": "<object xmlns=\"http://www.w3.org/1999/xhtml\" data=\"mathmlsvg/x.svg\" id=\"mathml-x-svg\">\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n  <mi>x</mi>\n</math></object>"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "serious",
+            "dct:title": "object-alt",
+            "dct:description": "Ensures <object> elements have alternate text",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/html/object.html",
+              "dct:title": "Object",
+              "dct:description": "<object> elements must have alternate text"
+            },
+            "rulesetTags": [
+              "cat.text-alternatives",
+              "wcag2a",
+              "wcag111",
+              "section508",
+              "section508.22.a"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/36[tail]/2/12/2[mathml-b-svg]"
+              ],
+              "css": [
+                "#mathml-b-svg"
+              ]
+            },
+            "html": "<object xmlns=\"http://www.w3.org/1999/xhtml\" data=\"mathmlsvg/b.svg\" id=\"mathml-b-svg\">\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n  <mi>b</mi>\n</math></object>"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "serious",
+            "dct:title": "object-alt",
+            "dct:description": "Ensures <object> elements have alternate text",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/html/object.html",
+              "dct:title": "Object",
+              "dct:description": "<object> elements must have alternate text"
+            },
+            "rulesetTags": [
+              "cat.text-alternatives",
+              "wcag2a",
+              "wcag111",
+              "section508",
+              "section508.22.a"
+            ]
+          }
+        },
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+            "earl:pointer": {
+              "cfi": [
+                "/4/2/36[tail]/2/14/2[mathml-k-svg]"
+              ],
+              "css": [
+                "#mathml-k-svg"
+              ]
+            },
+            "html": "<object xmlns=\"http://www.w3.org/1999/xhtml\" data=\"mathmlsvg/k.svg\" id=\"mathml-k-svg\">\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n  <mi>k</mi>\n</math></object>"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "serious",
+            "dct:title": "object-alt",
+            "dct:description": "Ensures <object> elements have alternate text",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/html/object.html",
+              "dct:title": "Object",
+              "dct:description": "<object> elements must have alternate text"
+            },
+            "rulesetTags": [
+              "cat.text-alternatives",
+              "wcag2a",
+              "wcag111",
+              "section508",
+              "section508.22.a"
+            ]
+          }
+        }
+      ],
       "earl:testSubject": {
         "url": "growth.xhtml",
         "dct:title": "Growth, Development and Behavior of Young"
@@ -733,6 +909,6 @@
     }
   ],
   "earl:result": {
-    "earl:outcome": "pass"
+    "earl:outcome": "fail"
   }
 }
