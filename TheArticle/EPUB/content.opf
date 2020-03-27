@@ -133,6 +133,8 @@
     <item href="mathmlsvg/equation.svg" id="mathml.equation.svg" media-type="image/svg+xml"/>
     <item href="mathmlsvg/y.svg" id="mathml.y.svg" media-type="image/svg+xml"/>
     <item href="mathmlsvg/b.svg" id="mathml.b.svg" media-type="image/svg+xml"/>
+    <item href="mathmlsvg/x.svg" id="mathml.x.svg" media-type="image/svg+xml"/>
+    <item href="mathmlsvg/k.svg" id="mathml.k.svg" media-type="image/svg+xml"/>
   <!-- aux images -->
     <item href="auximg/ExTable5.png" id="extable5" media-type="image/png"/>
     <item href="auximg/NewPipfroschPress5.png" id="NewPipfroschPress5" media-type="image/png"/>
