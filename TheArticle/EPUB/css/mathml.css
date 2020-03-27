@@ -5,21 +5,31 @@ span[role="math"] object {
 }
 
 #mathml-equation-svg {
+  width: 7.667ex;
+  height: 2.667ex;
   vertical-align: -0.5ex;
 }
 
 #mathml-y-svg {
+  width: 1.167ex;
+  height: 1.667ex;
   vertical-align: -0.5ex;
 }
 
 #mathml-b-svg {
+  width: 1ex;
+  height: 1.667ex;
   vertical-align: -0.167ex;
 }
 
 #mathml-x-svg {
+  width: 1.333ex;
+  height: 1.167ex;
   vertical-align: -0.167ex;
 }
 
 #mathml-k-svg {
+  width: 1.167ex;
+  height: 1.667ex;
   vertical-align: -0.167ex;
 }
