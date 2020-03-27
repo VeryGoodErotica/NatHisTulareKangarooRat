@@ -129,7 +129,10 @@
     <item href="plates/plate2h.jpg" id="plate2h" media-type="image/jpeg"/>
     <item href="plates/plate2i.jpg" id="plate2i" media-type="image/jpeg"/>
     <item href="plates/plate2j.jpg" id="plate2j" media-type="image/jpeg"/>
-  <!-- image used in epubnotes -->
+  <!-- mathml images -->
+    <item href="mathmlsvg/equation.svg" id="mathml.equation.svg" media-type="image/svg+xml"/>
+    <item href="mathmlsvg/equation.png" id="mathml.equation.png" media-type="image/png"/>
+  <!-- aux images -->
     <item href="auximg/ExTable5.png" id="extable5" media-type="image/png"/>
     <item href="auximg/NewPipfroschPress5.png" id="NewPipfroschPress5" media-type="image/png"/>
   </manifest>
