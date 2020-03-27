@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "3/27/2020, 12:09:18 PM",
+  "dct:date": "3/27/2020, 12:11:16 PM",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -215,7 +215,7 @@
         "noSoundHazard",
         "noMotionSimulationHazard"
       ],
-      "dcterms:modified": "2020-03-27T19:09:13Z"
+      "dcterms:modified": "2020-03-27T19:11:11Z"
     },
     "links": {}
   },
@@ -448,150 +448,9 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "fail"
+        "earl:outcome": "pass"
       },
-      "assertions": [
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/36[tail]/2/8/2[mathml-y-svg]"
-              ],
-              "css": [
-                "#mathml-y-svg"
-              ]
-            },
-            "html": "<object xmlns=\"http://www.w3.org/1999/xhtml\" data=\"mathmlsvg/y.svg\" id=\"mathml-y-svg\">\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n  <mi>y</mi>\n</math></object>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "object-alt",
-            "dct:description": "Ensures <object> elements have alternate text",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/html/object.html",
-              "dct:title": "Object",
-              "dct:description": "<object> elements must have alternate text"
-            },
-            "rulesetTags": [
-              "cat.text-alternatives",
-              "wcag2a",
-              "wcag111",
-              "section508",
-              "section508.22.a"
-            ]
-          }
-        },
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/36[tail]/2/10/2[mathml-x-svg]"
-              ],
-              "css": [
-                "#mathml-x-svg"
-              ]
-            },
-            "html": "<object xmlns=\"http://www.w3.org/1999/xhtml\" data=\"mathmlsvg/x.svg\" id=\"mathml-x-svg\">\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n  <mi>x</mi>\n</math></object>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "object-alt",
-            "dct:description": "Ensures <object> elements have alternate text",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/html/object.html",
-              "dct:title": "Object",
-              "dct:description": "<object> elements must have alternate text"
-            },
-            "rulesetTags": [
-              "cat.text-alternatives",
-              "wcag2a",
-              "wcag111",
-              "section508",
-              "section508.22.a"
-            ]
-          }
-        },
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/36[tail]/2/12/2[mathml-b-svg]"
-              ],
-              "css": [
-                "#mathml-b-svg"
-              ]
-            },
-            "html": "<object xmlns=\"http://www.w3.org/1999/xhtml\" data=\"mathmlsvg/b.svg\" id=\"mathml-b-svg\">\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n  <mi>b</mi>\n</math></object>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "object-alt",
-            "dct:description": "Ensures <object> elements have alternate text",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/html/object.html",
-              "dct:title": "Object",
-              "dct:description": "<object> elements must have alternate text"
-            },
-            "rulesetTags": [
-              "cat.text-alternatives",
-              "wcag2a",
-              "wcag111",
-              "section508",
-              "section508.22.a"
-            ]
-          }
-        },
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2/36[tail]/2/14/2[mathml-k-svg]"
-              ],
-              "css": [
-                "#mathml-k-svg"
-              ]
-            },
-            "html": "<object xmlns=\"http://www.w3.org/1999/xhtml\" data=\"mathmlsvg/k.svg\" id=\"mathml-k-svg\">\n<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n  <mi>k</mi>\n</math></object>"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "serious",
-            "dct:title": "object-alt",
-            "dct:description": "Ensures <object> elements have alternate text",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/html/object.html",
-              "dct:title": "Object",
-              "dct:description": "<object> elements must have alternate text"
-            },
-            "rulesetTags": [
-              "cat.text-alternatives",
-              "wcag2a",
-              "wcag111",
-              "section508",
-              "section508.22.a"
-            ]
-          }
-        }
-      ],
+      "assertions": [],
       "earl:testSubject": {
         "url": "growth.xhtml",
         "dct:title": "Growth, Development and Behavior of Young"
@@ -874,6 +733,6 @@
     }
   ],
   "earl:result": {
-    "earl:outcome": "fail"
+    "earl:outcome": "pass"
   }
 }
