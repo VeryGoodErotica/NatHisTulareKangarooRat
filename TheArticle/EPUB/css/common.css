@@ -9,11 +9,15 @@ p {
 
 a {
   text-decoration: none;
+  color: purple;
 }
 
 /* for benefit of grayscale viewers */
-a:link,a:visited {
-  color: #483d8B;
+a:link {
+  color: purple;
+}
+a:visited {
+  color: purple;
 }
 
 h1 {
