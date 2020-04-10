@@ -85,3 +85,11 @@ text.ilogo {
   font-style: normal;
   font-weight: bold;
 }
+
+/* range map */
+text.taxon {
+  font-family: 'Averia', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+}
