@@ -4,6 +4,12 @@ text.legend {
   font-weight: bold;
 }
 
+text.taxon {
+  font-family: 'Clear Sans', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
 text.numberline {
   font-family: 'Clear Sans', sans-serif;
   font-style: normal;
