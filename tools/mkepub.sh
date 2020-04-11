@@ -41,7 +41,7 @@ echo "/* use this file to override css for accessibility purposes */" > EPUB/css
 
 # make fontless versions
 cp EPUB/content.opf .
-grep -v "font/opf" content.opf > EPUB/content.opf && rm -f content.opf
+grep -v "font/otf" content.opf > EPUB/content.opf && rm -f content.opf
 rm -f EPUB/fonts/*.ttf
 rm -f EPUB/fonts/*.otf
 
