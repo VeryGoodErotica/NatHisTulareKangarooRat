@@ -1,23 +1,23 @@
 text.legend {
-  font-family: 'Clear Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Clear Sans', -apple-system, 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
 }
 
 text.taxon {
-  font-family: 'Clear Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Clear Sans', -apple-system, 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-style: italic;
   font-weight: bold;
 }
 
 text.numberline {
-  font-family: 'Clear Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Clear Sans', -apple-system, 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
 text.averia {
-  font-family: 'Averia', sans-serif;
+  font-family: 'Averia', 'Gill Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
 }

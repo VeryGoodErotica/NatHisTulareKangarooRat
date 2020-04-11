@@ -1,9 +1,9 @@
 body {
-  font-family: 'Clear Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Clear Sans', -apple-system, 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 code {
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Fira Mono', 'Andale Mono', 'Lucida Mono EF', 'Monaco', 'Noto Sans Mono', monospace;
   font-weight: 500;
 }
 
@@ -74,7 +74,7 @@ span.italic {
 }
 
 blockquote.poem {
-  font-family: 'Alex Brush', cursive;
+  font-family: 'Alex Brush', 'Apple Chancery', 'ITC Zapf Chancery', cursive;
   font-weight: normal;
   font-style: normal;
   font-size: 1.3em;
