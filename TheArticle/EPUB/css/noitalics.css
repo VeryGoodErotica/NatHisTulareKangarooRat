@@ -4,7 +4,7 @@
    use an alternative */
 
 body {
-  font-family: 'Clear Sans', sans-serif;
+  font-family: 'Clear Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 em {
@@ -82,7 +82,7 @@ p.bib span.journal {
 /* titlepage */
 
 text.ilogo {
-  font-family: 'Clear Sans', sans-serif;
+  font-family: 'Clear Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
 }
