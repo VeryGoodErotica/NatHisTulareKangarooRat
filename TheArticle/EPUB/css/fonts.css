@@ -36,10 +36,10 @@ font-style: normal;
 src: url(../fonts/Averia-Bold-wlatin.ttf);
 }
 @font-face {
-font-family: 'Alex Brush';
+font-family: 'Dancing Script';
 font-weight: normal;
 font-style: normal;
-src: url(../fonts/AlexBrush-Regular.ttf);
+src: url(../fonts/DancingScript-Regular.otf);
 }
 @font-face {
 font-family: 'Fira Mono';

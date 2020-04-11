@@ -23,7 +23,7 @@ cp -p /usr/local/ePubFonts/ClearSans-Italic-wlatin.ttf .
 cp -p /usr/local/ePubFonts/ClearSans-Regular-wlatin.ttf .
 cp -p /usr/local/ePubFonts/Averia-Bold-wlatin.ttf .
 cp -p /usr/local/ePubFonts/Averia-Regular-wlatin.ttf .
-cp -p /usr/local/ePubFonts/AlexBrush-Regular.ttf .
+cp -p /usr/local/ePubFonts/DancingScript-Regular.otf .
 cp -p /usr/local/ePubFonts/FiraMono-Medium-wlatin.ttf .
 cd ../..
 

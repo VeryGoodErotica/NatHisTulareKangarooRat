@@ -60,8 +60,8 @@
     <item href="fonts/Averia-Regular-wlatin.ttf" id="font.Averia.Regular" media-type="font/otf"/>
     <item href="fonts/Averia-Bold-wlatin.ttf" id="font.Averia.Bold" media-type="font/otf"/>
     <item href="fonts/Averia-OFL.txt" id="font.Averia.LICENSE" media-type="text/plain"/>
-    <item href="fonts/AlexBrush-Regular.ttf" id="font.AlexBrush.Regular" media-type="font/otf"/>
-    <item href="fonts/AlexBrush-OFL.txt" id="font.AlexBrush.LICENSE" media-type="text/plain"/>
+    <item href="fonts/DancingScript-Regular.otf" id="font.DancingScript.Regular" media-type="font/otf"/>
+    <item href="fonts/DancingScript-LICENSE.txt" id="font.DancingScript.LICENSE" media-type="text/plain"/>
     <item href="fonts/FiraMono-Medium-wlatin.ttf" id="font.FiraMono.Medium" media-type="font/otf"/>
     <item href="fonts/FiraMono-LICENSE.txt" id="font.FiraMono.LICENSE" media-type="text/plain"/>
   <!-- most of front matter -->
