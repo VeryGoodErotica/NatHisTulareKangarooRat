@@ -1,17 +1,17 @@
 text.legend {
-  font-family: 'Clear Sans', -apple-system, 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Clear Sans', -apple-system, 'Segoe UI', 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
 }
 
 text.taxon {
-  font-family: 'Clear Sans', -apple-system, 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Clear Sans', -apple-system, 'Segoe UI', 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-style: italic;
   font-weight: bold;
 }
 
 text.numberline {
-  font-family: 'Clear Sans', -apple-system, 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Clear Sans', -apple-system, 'Segoe UI', 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
 }

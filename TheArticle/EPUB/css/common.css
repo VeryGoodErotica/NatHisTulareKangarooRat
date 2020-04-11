@@ -1,5 +1,5 @@
 body {
-  font-family: 'Clear Sans', -apple-system, 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Clear Sans', -apple-system, 'Segoe UI', 'Avenir Next', 'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 code {
@@ -74,7 +74,7 @@ span.italic {
 }
 
 blockquote.poem {
-  font-family: 'Dancing Script', 'Apple Chancery', 'ITC Zapf Chancery', cursive;
+  font-family: 'Dancing Script', 'Apple Chancery', 'Zapf Chancery', cursive;
   font-weight: normal;
   font-style: normal;
   font-size: 1.3em;
