@@ -55,7 +55,6 @@ mv Book.zip NaturalHistoryOfTheTulareKangarooRat-NoFontsNoItalics.kepub.epub
 
 
 sh ../tools/epubcheck.sh NaturalHistoryOfTheTulareKangarooRat.kepub.epub
-sh ../tools/epubcheck.sh NaturalHistoryOfTheTulareKangarooRat-NoFonts.kepub.epub
 
 if hash ace 2>/dev/null; then
   if [ ! -f ${CWD}/AceReport/noace.tmp ]; then
