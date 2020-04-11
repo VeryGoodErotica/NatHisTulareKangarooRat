@@ -46,6 +46,7 @@ span.captitle {
 }
 
 ol.italic li {
+  font-style: normal;
   font-weight: bold;
 }
 
@@ -54,6 +55,7 @@ ol.italic li em {
 }
 
 span.italic {
+  font-style: normal;
   font-weight: bold;
 }
 
