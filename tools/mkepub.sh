@@ -36,8 +36,26 @@ cat EPUB/css/noitalics.css >> EPUB/css/a11y.css
 zip -r -X Book.zip mimetype META-INF EPUB
 mv Book.zip NaturalHistoryOfTheTulareKangarooRat-NoItalics.kepub.epub
 
+# recreate ally file
+echo "/* use this file to override css for accessibility purposes */" > EPUB/css/a11y.css
+
+# make fontless versions
+cp EPUB/content.opf .
+grep -v "font/opf" content.opf > EPUB/content.opf && rm -f content.opf
+rm -f EPUB/fonts/*.ttf
+rm -f EPUB/fonts/*.otf
+
+echo "/* font-face declarations */" > EPUB/css/fonts.css
+
+zip -r -X Book.zip mimetype META-INF EPUB
+mv Book.zip NaturalHistoryOfTheTulareKangarooRat-NoFonts.kepub.epub
+cat EPUB/css/noitalics.css >> EPUB/css/a11y.css
+zip -r -X Book.zip mimetype META-INF EPUB
+mv Book.zip NaturalHistoryOfTheTulareKangarooRat-NoFontsNoItalics.kepub.epub
+
 
 sh ../tools/epubcheck.sh NaturalHistoryOfTheTulareKangarooRat.kepub.epub
+sh ../tools/epubcheck.sh NaturalHistoryOfTheTulareKangarooRat-NoFonts.kepub.epub
 
 if hash ace 2>/dev/null; then
   if [ ! -f ${CWD}/AceReport/noace.tmp ]; then
@@ -55,6 +73,8 @@ fi
 
 mv NaturalHistoryOfTheTulareKangarooRat.kepub.epub ${CWD}/
 mv NaturalHistoryOfTheTulareKangarooRat-NoItalics.kepub.epub ${CWD}/
+mv NaturalHistoryOfTheTulareKangarooRat-NoFonts.kepub.epub ${CWD}/
+mv NaturalHistoryOfTheTulareKangarooRat-NoFontsNoItalics.kepub.epub ${CWD}/
 
 popd
 
